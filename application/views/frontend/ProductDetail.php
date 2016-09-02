@@ -71,22 +71,11 @@
 						</div>					
 						<div class="add-cart">						
 							<div class="rating">						
-								<p>Rating: <span> <?=isset($products['productDetails'][0]['product_ratings'])?$products['productDetails'][0]['product_ratings']:''?> of 5 </span><img src="<?=base_url();?>frontend/images/star.jpg"></p>						
+								<p>Rating: <span> <?=isset($products['productDetails'][0]['product_ratings'])?$products['productDetails'][0]['product_ratings']:''?> of 5 </span>  Availability: <span><?php if($products['productDetails'][0]['isavailable']===true){echo"Available";}else{echo"Out of stock";}?></span>  Colors: <span><?php if(!empty($products['productDetails'][0]['available_colors'])){echo implode(" ",$products['productDetails'][0]['available_colors']);}else{echo"";}?></span></p>						
 							</div>						
 							<div class="clear"></div>					
 						</div>
-						<div class="add-cart">						
-							<div class="rating">						
-								<p>Availability: <span><?php if($products['productDetails'][0]['isavailable']===true){echo"Available";}else{echo"Out of stock";}?></span></p>						
-							</div>						
-							<div class="clear"></div>					
-						</div>	
-						<div class="add-cart">						
-							<div class="rating">						
-								<p>Colors: <span><?php if(!empty($products['productDetails'][0]['available_colors'])){echo implode(" ",$products['productDetails'][0]['available_colors']);}else{echo"";}?></span></p>						
-							</div>						
-							<div class="clear"></div>					
-						</div>	
+						
 						<div style="padding-top:45px" class="button"><span><?php if(!empty($userinfos)) { if(in_array(isset($products[0]->productsID)?$products[0]->productsID:'',$whislistproduct)==false){?>					
 							<a href="<?=base_url();?>User/AddToWishList/<?=isset($products[0]->productsID)?$products[0]->productsID:''?>.html" class="cart-button">Add to wishlists</a>					
 							<?php } }else{ ?>						

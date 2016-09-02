@@ -115,58 +115,32 @@ class Landingpage extends CI_Controller {
 		$productid=$this->input->post('productid');
 		foreach($productid as $productID )
 		{
-		$productid=$productID;
-		$product=$this->Landingpage_model->fetchdata_compare_product($productid);
-		
-		if(!empty($product))
-		{
-			foreach($product as $productname)
-	
+			if(!empty($productID))
 			{
-				$pro_id=($productname->productsID);
-				$pro_name=($productname->productName);
-	
+				$pro_id=($productID);
+				$pro_name=($productID);
 				echo "<input class=\"form-control\" name=\"$pro_id\" value=\"$pro_name\">";
 			}
 		}
 	}
 	
-	}
-	
-	public function compare()
-	{	$product=$this->input->post();
-		
-	foreach($product as $key=>$products)
-	{
-		$productID[]=$key;
-		//print_r($productID);die;
-	}
-	
-	if(!empty($productID))
-	{
-	$compareproduct=implode(',',$productID);
-	
-	$compareproductinfo=$data=$this->data['compareproduct']=$this->Landingpage_model->comparepro($compareproduct);
-	
-	//$categoryinfo=($compareproductinfo[0]->categoriesID);
-	//print_r($compareproductinfo); die;
-	$getattribute=$data=$this->data['compareproduct_info']=$this->Landingpage_model->compare_pro_attribute($compareproduct);
-	
-	
-	
-	//print_r($getattribute);
-	$this->data['categories']=$categories=$this->Landingpage_model->get_categories();
-	$this->data['topbrands']=$topbrand=$this->Landingpage_model->get_topbrand();
-	$this->data['dealsgategorys']=$dealsgategorys=$this->Landingpage_model->get_dealsgategory();
-	$this->parser->parse('frontend/Header',$this->data);
-	$this->parser->parse('frontend/Compare',$this->data);
-	$this->parser->parse('frontend/Footer',$this->data);
-	}
-	else{
-		 redirect($_SERVER['HTTP_REFERER']);
-	}
+	public function compare(){
+		$product=$this->input->post();
+		foreach($product as $key=>$products)
+		{
+			$compareproductinfo[]=$this->data['compareproduct'][]=$this->call_api('product',"product=$key");
+			$this->data['productID'][]=$key;
+		}
+		if(!empty($compareproductinfo))
+		{
+			$this->parser->parse('frontend/Header',$this->data);
+			$this->parser->parse('frontend/Compare',$this->data);
+			$this->parser->parse('frontend/Footer',$this->data);
+		}
+		else{
+			 redirect($_SERVER['HTTP_REFERER']);
+		}
 	} 
-	
 	
 	public function Deals($category=false)
 	{	

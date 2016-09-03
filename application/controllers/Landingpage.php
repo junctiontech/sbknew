@@ -47,14 +47,20 @@ class Landingpage extends CI_Controller {
 		$this->data['searchc']=$searchc=$this->input->Get('c');
 		$this->data['categorykey']=$category;
 		if($action){
+			$iscomparablefalse=Array('socks-men','belts-accessories-men','ties-cufflinks-accessories-men','watches-men','sunglasses-accessories-men','sunglasses-accessories-women','sunglasses-kids','baby-gym-kids','blocks-kids','dolls-baby-kids','pull-along-toys-kids','frocks-kids','blankets-kids','wallets-bags-men','handbag-bags-women','wallets-women','tshirts-boys-clothing-kids','jeans-trousers-boys-clothing-kids','ethnicwear-boys-clothing-kids','casual-shoes-boys-kids','sandals-boys-kids','casual-shirts-clothing-men','tshirts-clothing-men','formal-shirts-clothing-men','jeans-bottoms-clothing-men','trousers-bottoms-clothing-men','shorts-3-4th-bottoms-clothing-men','ethnic-clothing-men','tops-clothing-women','dress-clothing-women','jeans-bottoms-clothing-women','trousers-bottoms-clothing-women','leggings-women','skirts-bottoms-clothing-women','shrugs-and-jackets-clothing-women','maternity-clothing-women','sportswear-women','clocks-decor','religion-and-spirituality-decor-home-decor','potty-training-kids','kurta-ethnic-women','sarees-ethnic-women','suits-ethnic-women','salwars-churidars-women','dressmaterial-ethnic-women','eyeglasses-men','earrings-jewellery-women','necklace-jewellery-women','bean-seatings-furniture-home','rockers-kids','strollers-kids','high-chairs-kids','ride-ons-kids','dresses-frocks-girls-clothing-kids','tops-tunics-girls-clothing-kids','ethnicwear-girls-clothing-kids','floaters-girls-kids','lighting','bedsheets-bed-linen-bed-bath-home-decor','curtains-cushions-decor','carpets-rugs-decor','towels-bath-essentials-bed-bath-home-decor','quilts-blankets','briefs-men','boxers-men','nightsuits-men','chains-men','trains-kids','construction-blocks-kids','puzzles-kids','action-games-kids','board-games-kids','dining-serving','bottles-storage-kitchen-home','containers-storage-kitchen-home','tools-cutlery-kitchen-home','lunch-boxes-storage-kitchen-home','bras-lingerie-clothing-women','sterlisation-kids','blankets-quilts-kids','art-craft-kids','party-supplies-kids','casual-shoes-men','sports-shoes-men','formal-shoes-men','sandals-shoes-men','slippers-shoes-men','sandals-casual-shoes-women','heels-shoes-women','flats-shoes-women','sneakers-women','slippers-shoes-women','sweatshirts-winterwear-clothing-men','coats-winterwear-clothing-men','jackets-winterwear-clothing-women');
+					if(!empty($category) && in_array($category,$iscomparablefalse)){
+						$iscomparable="&comparable=false";
+					}else{
+						$iscomparable='';
+					}
 			if($action==='p'){
 				if($category && $product){
 					$productdetails=$this->data['products']=$this->call_api('product',"product=$product");
-					$products=$this->call_api('categorysearch',"category=$category");
+					$products=$this->call_api('categorysearch',"category=$category$iscomparable");
 					$this->data['similarproduct']=$products['data'];
 					$this->display ('frontend/ProductDetail');
 				}elseif($category){
-					$products=$this->call_api('categorysearch',"category=$category");
+					$products=$this->call_api('categorysearch',"category=$category$iscomparable");
 					$this->data['products']=$products['data'];
 					$this->display ('frontend/Products');
 				}else{

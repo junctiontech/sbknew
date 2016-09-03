@@ -42,7 +42,7 @@
 										<h3>Features</h3>									
 									</div>
 								</td> 
-								<?php if(!empty($compareproduct)){ foreach($compareproduct as $keyproduct=>$product){ ?>	
+								<?php if(!empty($compareproduct)){ $labelarray=$keyvaluearray=''; foreach($compareproduct as $keyproduct=>$product){ ?>	
 								<td>		
 									<div style="width:265px;text-align:center; margin-top: 10px;">
 										<div class="imageheightfix" style="height:150px!important;">
@@ -64,11 +64,11 @@
 									</div>											
 								</td>												
 								<?php 
-								$labelarray=$keyvaluearray='';
+								if(!empty($product['specs_alt'])){
 								foreach($product['specs_alt'] as $specs_alt){
-									$labelarray[]=$specs_alt['product_spec_name'];
+									$labelarray[$specs_alt['product_spec_name']]=$specs_alt['product_spec_name'];
 									//$keyvaluearray[]=$specs_alt['product_spec_value'];
-								}
+								}}
 								} } ?>										
 							</tr>										
 						</thead>										
@@ -103,8 +103,8 @@
 										<tbody> 	
 											<?php foreach($labelarray as $labelkeyvalue){ ?>
 											<tr>		
-											<?php $keys=(array_keys(array_column($productkeyvalue['specs_alt'], 'product_spec_name'), $labelkeyvalue));	
-											if($keys || $keys==0 ){  $keys = array_search($labelkeyvalue, array_column($productkeyvalue['specs_alt'], 'product_spec_name')); ?>													
+											<?php if(!empty($productkeyvalue['specs_alt']))$keys=(array_keys(array_column($productkeyvalue['specs_alt'], 'product_spec_name'), $labelkeyvalue));	
+											if(($keys || $keys==0) && !empty($productkeyvalue['specs_alt'])){  $keys = array_search($labelkeyvalue, array_column($productkeyvalue['specs_alt'], 'product_spec_name')); ?>													
 												<td>															
 													<p class="heddine"><?= strip_tags(isset($productkeyvalue['specs_alt'][$keys]['product_spec_value'])?$productkeyvalue['specs_alt'][$keys]['product_spec_value']:'');?></p>															
 												</td>		

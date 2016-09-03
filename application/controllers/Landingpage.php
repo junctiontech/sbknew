@@ -50,7 +50,6 @@ class Landingpage extends CI_Controller {
 			if($action==='p'){
 				if($category && $product){
 					$productdetails=$this->data['products']=$this->call_api('product',"product=$product");
-					//print_r(isset($productdetails['productDetails'][0]['product_images_full'][0]['product_image_full'])?$productdetails['productDetails'][0]['product_images_full'][0]['product_image_full']:'');die;
 					$products=$this->call_api('categorysearch',"category=$category");
 					$this->data['similarproduct']=$products['data'];
 					$this->display ('frontend/ProductDetail');
@@ -97,12 +96,11 @@ class Landingpage extends CI_Controller {
 		{
 			$productkey=$this->input->post('placekey');
 			$productName=$this->call_api('search',"product=$productkey");
-			if(!empty($productName)){
-	
-				foreach($productName as $place)
+			if(!empty($productName['data'])){
+				foreach($productName['data'] as $place)
 				{
 					$placeID='';$placeName='';
-					$placeID=$place->product_title;$placeName=$place->product_title;
+					$placeID=$place['product_title'];$placeName=$place['product_title'];
 					echo "<option  value=\"$placeID\">$placeName</option> ";
 				}
 	

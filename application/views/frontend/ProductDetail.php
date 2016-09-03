@@ -86,7 +86,7 @@
 					<div class="product-desc">					
 						<h2>Product Features</h2>					
 						<div class="row">					
-				<?php  $attributegroups = array_unique(array_map(function ($i) { return $i['product_spec_category']; }, $products['specs_alt'])); 
+				<?php  if(!empty($products['specs_alt']))$attributegroups = array_unique(array_map(function ($i) { return $i['product_spec_category']; }, $products['specs_alt'])); 
 						if(!empty($attributegroups)){
 						foreach($attributegroups as $attributegroup){	
 				?> 						

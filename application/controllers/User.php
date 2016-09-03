@@ -70,6 +70,18 @@ class User extends CI_Controller {
 			header('Location: ' . $_SERVER['HTTP_REFERER']);
 		}
 	}
+	
+	public function call_api($action=false,$param=false){
+		if($action & $param){
+		$url = "http://api.datayuge.in/v9/compare/".$action.".php"."?".$param."&apikey=a8AA61ykbr5aSRmHQd1FMzg8kP9DmfNY";
+		$response = file_get_contents($url);
+		$array = json_decode($response,true);
+		}else{
+		$array='';
+		}
+		return $array;
+	}
+	
 	public function Mywishlist ()
 	{
 		$user_id=$this->input->post('user_id');
@@ -78,18 +90,52 @@ class User extends CI_Controller {
 		}else{
 			$userID=$this->userinfos['userID'];	
 		}		
-		$this->data['userwishlist'] =$userwishlist= $this->User_model->getuserwishlist($userID);
-		if(!empty($user_id)){
-				echo json_encode($userwishlist);
-			}else{
-				if($this->input->get('app')!=true){
-				$this->parser->parse('frontend/Header',$this->data);		
-				$this->parser->parse('frontend/Leftheader',$this->data);
-				$this->parser->parse('frontend/Mywishlist', $this->data);
-				$this->parser->parse('frontend/Footer',$this->data);
+			$productsdata=$this->User_model->getuserwishlist($userID);
+			if(!empty($productsdata)){
+				foreach($productsdata as $productdata){
+					$apiproductdetails='';
+					$product=$productdata->productID;$userWishListID=$productdata->userWishListID;
+					$apiproductdetails=$this->call_api('product',"product=$product");
+					if(!empty($apiproductdetails)){
+							if(!empty($apiproductdetails['data'])){
+								$productprice=number_format(min(array_column($apiproductdetails['data'] , 'product_price_after')),2);
+								$shopkey=array_search(min(array_column($apiproductdetails['data'] , 'product_price_after')),array_column($apiproductdetails['data'] , 'product_price_after'));
+								$shopname=$apiproductdetails['data'][$shopkey]['product_store'];
+								$shopurl=$apiproductdetails['data'][$shopkey]['product_store_url'];
+								}else{
+									$productprice="out of stock";
+									$shopurl=$shopname='';
+									}
+							$productwishlist[]=array('productID'=>$product,
+													 'userWishListID'=>$userWishListID,
+													 'imageName'=>isset($apiproductdetails['productDetails'][0]['product_images_single'][0]['product_image_single'])?$apiproductdetails['productDetails'][0]['product_images_single'][0]['product_image_single']:'',
+													 'productName'=>isset($apiproductdetails['productDetails'][0]['product_name'])?$apiproductdetails['productDetails'][0]['product_name']:'',
+													 'productPrice'=>$productprice,
+													 'productShopUrl'=>$shopurl,
+													 'shopName'=>$shopname);
+					}else{
+							$productwishlist=array();
+					}
 				}
+			}else{
+				$productwishlist=array();
 			}
+			
+			$this->data['userwishlist'] =$userwishlist= $productwishlist;
+			
+				if(!empty($user_id)){
+						echo json_encode($userwishlist);
+					}else
+					{
+						if($this->input->get('app')!=true){
+						$this->parser->parse('frontend/Header',$this->data);		
+						$this->parser->parse('frontend/Leftheader',$this->data);
+						$this->parser->parse('frontend/Mywishlist', $this->data);
+						$this->parser->parse('frontend/Footer',$this->data);
+						}
+					}
 	}
+	
 	public function delete_wishlist($userWishListID=false)
 	{
 		$app=$this->input->get('app');

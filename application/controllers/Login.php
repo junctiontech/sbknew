@@ -14,9 +14,6 @@ class Login extends CI_Controller {
 		$this->load->model('frontend/Landingpage_model');
 		$this->load->library('form_validation');
 		$this->data['base_url']=base_url();
-		$this->data['categories']=$categories=$this->Landingpage_model->get_categories();
-		$this->data['topbrands']=$topbrand=$this->Landingpage_model->get_topbrand();
-		$this->data['dealsgategorys']=$dealsgategorys=$this->Landingpage_model->get_dealsgategory();
 		// Include the google api php libraries
 		include_once APPPATH."libraries/google-api-php-client/Google_Client.php";
 		include_once APPPATH."libraries/google-api-php-client/contrib/Google_Oauth2Service.php";

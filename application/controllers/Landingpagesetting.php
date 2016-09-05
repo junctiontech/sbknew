@@ -8,7 +8,7 @@ class Landingpagesetting extends CI_Controller
 			parent::__construct();		
 			$this->data[]="";
 			$this->data['url'] = base_url();
-			if (!$this->session->userdata('searchb4kharchadmin')){ $this->session->set_flashdata('category_error_login', " Your Session Is Expired!! Please Login Again. "); redirect("admin");}
+			if (!$this->session->userdata('searchb4kharchadmin')){ $this->session->set_flashdata('category_error_login', " Your Session Is Expired!! Please Login Again. "); redirect("Login/Admin");}
 			$this->userinfo=$this->data['userinfo']=$this->session->userdata('searchb4kharchadmin');
 			$this->load->model('admin/Landingpagesetting_model');
 		}	

@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-	<head>
-   
+	<head>   
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<!-- Meta, title, CSS, favicons, etc. -->   
 		<meta charset="utf-8">    
@@ -57,7 +54,14 @@
 							<ul class="nav child_menu" style="display: none">                                 
 								<li><a style="color:white;padding-left: 0px;" href="<?=base_url();?>Landingpagesetting.html">Landingpage product</a></li>
 							</ul>                              
-						</li>                          
+						</li>
+						
+						<li><a style="color:white;"><i class="fa fa-list"></i>Manage Coupon<span class="fa fa-chevron-down"></span></a>                                
+							<ul class="nav child_menu" style="display: none">
+								<li><a style="color:white;padding-left: 0px;" href="<?=base_url();?>Coupon?status=Requested">Recharge & Gift</a></li>
+							</ul>                              
+						</li>  
+						
 					</ul>			
 				</div>
 			</div>	

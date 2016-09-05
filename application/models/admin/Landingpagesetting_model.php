@@ -8,7 +8,7 @@ class Landingpagesetting_model extends CI_Model {
 		$this->load->database();
 		$this->languageID   = 1;
 	}
-	public function get_categories ()
+	public function get_landingpageproducts ()
 	{
 		$query=$this->db->get('s4k_landingpage_product');
 		return $query->result();

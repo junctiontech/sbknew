@@ -38,3 +38,22 @@ function Filter_product(value){
 		
 		return false;
 }
+
+function get_Opraters(value){ 
+			var type = document.getElementById("type").value;		
+		
+	$.ajax({
+				type: "POST",
+				data: {data:type},	
+				async: false,
+				url : base_url+'Landingpage/get_Opraters',				
+			})	
+				 .done(function(msg){					 
+					$('#opraters').html(msg);					
+					return false;	
+				}); 
+		
+		return false;
+}
+
+

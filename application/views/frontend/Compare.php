@@ -22,7 +22,7 @@
 		<div class="page-loading-overlay">
 			<div class="loader-2"><img src="<?=base_url();?>frontend/images/search-animated-icon.gif" style="width:200px;height:200px"></div>		
 		</div> 
-		<div class="content_top" style="background-color:white;">
+		<div class="content_top">
 			<div class="back-links">
 				<p><a href="<?=base_url();?>">Home</a> >><a href="<?=$_SERVER['HTTP_REFERER']?>"> Back</a> </p> 
 			</div>   
@@ -42,48 +42,43 @@
 										<h3>Features</h3>									
 									</div>
 								</td> 
-								<?php if(!empty($compareproduct)){ $labelarray=$keyvaluearray=''; foreach($compareproduct as $keyproduct=>$product){ ?>	
+								<?php if(!empty($compareproduct)){ foreach($compareproduct as $product){ ?>	
 								<td>		
 									<div style="width:265px;text-align:center; margin-top: 10px;">
-										<div class="imageheightfix" style="height:150px!important;">
-											<img style="height:150px" src="<?=isset($product['productDetails'][0]['product_images_single'][0]['product_image_single'])?$product['productDetails'][0]['product_images_single'][0]['product_image_single']:''?>" alt="" />
+										<div class="imageheightfix">
+											<img src="<?=$product->imageName?>" alt="" />
 										</div>	
 										<div class="compare_product_name">
-											<p><?=isset($product['productDetails'][0]['product_name'])?$product['productDetails'][0]['product_name']:''?></p>	
+											<p><?=$product->productName?> </p>	
 										</div>
 										<div class="compare_product_price">	
 											<p>
-												<span class="price"><?php if(!empty($product['data'])){?>Rs. <?=number_format(min(array_column($product['data'] , 'product_price_after')),2)?><?php }else{echo"out of stock";}?></span><br>
+												<span class="price">Rs. <?=number_format($product->productPrice,2)?></span><br>
+												<img style="height:30px" src="<?=base_url();?>frontend/images/<?=$product->shop_image?>">
 											</p>
 										</div>	
-										<a style="color:white" href="<?=base_url();?>Landingpage/Product/p/<?=isset($product['productDetails'][0]['product_sub_category'])?$product['productDetails'][0]['product_sub_category']:''?>/<?=isset($productID[$keyproduct])?$productID[$keyproduct]:''?>/<?=str_replace(' ', '_',$product['productDetails'][0]['product_name'])?>.html">
+										<a style="color:white" href="<?=base_url();?>Landingpage/Product/<?=$product->categoriesUrlKey?>/<?=$product->sb4kProductID?>/<?=isset($product->productsUrlKey)?$product->productsUrlKey:'new'?>.html">
 											<div  class="btn btn-black">
 												<span>Buy Now</span>
 											</div>
 										</a>	
 									</div>											
 								</td>												
-								<?php 
-								if(!empty($product['specs_alt'])){
-								foreach($product['specs_alt'] as $specs_alt){
-									$labelarray[$specs_alt['product_spec_name']]=$specs_alt['product_spec_name'];
-									//$keyvaluearray[]=$specs_alt['product_spec_value'];
-								}}
-								} } ?>										
+								<?php }} ?>										
 							</tr>										
 						</thead>										
 						<tbody>										
 							<tr>			
 								<td>			
-									<?php if(!empty($labelarray)){ array_unique($labelarray);  ?>
+									<?php if(!empty($compareproduct_info)){ ?>
 									<table class="table"> 
 										<tbody>			
-											<?php foreach($labelarray as $label){?>
+											<?php foreach($compareproduct_info as $compareinfo ){?>
 											<tr>				
 												<td style="background-color:#ededed"><P  class="heddine1" >
-													<?php if(!empty($label))
+													<?php if(!empty($compareinfo->productAttributeLable))
 															{
-																echo isset($label)?$label:'';	
+																echo isset($compareinfo->productAttributeLable)?$compareinfo->productAttributeLable:'';	
 															}
 															else
 															{
@@ -97,16 +92,16 @@
 									</table>
 									<?php  }?>
 								</td>	
-								<?php if(!empty($compareproduct)){ foreach($compareproduct as $productkeyvalue) { ?>
+								<?php if(!empty($compareproduct)){ foreach($compareproduct as $product) { ?>
 								<td>		
+									<?php $compareproduct=($product->productsID); $product_attributeinfo=$this->Landingpage_model->product_attribute($compareproduct); ?>
 									<table class="table">
 										<tbody> 	
-											<?php foreach($labelarray as $labelkeyvalue){ ?>
+											<?php foreach($compareproduct_info as $data1){ ?>
 											<tr>		
-											<?php if(!empty($productkeyvalue['specs_alt']))$keys=(array_keys(array_column($productkeyvalue['specs_alt'], 'product_spec_name'), $labelkeyvalue));	
-											if(($keys || $keys==0) && !empty($productkeyvalue['specs_alt'])){  $keys = array_search($labelkeyvalue, array_column($productkeyvalue['specs_alt'], 'product_spec_name')); ?>													
+												<?php $keys=(array_keys(array_column($product_attributeinfo, 'productAttributeLable'), $data1->productAttributeLable));	 if($keys || $keys==0 ){  $keys = array_search($data1->productAttributeLable, array_column($product_attributeinfo , 'productAttributeLable')); ?>													
 												<td>															
-													<p class="heddine"><?= strip_tags(isset($productkeyvalue['specs_alt'][$keys]['product_spec_value'])?$productkeyvalue['specs_alt'][$keys]['product_spec_value']:'');?></p>															
+													<p class="heddine"><?= strip_tags(isset($product_attributeinfo[$keys]['productAttributeValue'])?$product_attributeinfo[$keys]['productAttributeValue']:'');?></p>															
 												</td>		
 												<?php }else{ ?>
 												<td style="background-color:white"><p class="heddine1">NO</p></td>

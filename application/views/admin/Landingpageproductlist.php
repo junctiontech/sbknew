@@ -27,6 +27,8 @@
 				<div class="clearfix"></div> 
 			</div>					
 			<div class="x_content">
+								
+									<div class="table-responsive" data-pattern="priority-columns" data-focus-btn-icon="fa-asterisk" data-sticky-table-header="true" data-add-display-all-btn="true" data-add-focus-btn="true">	
 				<table id="example" class="table table-striped responsive-utilities jambo_table">									
 					<thead>                                  
 						<tr class="headings">                                  
@@ -40,7 +42,7 @@
 					</thead>									
 					<tbody>									
 					 									
-						<?php foreach($categories as $data) { ?>                                      
+						<?php foreach($Landingpageproduct as $data) { ?>                                      
 						<tr class="even pointer">						
 							<td class="a-right a-right "><?php echo $data->inventoryHedding ;?></td>                                          
 							<td class=" "><?php echo $data->categoryName ; ?></td>										
@@ -54,6 +56,7 @@
 						<?php } ?>
 					</tbody>                              
 				</table>
+				</div>
 			</div>        
 		</div>   
 	</div> 
@@ -71,7 +74,7 @@
 				<h4 class="modal-title">Landingpage Product</h4>			
 			</div>
 			<div class="modal-body">				
-				<form role="form" class="validate form-horizontal form-label-left"  method="post" action="<?=base_url();?>Categories/Landingpage_product">					<?php print_r($product);//die;?>
+				<form role="form" class="validate form-horizontal form-label-left"  method="post" action="<?=base_url();?>Categories/Landingpage_product">					<?php// print_r($product);//die;?>
 					<div class="row">						
 						<div class="col-md-12">	
 							<div class="form-group">

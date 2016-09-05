@@ -14,9 +14,6 @@ class Login extends CI_Controller {
 		$this->load->model('frontend/Landingpage_model');
 		$this->load->library('form_validation');
 		$this->data['base_url']=base_url();
-		$this->data['categories']=$categories=$this->Landingpage_model->get_categories();
-		$this->data['topbrands']=$topbrand=$this->Landingpage_model->get_topbrand();
-		$this->data['dealsgategorys']=$dealsgategorys=$this->Landingpage_model->get_dealsgategory();
 		// Include the google api php libraries
 		include_once APPPATH."libraries/google-api-php-client/Google_Client.php";
 		include_once APPPATH."libraries/google-api-php-client/contrib/Google_Oauth2Service.php";
@@ -129,8 +126,7 @@ class Login extends CI_Controller {
 				redirect("Login/Admin");
 	}
 	
-	function apiLoging() {
-		
+	function apiLoging() {		
 		$where=array('apiName'=>'google+','Status'=>'Active');
 		$googleapiinfo=$this->Login_model->get_data('sbk_other_api_info',$where);
 		if(!empty($googleapiinfo)){
@@ -389,7 +385,7 @@ class Login extends CI_Controller {
 				$name = md5($userMobileNo);
 				$name1 = md5($userFirstName);
 				$base=base_url ();				
-				$subject="searchb4kharch:- Rest Password ";
+				$subject="searchb4kharch:- Activated your Account ";
 				$message= "<html><body><h3>Hello: $userFirstName </h3><p>Please click in below link and activated your Account....<br>  Your activated Account link is {$base}Login/Activetedaccount/$name1/$encry/&&$name.html/ <br><br> if any query so please contact to info@searchb4kharch.com!!</h3></p><br> </p></body></html>";
 				$name='Searchb4kharch.com';
 				date_default_timezone_set('Etc/UTC');
@@ -465,46 +461,8 @@ class Login extends CI_Controller {
 						redirect($_SERVER['HTTP_REFERER'],"refresh");
 					}
 				}
-			/*if(!empty($id)){
-				if($app==true){
-					echo json_encode(array('code'=>200,'message'=>'Signup Successfully!!','user_id'=>$id));
-				}else{
-				$where=array('userID'=>$id,'Status'=>'Active');
-				$userinfo=$this->Login_model->get_login('s4k_user',$where);
-				if(!empty($userinfo)){
-					$sbk = array(
-					'userID' => $userinfo[0]->userID,
-					'userTypeID' => $userinfo[0]->userTypeID,
-					'userFirstName' => $userinfo[0]->userFirstName,
-					'userProfileImage' => $userinfo[0]->userProfileImage
-				);
-
-				$this->session->set_userdata('searchb4kharch', $sbk);
-				
-				$this->session->set_flashdata('message_type', 'success');
-				$this->session->set_flashdata('message', $this->config->item("index") . " Congratulations!! now you've become Searcheela.");
-				redirect('User/Dashboard');
-				
-			}else{
-				if($app==true){
-					echo json_encode(array('code'=>500,'message'=>'Technical error!! Please Try After Some Time.'));
-				}else{
-				$this->session->set_flashdata('category_error_login', " Technical error!! Please Try After Some Time. ");
-				redirect('Login/signup');
-				}
-			} 
-				}
-		}* 
-				else{
-				if($app==true){
-					echo json_encode(array('code'=>500,'message'=>'Technical error!! Please Try After Some Time.'));
-				}
-				else{
-				$this->session->set_flashdata('category_error_login', " Technical error!! Please Try After Some Time. ");
-				redirect('Login/signup');
-				}
-			} */
-		}
+	
+			}
 			else{
 				if($app==true){
 					echo json_encode(array('code'=>500,'message'=>'All fields are mandatory!! Please Try Again.'));

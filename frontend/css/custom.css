@@ -1706,3 +1706,4 @@ top: -5px;
 .counter{float: right;margin-left: 6px;margin-top: 5px;height: 35px;}
 .sub li{float:left !important;}
 .sub1 li{float:none;}
+.log{color: rgb(60, 118, 61);background-color: rgb(223, 240, 216);border-color: rgb(214, 233, 198);padding: 13px;border-radius: 25px;margin-bottom: 14px; display:none;}

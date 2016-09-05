@@ -383,6 +383,23 @@ class Landingpage_model extends CI_Model {
 		$query=$this->db->get();	
 		return $query->result();
 	}
+	public function get_states($table=false)
+	{
+		$query=$this->db->get($table);
+		return $query->result();
+	}
+	public function get_opraters ($table=false,$where=false)
+	{
+		$this->db->select('operatorName');
+		$this->db->from($table);
+		$this->db->where($where);
+		$query=$this->db->get();
+		return $query->result();
+	}
+	public function insertredeemrequest ($table=false,$data=false)
+	{
+		$this->db->insert($table,$data);		
+	}
 	
 }
 

@@ -119,3 +119,24 @@ function match_otp(){
 	}); 
 	return big;
 }
+
+function Changestatus(value,id){ 			
+						var status = value;	
+						var id = id;	
+						
+						var big=false;			 
+	$.ajax({
+				type: "POST",
+				data: {data:status,id:id },
+				async: false,
+			 	url : base_url+'Coupon/changestatus',				
+			})	
+				 .done(function(msg){
+		var mass ="Status change to "+status;
+	//	alert(mass);
+		 $( ".log" ).text(mass);
+		$('.log').fadeIn().delay(3000).fadeOut();			
+	});  
+	return big;
+}
+

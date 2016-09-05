@@ -45,12 +45,12 @@
 			 <tbody>
 			<?php if(!empty($userwishlist)) { foreach ($userwishlist as $wishlist) {?>
 				<tr class="even pointer">
-					<td><div class="similar_images_1_of_4 grid_1_of_4"><img src="<?=$wishlist['imageName']?>" alt=""></div></td>
-				   <td><?php echo $wishlist['productName']?></td>
-				   <td><?php echo $wishlist['productPrice']?></td>
-				   <td><?php echo $wishlist['shopName']?></td>	
-				   <td><span><?php if(!empty($wishlist['productShopUrl'])){ ?><a target="_blank" href="<?=$wishlist['productShopUrl']?>">Buy Now</a><?php } ?></span></td>
-				   <td><a href="<?=base_url();?>User/delete_wishlist/<?php echo $wishlist['userWishListID']?>">Delete</a></td>										   
+					<td><div class="similar_images_1_of_4 grid_1_of_4"><img src="<?=$wishlist->imageName;?>" alt=""></div></td>
+				   <td><?php echo $wishlist->productName ; ?></td>
+				   <td><?php echo $wishlist->productPrice ; ?></td>
+				   <td><?php echo $wishlist->shopName ; ?></td>	
+				   <td><span><a target="_blank" href="<?=$wishlist->productShopUrl;?>">Buy Now</a></span></td>
+				   <td><a href="<?=base_url();?>User/delete_wishlist/<?php echo $wishlist->userWishListID ;?>">Delete</a></td>										   
 				</tr>
 			<?php } } ?>
 		   </tbody>

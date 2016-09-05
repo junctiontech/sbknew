@@ -20,7 +20,7 @@ class Landingpagesetting extends CI_Controller
 		}
 		public function index($url=false) 
 		{
-			$this->data['categories']=$this->Landingpagesetting_model->get_categories();		
+			$this->data['Landingpageproduct']=$this->Landingpagesetting_model->get_landingpageproducts();		
 			$this->display('admin/Landingpageproductlist', $this->data);
 		}
 		public function Landingpage_product()

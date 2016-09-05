@@ -29,7 +29,7 @@ class Landingpage extends CI_Controller {
 		$this->parser->parse('frontend/Footer',$this->data);
 	}
 
-	public function index(){
+	public function index($app){
 		$this->data['lsh_data']=array('ls'=>8,'lsheading'=>"Top Mobiles");
 		$this->data['feature_data']=array('fs'=>8,'fsheading'=>"Top laptops");
 		$this->data['new_data']=array('ns'=>8,'nsheading'=>"Top Tvs");

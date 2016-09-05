@@ -149,12 +149,8 @@ class Landingpage extends CI_Controller {
 	public function Deals($category=false)
 	{	
 		$app=$this->input->get('app');
-		$this->data['categories']=$categories=$this->Landingpage_model->get_categories();
-		$this->data['topbrands']=$topbrand=$this->Landingpage_model->get_topbrand();
 		$this->data['dealsgategorys']=$dealsgategorys=$this->Landingpage_model->get_dealsgategory();
 		$this->data['deals']=$deals=$this->Landingpage_model->get_deals();
-		$this->data['feature_deal']=$this->Landingpage_model->get_invetory_deal_data("feature_deal");
-		$this->data['new_deal']=$this->Landingpage_model->get_invetory_deal_data("New_deal");
 		if($category){
 		$category=str_replace('_',' ',$category);
 		
@@ -466,7 +462,6 @@ class Landingpage extends CI_Controller {
 			}else{
 			$this->data['flightFinalArray']=$flightFinalArray;
 			}
-			$this->data['categories']=$categories=$this->Landingpage_model->get_categories();
 			$this->parser->parse('frontend/Header',$this->data);
 			$this->parser->parse('frontend/Flights',$this->data);
 			$this->parser->parse('frontend/Footer',$this->data);
@@ -638,7 +633,6 @@ class Landingpage extends CI_Controller {
 	
 	public function Aboutus()
 	{
-		$this->data['categories']=$categories=$this->Landingpage_model->get_categories();
 		$this->parser->parse('frontend/Header',$this->data);
 		$this->parser->parse('frontend/Aboutus',$this->data);
 		$this->parser->parse('frontend/Footer',$this->data);
@@ -646,7 +640,6 @@ class Landingpage extends CI_Controller {
 	
 	public function Contactus()
 	{
-		$this->data['categories']=$categories=$this->Landingpage_model->get_categories();
 		$this->parser->parse('frontend/Header',$this->data);
 		$this->parser->parse('frontend/Contactus',$this->data);
 		$this->parser->parse('frontend/Footer',$this->data);

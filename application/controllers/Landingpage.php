@@ -68,7 +68,12 @@ class Landingpage extends CI_Controller {
 				}
 			}elseif($action==='Search'){
 				if($searchc && $searchq && $searchc !='all'){
-					$products=$this->call_api('categorysearch',"category=$searchc&product=$searchq");
+					if(!empty($searchc) && in_array($searchc,$iscomparablefalse)){
+						$iscomparable="&comparable=false";
+					}else{
+						$iscomparable='';
+					}
+					$products=$this->call_api('categorysearch',"category=$searchc&product=$searchq$iscomparable");
 					$this->data['products']=$products['data'];
 					$this->display ('frontend/Products');
 				}elseif($searchq){

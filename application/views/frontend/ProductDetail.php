@@ -31,7 +31,7 @@
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div  class="col-md-4 grid images_3_of_2 pro_img">	
-						<img itemprop="image" src="<?=isset($products['productDetails'][0]['product_images_single'][0]['product_image_single'])?$products['productDetails'][0]['product_images_single'][0]['product_image_single']:''?>" alt="<?=isset($products['productDetails'][0]['product_name'])?$products['productDetails'][0]['product_name']:''?>"  />				
+						<img itemprop="image" src="<?=isset($products['productDetails'][0]['product_images_single'][0]['product_image_single'])?$products['productDetails'][0]['product_images_single'][0]['product_image_single']:$products['productDetails'][0]['product_image_full']?>" alt="<?=isset($products['productDetails'][0]['product_name'])?$products['productDetails'][0]['product_name']:''?>"  />				
 					</div>
 					<div class="desc span_3_of_2">	
 						<div class="col-md-12 col-sm-12 col-xs-12">
@@ -40,7 +40,7 @@
 							<?php foreach($products['data'] as $shopData){ ?>	
 							<div class="col-md-4 col-sm-4 col-xs-4">
 								<img src="<?=isset($shopData['product_store_logo'])?$shopData['product_store_logo']:''?>">							
-								<p>Price: <br><span><?php if($shopData['product_price_after'] !=0){?>Rs. <?=number_format($shopData['product_price_after'],2)?><?php }else{ echo"coming soon"; }?></span></p>
+								<p>Price: <br><span><?php if(!empty($shopData['product_price_after']) && $shopData['product_price_after'] !=0 || $shopData['product_price']){?>Rs. <?=number_format(isset($shopData['product_price_after'])?$shopData['product_price_after']:$shopData['product_price'],2)?><?php }else{ echo"coming soon"; }?></span></p>
 								<a target="_blank" style="color:white;" href="<?=isset($shopData['product_store_url'])?$shopData['product_store_url']:''?>"><div class="btn btn-black">									
 									<span >Buy now</span>								
 									</div>							
@@ -71,7 +71,7 @@
 						</div>					
 						<div class="add-cart">						
 							<div class="rating">						
-								<p>Rating: <span> <?=isset($products['productDetails'][0]['product_ratings'])?$products['productDetails'][0]['product_ratings']:''?> of 5 </span>  Availability: <span><?php if($products['productDetails'][0]['isavailable']===true){echo"Available";}else{echo"Out of stock";}?></span>  Colors: <span><?php if(!empty($products['productDetails'][0]['available_colors'])){echo implode(" ",$products['productDetails'][0]['available_colors']);}else{echo"";}?></span></p>						
+								<p>Rating: <span> <?=isset($products['productDetails'][0]['product_ratings'])?$products['productDetails'][0]['product_ratings']:''?> of 5 </span>  Availability: <span><?php if(!empty($products['productDetails'][0]['isavailable']) && $products['productDetails'][0]['isavailable']===true){echo"Available";}else{echo"Out of stock";}?></span>  Colors: <span><?php if(!empty($products['productDetails'][0]['available_colors'])){echo implode(" ",$products['productDetails'][0]['available_colors']);}else{echo"";}?></span></p>						
 							</div>						
 							<div class="clear"></div>					
 						</div>
@@ -119,7 +119,8 @@
 											foreach($keys as $key){?>													
 														<tr>														
 															<th scope="row"><?=isset($products['specs_alt'][$key]['product_spec_name'])?$products['specs_alt'][$key]['product_spec_name']:''?></th>														 
-															<td><?=isset($products['specs_alt'][$key]['product_spec_value'])?$products['specs_alt'][$key]['product_spec_value']:''?></td>													
+															<td><?php if(!empty($products['specs_alt'][$key]['product_spec_value']) && is_array($products['specs_alt'][$key]['product_spec_value'])){ echo implode(",",$products['specs_alt'][$key]['product_spec_value']);}else{ echo
+															isset($products['specs_alt'][$key]['product_spec_value'])?$products['specs_alt'][$key]['product_spec_value']:'';}?></td>													
 														</tr>													
 										<?php } }?>												
 													</tbody>											

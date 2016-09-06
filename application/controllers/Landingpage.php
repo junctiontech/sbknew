@@ -327,15 +327,19 @@ class Landingpage extends CI_Controller {
 			);
 			$context  = stream_context_create($options);
 			
-			$result = file_get_contents($url, false, $context); 
-			
+			error_reporting(E_ERROR);
+			if (!$result = file_get_contents($url, false, $context)) {
+					$this->session->set_flashdata('message_type', 'flighterror');		
+					$this->session->set_flashdata('message', $this->config->item("Landingpage") . "please search again with correct values");	
+			}
+
 			if(!empty($http_response_header[4])){
 				$location=explode(' ',$http_response_header[4]);
 				if(!empty($location[1])){
 					$flightsDetailUrl=$location[1];
 				}
 			}
-			
+			print_r($flightsDetailUrl);die;
 			if(!empty($flightsDetailUrl)){
 				
 				$getFlightsDetail = json_decode(file_get_contents("$flightsDetailUrl?apiKey=se388177191712562214854946236057"),true);

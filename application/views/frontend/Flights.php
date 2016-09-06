@@ -382,7 +382,7 @@ function fromID(placekey)
 				url: base_url+"Flights/getplaceID",
 				data:{placekey:placekey},
 				cache: false,
-				success: function(html)data-validate="required" data-message-required="Please Select Adults"
+				success: function(html)
 				{ 
 					 $("#fromdata").html(html);
 					
@@ -424,7 +424,8 @@ function fromID(placekey)
 				$(document).on('click', '.fromID', function() {
 				alert(this.value);
 				});
-		 })		
+		 })	
+		 
 		function checkfrom(){
 			var val=$("#from").val();
 

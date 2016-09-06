@@ -307,6 +307,12 @@ class Landingpage extends CI_Controller {
 			$return=$this->data['return']=$this->input->get('return');
 			$class=$this->data['class']=$this->input->get('class');
 			$adults=$this->data['adult']=$this->input->get('adults');
+			if($app !=true){
+				$from=explode(",",$from);
+				$to=explode(",",$to);
+				if(!empty($from[1])){$from=$from[1];}else{$from=$from[0];}
+				if(!empty($to[1])){$to=$to[1];}else{$to=$to[1];}
+			}
 			
 			$url = 'http://partners.api.skyscanner.net/apiservices/pricing/v1.0?apiKey=se768816655086949164281628418167';
 			$data = array('country'=>'IN', 'currency'=>'INR', 'locale'=>'en-GB','originplace'=>$from,'destinationplace'=>$to,'outbounddate'=>$departure,'adults'=>$adults,'inbounddate'=>$return,'cabinclass'=>$class,'groupPricing'=>true );
@@ -320,6 +326,7 @@ class Landingpage extends CI_Controller {
 				)
 			);
 			$context  = stream_context_create($options);
+			
 			$result = file_get_contents($url, false, $context); 
 			
 			if(!empty($http_response_header[4])){

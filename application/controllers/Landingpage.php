@@ -339,7 +339,7 @@ class Landingpage extends CI_Controller {
 					$flightsDetailUrl=$location[1];
 				}
 			}
-			print_r($flightsDetailUrl);die;
+			
 			if(!empty($flightsDetailUrl)){
 				
 				$getFlightsDetail = json_decode(file_get_contents("$flightsDetailUrl?apiKey=se388177191712562214854946236057"),true);

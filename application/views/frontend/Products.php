@@ -49,7 +49,7 @@
 			<div class="col-md-10 col-sm-10 col-xs-12 pageno-fixed">
 			<p><a href="<?=base_url();?>">Home</a> >> <?=isset($categorykey)?$categorykey:''?> </p>
 				<div class="page-no">    			
-					<p>Total Result:<?php echo isset($totalresult)?$totalresult:'';?> </p><?php if(!empty($pagination)) { ?><p>Result Pages:<?php echo isset($pagination)?$pagination:'';?></p><?php } ?>    		
+					<p><ul class="tsc_pagination tsc_paginationA tsc_paginationA01"><?php if(!empty($previous)){ ?><li><a href="<?=$_SERVER['REDIRECT_URL'];?><?=$previous?>">Previous</a></li><?php } ?> <li><a href="<?=$_SERVER['REDIRECT_URL'];?><?=$next?>">Next</a></li></ul></p>    		
 				</div>      
 			</div>			
 		</div>		
@@ -90,11 +90,11 @@
 						<?php } ?>	
 				<?php } else { ?>						 		
 				<ul id="main-menu" class="main-menu" style="margin-top:-7%;">
-				 <?php foreach($categories as $category){?>  					
+				 <?php if(!empty($categories)){ foreach($categories as $category){?>  					
 					<li>
 						<a href="<?=base_url();?>Landingpage/Product/<?=$category->categoriesUrlKey?>.html"><?=ucwords($category->categoryName)?></a> 						
 					<li>
-				<?php } } ?>
+				<?php } } } ?>
 				 </ul>
 						
 						</div>

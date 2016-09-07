@@ -12,8 +12,6 @@ class Hotel extends CI_Controller {
 		$this->userinfos=$this->data['userinfos']=$this->session->userdata('searchb4kharch');
 		$this->load->model('frontend/Landingpage_model');
 		$this->search_index = APPPATH . 'search/index';
-		$this->load->library('zend');
-		$this->zend->load('Zend/Search/Lucene');
 		if($this->userinfos){
 		$this->load->model('frontend/User_model');
 		$wishlist=$this->User_model->get_wishlistcount('s4k_user_wishlist',array('userID'=>$this->userinfos['userID'],'Status'=>'Active'));

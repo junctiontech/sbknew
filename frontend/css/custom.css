@@ -739,6 +739,7 @@ margin-top:60px;
 	.listview_1_of_2{
     	margin: 2.4% 0 0% 1.6%;
     }
+	.fiexdheght{height: auto !important; overflow-y: scroll;}
 	.fixed1{position:relative !important;}
 	.hotel_p{margin-top:25px !important;}
 	.flighthedden{display:block !important;}
@@ -776,6 +777,7 @@ margin-top:60px;
 		/*width: 340px;*/
 		font-size: 35px;
     }
+	.fiexdheght{height: auto !important; overflow-y: scroll;}
 	.fixed1{position:relative !important;}
 	.hotel_p{margin-top:25px !important;}
 	.flighthedden{display:block !important;}	 
@@ -868,6 +870,7 @@ margin-top:60px;
 		float:inherit;
 		width:100%;
 	}
+	.fiexdheght{height: auto !important; overflow-y: scroll;}
 	.fixed1{position:relative !important;}
 	.hotel_p{margin-top:25px !important;}
 	.flighthedden{display:block !important;}		
@@ -1017,6 +1020,7 @@ margin-top:60px;
 		float:inherit;
 		width:100%;
 	}
+	.fiexdheght{height: auto !important; overflow-y: scroll;}
 	.fixed1{position:relative !important;}
 	.hotel_p{margin-top:25px !important;}
 	.flighthedden{display:block !important;}
@@ -1088,7 +1092,7 @@ margin-top:60px;
 	}
 	.images_1_of_4{
 		width:95% !important;
-		height:450px;
+		height:260px;
 		padding:2.5%;
 	}
 	.heading {
@@ -1707,3 +1711,4 @@ top: -5px;
 .sub li{float:left !important;}
 .sub1 li{float:none;}
 .log{color: rgb(60, 118, 61);background-color: rgb(223, 240, 216);border-color: rgb(214, 233, 198);padding: 13px;border-radius: 25px;margin-bottom: 14px; display:none;}
+.fiexdheght{height: 290px; overflow-y: scroll;}

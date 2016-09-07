@@ -52,13 +52,13 @@
 					<ul id="main-menu" class="main-menu">                              
 						<li><a style="color:white;"><i class="fa fa-th"></i>Landingpage Setting<span class="fa fa-chevron-down"></span></a>                                
 							<ul class="nav child_menu" style="display: none">                                 
-								<li><a style="color:white;padding-left: 0px;" href="<?=base_url();?>Landingpagesetting.html">Landingpage product</a></li>
+								<li><a style="color:white;" href="<?=base_url();?>Landingpagesetting.html">Landingpage product</a></li>
 							</ul>                              
 						</li>
 						
 						<li><a style="color:white;"><i class="fa fa-list"></i>Manage Coupon<span class="fa fa-chevron-down"></span></a>                                
 							<ul class="nav child_menu" style="display: none">
-								<li><a style="color:white;padding-left: 0px;" href="<?=base_url();?>Coupon?status=Requested">Recharge & Gift</a></li>
+								<li><a style="color:white;" href="<?=base_url();?>Coupon?status=Requested">Recharge & Gift</a></li>
 							</ul>                              
 						</li>  
 						

@@ -342,7 +342,8 @@ class Landingpage extends CI_Controller {
 			
 			if(!empty($flightsDetailUrl)){
 				
-				$getFlightsDetail = json_decode(file_get_contents("$flightsDetailUrl?apiKey=se388177191712562214854946236057"),true);
+				$getFlightsDetail = json_decode(file_get_contents("$flightsDetailUrl?apiKey=se768816655086949164281628418167"),true);
+				//print_r($getFlightsDetail);die;
 				if(!empty($getFlightsDetail['Legs'])){
 					foreach($getFlightsDetail['Legs'] as $leg){
 						

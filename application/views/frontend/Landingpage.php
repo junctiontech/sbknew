@@ -173,51 +173,29 @@
 		</div>
 		<div class="clear"></div>
 		<div class="col-md-12 col-sm-12 col-xs-12">
-				
-					<div class="aboutuslogo">
-					
-						<img src="<?=base_url();?>frontend/images/amazon.jpg"/>
-					
-					</div>
-					
-					<div class="aboutuslogo" style=" "> 
-					
-						<img src="<?=base_url();?>frontend/images/cb2852.jpg"/>
-					
-					</div>
-					
-					<div class="aboutuslogo" >
-					
-						<img src="<?=base_url();?>frontend/images/rsz_snapdeal_new.jpg"/>
-					
-					</div>
-					
-				<!--	<div class="aboutuslogo" >
-					
-						<img src="<?=base_url();?>frontend/images/Hotelscombined.jpeg"/>
-					
-					</div>-->
-					
-					<div class="aboutuslogo" >
-					
-						<img src="<?=base_url();?>frontend/images/shopclues_store.png"/>
-					
-					</div>
-					
-				<!--	<div class="aboutuslogo">
-					
-						<img src="<?=base_url();?>frontend/images/Vcommission.png"/>
-					
-					</div>-->
-					
-					<div class="aboutuslogo" >
-					
-						<img src="<?=base_url();?>frontend/images/Zomato.png"/>
-					
-					</div>
-				
-				</div>
-			<div class="clear"></div>
+			<div class="aboutuslogo">						
+				<img src="<?=base_url();?>frontend/images/amazon.jpg"/>					
+			</div>					
+			<div class="aboutuslogo" style=" "> 					
+				<img src="<?=base_url();?>frontend/images/cb2852.jpg"/>			
+			</div>				
+			<div class="aboutuslogo" >				
+				<img src="<?=base_url();?>frontend/images/rsz_snapdeal_new.jpg"/>				
+			</div>			 
+			<div class="aboutuslogo" >						
+				<img src="<?=base_url();?>frontend/images/eway-logo-1.png"/>
+			</div> 
+			<div class="aboutuslogo" >
+				<img src="<?=base_url();?>frontend/images/shopclues_store.png"/>
+			</div>
+			<div class="aboutuslogo" >
+				<img src="<?=base_url();?>frontend/images/Zomato.png"/>
+			</div>
+			<div class="aboutuslogo">
+				<img src="<?=base_url();?>frontend/images/infibeam.png"/>
+			</div>
+		</div>			
+		<div class="clear"></div>
 		<div class="content_top hidden-xs">    		
 			<div class="heading">    		
 				<h3>Search restaurant</h3>    		
@@ -253,8 +231,7 @@
             <?php if($product['can_compare']){?><label>
               <input type="checkbox" value="<?=$product['product_id']?>" class="chkcount" name="productid" onchange="compare_product(this.value)">
 			Compare </label><?php } ?>
-          
-								  <label class="wishlist"> 
+				<label class="wishlist"> 
 					<?php if(!empty($userinfos)){ if(in_array($product['product_id'],$whislistproduct)==false){ ?>
 					  <a href="<?=base_url();?>User/AddToWishList/<?=$product['product_id']?>.html" class="fa fa-shopping-cart"></a>
 					  <?php } }else{ ?>

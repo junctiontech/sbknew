@@ -246,7 +246,11 @@ function googleTranslateElementInit() {
 <link rel="stylesheet" href="<?=base_url();?>frontend/js/multiselect/css/multi-select.css">						
 <!-- Imported scripts on this page daterangepicker-->						
 <script src="<?=base_url();?>frontend/js/daterangepicker/daterangepicker.js"></script>							
-<script src="<?=base_url();?>frontend/js/datepicker/bootstrap-datepicker.js"></script>						
+<script src="<?=base_url();?>frontend/js/datepicker/bootstrap-datepicker.js"></script>
+<script src="<?=base_url();?>frontend/js/xenon-widgets.js"></script>
+<script src="<?=base_url();?>frontend/js/devexpress-web-14.1/js/globalize.min.js"></script>
+<script src="<?=base_url();?>frontend/js/devexpress-web-14.1/js/dx.chartjs.js"></script>
+<script src="<?=base_url();?>frontend/js/toastr/toastr.min.js"></script>
 <!--<script src="<?=base_url();?>frontend/js/timepicker/bootstrap-timepicker.min.js"></script>						
 <script src="<?=base_url();?>frontend/js/colorpicker/bootstrap-colorpicker.min.js"></script>-->								
 <script src="<?=base_url();?>frontend/js/select2/select2.min.js"></script>							

@@ -293,5 +293,19 @@ class User extends CI_Controller {
 		$this->session->set_flashdata('message', $this->config->item("User") . "You've successfully deleted Notify from your Notify.");
 		redirect ('User/Mywishlist');
 	}
+	public function Search ()
+	{		
+		$this->parser->parse('frontend/Header',$this->data);		
+		$this->parser->parse('frontend/Leftheader',$this->data);
+		$this->parser->parse('frontend/Search', $this->data);
+		$this->parser->parse('frontend/Footer',$this->data);			
+	}
+	public function Coupon ()
+	{
+		$this->parser->parse('frontend/Header',$this->data);		
+		$this->parser->parse('frontend/Leftheader',$this->data);
+		$this->parser->parse('frontend/Coupon', $this->data);
+		$this->parser->parse('frontend/Footer',$this->data);
+	}
 	
 }

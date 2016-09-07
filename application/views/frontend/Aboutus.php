@@ -120,45 +120,37 @@
 					</div>						
 				</div>
 				<div class=" "><p class="lineheight"><b>And in the last presenting our</b><br> 
-					<b> Actors:</b>  <br></p>
-					<div class="col-md-12 col-sm-12 col-xs-12">
-				
-					<div class="aboutuslogo">					
-						<img src="<?=base_url();?>frontend/images/amazon.jpg"/>					
+					<b> Actors:</b>  <br></p>		
+					<div class="col-md-12 col-sm-12 col-xs-12">			
+						<div class="aboutuslogo">				
+							<img src="<?=base_url();?>frontend/images/amazon.jpg"/>				
+						</div>			
+						<div class="aboutuslogo" style=" ">			
+							<img src="<?=base_url();?>frontend/images/cb2852.jpg"/>			
+						</div>			
+						<div class="aboutuslogo" >				
+							<img src="<?=base_url();?>frontend/images/rsz_snapdeal_new.jpg"/>			
+						</div>		
+						<div class="aboutuslogo" >
+							<img src="<?=base_url();?>frontend/images/eway-logo-1.png"/>
+						</div>
+						<div class="aboutuslogo">
+							<img src="<?=base_url();?>frontend/images/shopclues_store.png"/>
+						</div>			
+						<div class="aboutuslogo" >			
+							<img src="<?=base_url();?>frontend/images/Zomato.png"/>			
+						</div>			
+						<div class="aboutuslogo">				
+							<img src="<?=base_url();?>frontend/images/infibeam.png"/>			
+						</div>	
 					</div>
-					
-					<div class="aboutuslogo" style=" "> 					
-						<img src="<?=base_url();?>frontend/images/cb2852.jpg"/>					
-					</div>					
-					<div class="aboutuslogo" >					
-						<img src="<?=base_url();?>frontend/images/rsz_snapdeal_new.jpg"/>					
-					</div>
-					
-					<div class="aboutuslogo" >					
-						<img src="<?=base_url();?>frontend/images/shopclues_store.png"/>					
-					</div>
-					
-			<!--		<div class="aboutuslogo" >					
-						<img src="<?=base_url();?>frontend/images/Skyscanner.png"/>					
-					</div>
-					
-					<div class="aboutuslogo">					
-						<img src="<?=base_url();?>frontend/images/Vcommission.png"/>					
-					</div>-->
-					
-					<div class="aboutuslogo" >					
-						<img src="<?=base_url();?>frontend/images/Zomato.png"/>					
-					</div>
-				
-				</div>
 					<p class="  lineheight">
 						Now, it’s your turn to make Search B4 Kharch a blockbuster hit.  <br>
 					</p>
 					<p class="  lineheight">
 						SBK v2.0 will be followed shortly 
 					</p>
-				</div>	
-				
+				</div>			
 			</div>			
 			<div class="col-md-2 col-sm-2 col-xs-12"></div>
 		</div>

@@ -3480,7 +3480,7 @@ button.toast-close-button {
 .xe-widget.xe-counter-block .xe-upper .xe-icon i,
 .xe-widget.xe-progress-counter .xe-upper .xe-icon i {
   display: block;
-  background: #68b828;
+  background: #670099;
   color: #fff;
   text-align: center;
   font-size: 25px;
@@ -3567,7 +3567,7 @@ button.toast-close-button {
 .xe-widget.xe-counter.xe-counter-purple .xe-icon i,
 .xe-widget.xe-counter-block .xe-upper.xe-counter-purple .xe-icon i,
 .xe-widget.xe-progress-counter .xe-upper.xe-counter-purple .xe-icon i {
-  background-color: #7c38bc;
+  background-color: #670099;
   color: #ffffff;
 }
 .xe-widget.xe-counter.xe-counter-orange .xe-icon i,

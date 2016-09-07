@@ -35,15 +35,6 @@ class Hotel extends CI_Controller {
 	{
 		$app=$this->input->get('app');
 		$jsonarray=array();
-		$this->data['categories']=$categories=$this->Landingpage_model->get_categories();
-		//$this->data['topbrands']=$topbrand=$this->Landingpage_model->get_topbrand();
-		/* $this->data['featureproduct']=$featureproduct=$this->Landingpage_model->get_inventory_data("feature_product");
-		$this->data['newproduct']=$newproduct=$this->Landingpage_model->get_inventory_data("new_product");
-		$this->data['lshproduct']=$lshproduct=$this->Landingpage_model->get_inventory_data("lhs_landing_page");
-		$this->data['deals']=$deals=$this->Landingpage_model->get_deals(); */
-		//$this->data['dealsgategorys']=$dealsgategorys=$this->Landingpage_model->get_dealsgategory();
-		//print_r($dealsgategorys);die;
-		/* echo"<br>";print_r($categories);echo"<br>";echo"<br>";print_r($featureproduct);echo"<br>";echo"<br>";print_r($lshproduct);die; */
 		
 		if($this->input->get())
 		{

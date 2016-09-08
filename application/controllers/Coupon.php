@@ -29,6 +29,6 @@ class Coupon extends CI_Controller
 		$id=$this->input->post('id');		
 		$this->Coupon_model->update('s4k_user_redeem_request',array('Status'=>$status),array('redeemRequestID'=>$id));		
 	}
-	
+	 
 }
 ?>

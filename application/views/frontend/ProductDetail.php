@@ -144,7 +144,7 @@
 										<table cellspacing="0" class="table table-small-font  ">										
 											<tbody>
 												<tr>											
-													<?php if(!empty($similarproduct)){ foreach($similarproduct as $similarproducted){?>												
+													<?php if(!empty($similarproduct)){ foreach($similarproduct as $similarproducted){?>												 
 													<td>  <div class="section group">								
 														<a target="_blank" href="<?=base_url();?>Landingpage/Product/p/<?=$similarproducted['product_sub_cate']?>/<?=$similarproducted['product_id']?>/<?=str_replace(' ', '_',$similarproducted['product_title'])?>.html">								
 															<div class="grid_1_of_4 images_1_of_4 imageswidth">									

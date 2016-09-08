@@ -20,7 +20,10 @@
 		<nav class="navbar horizontal-menu navbar-fixed-top"><!-- set fixed position by adding class "navbar-fixed-top" -->			
 			<div class="navbar-inner">			
 				<div class="nav navbar-mobile">				
-					<div class="mobile-menu-toggle"> 
+					<div class="mobile-menu-toggle">					
+						<a href="#" data-toggle="user-info-menu-horizontal">						
+							<i class=" ">My Account</i>						 					
+						</a>						
 						<a href="#" data-toggle="mobile-menu-horizontal">					
 							<i class="fa-bars"></i>				
 						</a>				

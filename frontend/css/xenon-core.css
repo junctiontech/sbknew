@@ -1867,9 +1867,9 @@ body {
     float: none;
     width: 100%;
     display: none;
-    background: #fff;
+    background: #670099;
     position: relative;
-    top: 20px;
+    top:0px;
     text-align: right;
   }
   .navbar.horizontal-menu .navbar-inner > .nav.nav-userinfo.mobile-is-visible {

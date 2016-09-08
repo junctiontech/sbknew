@@ -96,22 +96,30 @@
 		</div><div class="clear"></div>
 	</div>	
 </div>
-<div class="clear"></div>  
-<script
-		src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDFsE-tTxY9qgQfwQz_kvuGRn6F3Z1Q94U&callback=initMap">
-</script>
+<div class="clear"></div>  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 <script>
-function initialize() {	
-	 var myLatLng = {lat:23.2197853, lng:77.3883894};
-        var map = new google.maps.Map(document.getElementById('googleMap'), {
-          zoom: 15,
-          center: myLatLng
-        });
-        var marker = new google.maps.Marker({
-          position: myLatLng,
+ 
+var myCenter=new google.maps.LatLng(23.2197853,77.3883894); 
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:18,
+  mapTypeId:google.maps.MapTypeId.HYBRID
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+map.setTilt(0);
+	
+	
+	var marker = new google.maps.Marker({
+          position: myCenter,
           map: map,
           title: 'Hello World!'
         });	
 }
+
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
+ 

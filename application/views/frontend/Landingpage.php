@@ -172,7 +172,7 @@
 			</div>		
 		</div>
 		<div class="clear"></div>
-		<div class="col-md-12 col-sm-12 col-xs-12">
+		<div class="col-md-12 col-sm-12 col-xs-12" align="center">
 			<div class="aboutuslogo">						
 				<img src="<?=base_url();?>frontend/images/amazon.jpg"/>					
 			</div>					
@@ -194,6 +194,21 @@
 			<div class="aboutuslogo">
 				<img src="<?=base_url();?>frontend/images/infibeam.png"/>
 			</div>
+			<div class="aboutuslogo">
+				<img src="<?=base_url();?>frontend/images/limeroad.resized.png"/>
+			</div>
+			<div class="aboutuslogo">
+				<img src="<?=base_url();?>frontend/images/home-shop-18.png"/>
+			</div>
+			<div class="aboutuslogo">
+				<img src="<?=base_url();?>frontend/images/jabong1.png"/>
+			</div>
+			<div class="aboutuslogo">
+				<img src="<?=base_url();?>frontend/images/coolwinks_fpezt4.png"/>
+			</div>
+			
+			
+			
 		</div>			
 		<div class="clear"></div>
 		<div class="content_top hidden-xs">    		

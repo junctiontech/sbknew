@@ -135,18 +135,18 @@ ol,ul{list-style:none;margin:0;padding:0;}
 	margin-left: 0; 	    
 } 
 .images_1_of4W{
-	width:23.83004006% !important;
+	width:23.81004006% !important;
 }
 .images_1_of_4 {
 	width: 23%;
 	padding:1.5%;
 	text-align:center;
 	position:relative; 
-	height:260px;
+	height:245px;
 	margin-right: 10px;
 }
 .imageswidth{
-	width:300px !important;
+	width:245px !important;
 }
 
 .images_1_of_4  img{
@@ -174,7 +174,7 @@ ol,ul{list-style:none;margin:0;padding:0;}
 	text-decoration:line-through;
 }
 .images_1_of_4  p span.price{
-	font-size:18px;
+	font-size:16px;
 	font-family: 'Monda', sans-serif;
 	color: #CC3636;
 	margin-left:15px;
@@ -782,7 +782,8 @@ margin-top:60px;
 	.hotel_p{margin-top:25px !important;}
 	.flighthedden{display:block !important;}	 
 	.listview_1_of_2{margin: 1.4% 0 0% 1.6%;}
-	.col-xs-0{display:none !important;}		 
+	/*.col-xs-0{display:none !important;}		*/
+	.sidebar-menu .main-menu{padding-left: 0px !important;}
 	.flightsearchfixd{position:relative !important;width:100% !important; left:-5px !important;}
 	.list_2_of_1 .button a {
     	padding:5px 10px;
@@ -803,12 +804,17 @@ margin-top:60px;
     	margin-right:0%;
     }
 	 .content_top {
-    	padding:15px 5px;
+    	padding: 10px 0px 0px 10px;
     }
+	.imageheightfix {   			
+		height: 100px !important;
+	}
 	.wrapper{
     	width:95%;
     }
-	.images_1_of_4{width:22% !important}
+	.page-no{margin-top: -3%;}
+	.images_1_of_4{width:30% !important;height: 230px;}
+	.sidebar-menu .main-menu ul li a{padding-left:0px !important;}
 	.span_1_of_4 h4 {
     	font-size:1em;
     	letter-spacing:0;
@@ -864,7 +870,8 @@ margin-top:60px;
 	}
 
 }
-@media only screen and (max-width: 640px) {	
+@media only screen and (min-width:992px){.pageno-fixed{margin:-21px !important;}}
+@media only screen and (min-width: 640px) and (max-width:768px){	
 
 .search_box {
 		float:inherit;
@@ -881,7 +888,7 @@ margin-top:60px;
 		display: inline-block !important;   
 		margin-left: 0px !important;   
 		position: fixed;  
-		top: 33%;  
+	/*	top: 33%;  */
 		z-index: 101;
 	}
 	.search_box form input[type="text"] {
@@ -913,15 +920,16 @@ margin-top:60px;
     	margin-top:0.5em;
     }
     .images_1_of_4 h2 {
-    	font-size:1.2em;
+    	font-size:0.8em;
     	letter-spacing:0;
     }
     .images_1_of_4 p span.strike,.images_1_of_4 p span.price {
     	font-size:2em;
     }
 	.images_1_of_4{
-		width:94% !important;
-		padding:3%;
+		width:48% !important;
+		margin-right: 7px;
+		height: 230px;
 	}
 	.deal_1_of_3{
 		width:94%;
@@ -1219,7 +1227,7 @@ margin-top:60px;
 		display:inline-block !important;
 		margin-left:0px !important; 
 		position: fixed;
-		top: 36%;
+		/*top: 36%;*/
 		z-index: 101;
 		left:-30px;
 	}
@@ -1238,6 +1246,14 @@ margin-top:60px;
  
 	
 
+}
+
+@media only screen and (min-width: 980px) {
+	.checkbox label, .radio label{padding-left:0px !important;}
+	.sidebar-menu .main-menu{padding-left: 0px !important;}
+	.sidebar-menu .main-menu ul li a{padding-left:0px !important;}
+	
+	
 }
 .copy_right{
 	text-align:center;
@@ -1651,7 +1667,7 @@ top: -5px;
  background:transparent;
 }
 .imageheightfix{
-	height:135px;
+	height:115px;
 }
 .wishlist{
 	margin-left:20%;
@@ -1693,7 +1709,7 @@ top: -5px;
 .colspandeal{background: #FFF;}
 .leftmargin{margin-left: 15px;}
 .flightsearchfixd{position: fixed;width: 31.3%;left: 5px;}
-.fixed1{position:fixed;}
+.fixed1{position:fixed;left: 10px;}
 .lineheight{text-align: center; line-height: 40px;margin-bottom: 15px;}
 .textjustify {text-align: justify;line-height: 30px;margin-bottom: 15px;}
 .decoration{height: 3px;background-color: rgb(236, 37, 22);	margin-top: 10px;}
@@ -1703,7 +1719,7 @@ top: -5px;
 .aboutusimags{height: 157px;width:25%;}
 .tdw{width: 180px;}
 .hederselect{width: 15%;padding: 10px 8px;outline: none;border: none;background: none;font-size:10px;color: #a5a5a5;font-family: Arial;outline: none;margin: 0;height: 54px;vertical-align: bottom;}
-.aboutuslogo{width: 12%;margin-left: 10px; float:left;}
+.aboutuslogo{width: 8%;margin-left: 5px; float:left;}
 .flighthedden{display:none;}
 .search-icon{background-color: rgb(103, 0, 153);width: 45px;float: right;margin: -10px;height: 45px;text-align: center;padding: 15px;}
 .srarch-text{padding:10px; color:white;text-align: center;}

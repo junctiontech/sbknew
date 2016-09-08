@@ -16,7 +16,7 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=987149988019793";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="http://www.searchb4kharch.com/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>					
+<div class="fb-like" data-href="https://www.facebook.com/SEARCHB4KHARCH/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 				</center>
 			</div>
 		</div>

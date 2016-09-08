@@ -55,7 +55,9 @@
 								Return time: <?=isset($shopData['product_return_time'])?$shopData['product_return_time']:''?>;" data-original-title="More details">view detail</span>
 								</p> 
 							</div>							
-									<?php }  } ?>			
+									<?php }  }else{ ?>	
+											<img src="<?=base_url();?>frontend/images/1472667332075105676679.jpg">
+									<?php } ?>
 						</div>					
 											
 						<div class="clear"></div>
@@ -174,7 +176,7 @@
 			</div>			 
 			<div class="col-md-2 col-sm-2 col-xs-0">				 
 				<div class="fixedright" style="margin-top:-1%;">				
-					<a href="http://tracking.vcommission.com/aff_c?offer_id=480&aff_id=48478&file_id=88882&file_id=79365" target="_blank"><img src="http://media.vcommission.com/brand/files/vcm/480/Zovi_CPS_Tees_160x600.jpg" width="160" height="600" border="0" /></a><img src="http://tracking.vcommission.com/aff_i?offer_id=480&file_id=79365&aff_id=48478&file_id=88882" width="1" height="1" />			
+					<script type="text/javascript" language="javascript"> var aax_size='160x600'; var aax_pubname = 'seab4kha-21'; var aax_src='302'; </script><script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>				
 				</div>			
 				<div class="clear"></div>			
 			</div>	

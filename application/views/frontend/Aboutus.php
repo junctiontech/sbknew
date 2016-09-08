@@ -7,7 +7,16 @@
 			<div class="col-md-12">		
 				<center>			
 					<img class="logo" style="height:130px;" src="<?=base_url();?>frontend/images/pngtransparent (2).png"/><br>			
-					<storng style="color: rgb(122, 17, 105);"><h4><b>Dont’ be kharcheela, Be Searcheela</b></h4></storng>		
+					<storng style="color: rgb(122, 17, 105);"><h4><b>Dont’ be kharcheela, Be Searcheela</b></h4></storng>	
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=987149988019793";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://www.searchb4kharch.com/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>					
 				</center>
 			</div>
 		</div>

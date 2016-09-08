@@ -53,9 +53,7 @@
 				<div class="fixedright">				
 					<div id="adverti" class="">				
 						<div class="adverti">				
-							<a href="http://tracking.vcommission.com/aff_c?offer_id=126&aff_id=48478&url_id=2442&file_id=95080" target="_blank">					
-								<img src="http://media.vcommission.com/brand/files/vcm/126/Jabong_Upto40PLUSExtra30OffOnPurchaseOfRs1299_160x600.jpg" width="160" height="600" border="0" />
-							</a>				
+							<script type="text/javascript" language="javascript"> var aax_size='160x600'; var aax_pubname = 'seab4kha-21'; var aax_src='302'; </script><script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>				
 							<div class="clear"></div>					
 						</div>
 					</div>		

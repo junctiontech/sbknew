@@ -294,7 +294,7 @@
 		  <?php if($fs==$feature_data['fs']){break;} } }else{ echo"No product Found!!";}?>	
 		</div>		
 		<div class="hidden-xs">		
-			<a href="http://tracking.vcommission.com/aff_c?offer_id=126&aff_id=48478&url_id=2442&file_id=83075" target="_blank"><img src="http://media.vcommission.com/brand/files/vcm/126/Jabong_AnniversarySale_Minimum40OFF_468x60.jpg" width="1500" height="90" border="0" /></a><img src="http://tracking.vcommission.com/aff_i?offer_id=126&file_id=83075&aff_id=48478&url_id=2442" width="1" height="1" />	
+			<div data-WRID="WRID-147331145382894405" data-widgetType="staticBanner" data-responsive="yes" data-class="affiliateAdsByFlipkart" height="90" width="728"></div><script async src="//affiliate.flipkart.com/affiliate/widgets/FKAffiliateWidgets.js"></script>
 		</div>		
 		<div class="content_top hidden-xs">
 			<div class="heading">
@@ -332,7 +332,7 @@
 		  <?php if($ns==$new_data['ns']){break;} } }else{ echo"No product Found!!";}?>			
 		</div>		
 		<div class="hidden-xs">		
-			<a href="http://tracking.vcommission.com/aff_c?offer_id=126&aff_id=48478&url_id=2442&file_id=83075" target="_blank"><img src="http://media.vcommission.com/brand/files/vcm/126/Jabong_AnniversarySale_Minimum40OFF_468x60.jpg" width="1500" height="90" border="0" /></a><img src="http://tracking.vcommission.com/aff_i?offer_id=126&file_id=83075&aff_id=48478&url_id=2442" width="1" height="1" />	
+			<script type="text/javascript" language="javascript"> var aax_size='728x90'; var aax_pubname = 'seab4kha-21'; var aax_src='302'; </script><script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>	
 		</div>
 	</div>
 </div>

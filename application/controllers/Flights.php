@@ -8,7 +8,6 @@ class Flights extends CI_Controller {
 		parent::__construct();		
 		$this->data[]="";
 		$this->data['url'] = base_url();	
-		$this->load->model('admin/Flight_model');
 		}
 	
 	public function display($template_file)
@@ -36,7 +35,7 @@ class Flights extends CI_Controller {
 					{ 
 						$placeID='';$placeName='';
 						$placeID=$place['PlaceId'];$placeName=$place['PlaceName'];
-						echo "<option   value=\"$placeID\">$placeName</option> ";
+						echo "<option value=\"$placeName,$placeID\" >";
 					}
 					//echo"</select>";
 				}

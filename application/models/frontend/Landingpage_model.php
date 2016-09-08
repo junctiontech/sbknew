@@ -281,7 +281,7 @@ class Landingpage_model extends CI_Model {
 	public function get_dealsgategory(){
 		$this->db->select('t1.category');
 		$this->db->from('s4k_deals t1');
-		$this->db->where(array('t1.Status'=>'Active','category !='=>''));
+		$this->db->where(array('t1.Status'=>'Active','category !='=>'','category !='=>'Air Tickets'));
 		$this->db->group_by('category');
 		$query=$this->db->get();
 		return $query->result();

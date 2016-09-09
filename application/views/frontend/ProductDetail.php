@@ -46,7 +46,7 @@
 									</div>							
 								</a>
 								<p class="vertical-top">
-								<span class="popover-purple" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Offers: <?=isset($shopData['product_offers'])?$shopData['product_offers']:''?> ;
+								<span class="popover-purple" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Offers: <?=isset($shopData['product_offers'])?$shopData['product_offers']:''?> ;
 								Color: <?=isset($shopData['product_color'])?$shopData['product_color']:''?> ;
 								Delivery: <?=isset($shopData['product_delivery'])?$shopData['product_delivery']:''?> ;
 								Delivery cost: <?=isset($shopData['product_delivery_cost'])?$shopData['product_delivery_cost']:''?> ;

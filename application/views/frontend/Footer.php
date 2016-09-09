@@ -159,7 +159,7 @@
 <li><a href="javascript:;">Help</a></li>-->						
 				 </ul> 				
 			 </div>				
-			 <div class="col_1_of_4 span_1_of_4 social-icons">					
+			 <div class="col_1_of_4 span_1_of_4 social-icons" align="center">					
 				 <!--<h4>Contact</h4>					
 <ul class="marker_none">						
 <li><span>8817507639</span></li>						

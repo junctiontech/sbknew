@@ -33,7 +33,7 @@
 		</div>	
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">					
-				<div style="top: 20px;" class="table-responsive" data-pattern="priority-columns" data-focus-btn-icon="fa-asterisk" data-sticky-table-header="true" data-add-display-all-btn="true" data-add-focus-btn="true">					
+				<div style="top: 20px;" class="table-responsive" data-pattern="priority-columns" data-focus-btn-icon="fa-asterisk" data-sticky-table-header="true" data-add-display-all-btn="true" data-add-focus-btn="true" align="center">					
 					<table cellspacing="0" class="table-bordered table-striped table-small-font">					
 						<thead>						
 							<tr>						

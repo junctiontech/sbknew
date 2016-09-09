@@ -129,30 +129,45 @@
 					</div>						
 				</div>
 				<div class=" "><p class="lineheight"><b>And in the last presenting our</b><br> 
-					<b> Actors:</b>  <br></p>		
-					<div class="col-md-12 col-sm-12 col-xs-12">			
-						<div class="aboutuslogo">				
-							<img src="<?=base_url();?>frontend/images/amazon.jpg"/>				
-						</div>			
-						<div class="aboutuslogo" style=" ">			
-							<img src="<?=base_url();?>frontend/images/cb2852.jpg"/>			
-						</div>			
-						<div class="aboutuslogo" >				
-							<img src="<?=base_url();?>frontend/images/rsz_snapdeal_new.jpg"/>			
-						</div>		
-						<div class="aboutuslogo" >
-							<img src="<?=base_url();?>frontend/images/eway-logo-1.png"/>
-						</div>
-						<div class="aboutuslogo">
-							<img src="<?=base_url();?>frontend/images/shopclues_store.png"/>
-						</div>			
-						<div class="aboutuslogo" >			
-							<img src="<?=base_url();?>frontend/images/Zomato.png"/>			
-						</div>			
-						<div class="aboutuslogo">				
-							<img src="<?=base_url();?>frontend/images/infibeam.png"/>			
-						</div>	
-					</div>
+					<b> Actors:</b>  <br></p>
+		<div class="col-md-12 col-sm-12 col-xs-12" align="center">
+			<div class="aboutuslogo">						
+				<img src="<?=base_url();?>frontend/images/amazon.jpg"/>					
+			</div>					
+			<div class="aboutuslogo" style=" "> 					
+				<img src="<?=base_url();?>frontend/images/cb2852.jpg"/>			
+			</div>				
+			<div class="aboutuslogo" >				
+				<img src="<?=base_url();?>frontend/images/rsz_snapdeal_new.jpg"/>				
+			</div>			 
+			<div class="aboutuslogo" >						
+				<img src="<?=base_url();?>frontend/images/eway-logo-1.png"/>
+			</div> 
+			<div class="aboutuslogo" >
+				<img src="<?=base_url();?>frontend/images/shopclues_store.png"/>
+			</div>
+			<div class="aboutuslogo" >
+				<img src="<?=base_url();?>frontend/images/Zomato.png"/>
+			</div>
+			<div class="aboutuslogo">
+				<img src="<?=base_url();?>frontend/images/infibeam.png"/>
+			</div>
+			<div class="aboutuslogo">
+				<img src="<?=base_url();?>frontend/images/limeroad.resized.png"/>
+			</div>
+			<div class="aboutuslogo">
+				<img src="<?=base_url();?>frontend/images/home-shop-18.png"/>
+			</div>
+			<div class="aboutuslogo">
+				<img src="<?=base_url();?>frontend/images/jabong1.png"/>
+			</div>
+			<div class="aboutuslogo">
+				<img src="<?=base_url();?>frontend/images/coolwinks_fpezt4.png"/>
+			</div>
+			
+			
+			
+		</div>
 					<p class="  lineheight">
 						Now, it’s your turn to make Search B4 Kharch a blockbuster hit.  <br>
 					</p>

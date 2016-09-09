@@ -1868,7 +1868,7 @@ left: -4px;
     float: none;
     width: 100%;
     display: none;
-    background: #670099;
+    background: transparent;
     position: relative;
     top:0px;
     text-align: right;

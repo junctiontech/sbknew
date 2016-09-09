@@ -134,7 +134,7 @@
 									
 								</form>									
 							</div>
-							<a href="<?=base_url();?>Landingpage/Deals.html"> <img style=" display:none;width:12%;margin-top: 10px;" src="<?=base_url();?>frontend/images/best-deals-.png"/> 
+							<a class="hidden-xs" href="<?=base_url();?>Landingpage/Deals.html"> <img style="width:12%;margin-top: 10px;" src="<?=base_url();?>frontend/images/best-deals-.png"/> 
 						</a></div>	
 						<div class="clear"></div>
 					</div>	

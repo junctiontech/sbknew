@@ -1635,7 +1635,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .navbar.horizontal-menu {
-    background: #670099;
+    background: linear-gradient(to bottom, #3c103e, #efcfcf);
     color: #fff;
     height: auto;
   }
@@ -1646,7 +1646,8 @@ body {
     position: relative;
   }
   .navbar.horizontal-menu.navbar-fixed-top + .page-container {
-    margin-top: 0 !important;
+    margin-top: 0 !important;margin-top: -15px !important;
+left: -4px;
   }
   .navbar.horizontal-menu.navbar-fixed-top + .page-container > .sidebar-menu.fixed .sidebar-menu-inner {
     top: 0;
@@ -1690,7 +1691,7 @@ body {
     color: #979898;
     text-decoration: none;
     display: block;
-    padding: 13px 5px;
+    padding: 4px 5px;
     border-bottom: 1px solid #313437;
   }
   .navbar.horizontal-menu .navbar-inner .navbar-nav a > i {

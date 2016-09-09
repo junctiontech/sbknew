@@ -1,4 +1,4 @@
-<div class="page-container">
+<div class="page-container center">
 	<div class="main-content">	
 		<div class="col-sm-12 col-md-12 col-xs-12 form_content ">
 			<!-- Alert section For Message-->		
@@ -66,7 +66,7 @@
 				</section> 
 				<!-- FlexSlider -->		
 			</div>			
-			<div class="col-md-6 col-sm-6 col-xs-12">
+			<div class="col-md-6 col-sm-6 col-xs-12  hidden-xs">
 				<div style="" class="hotel_panal white">     
 					<div class="" role="tabpanel" data-example-id="togglable-tabs">       
 						<ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">		 
@@ -170,9 +170,54 @@
 				</div> 
 				<div class="clear"></div>
 			</div>		
+		</div>		
+		<div class="col-xs-12 hidden-md" id="display">
+			<div class="center">
+				<div class="col-xs-6">			
+			
+					<a href="#" data-toggle="mobile-menu-horizontal">					
+						<div class="landing" style="height: 70px;">	
+							<img src="<?=base_url();?>/frontend/images/productblack.png"/><br>
+							<span>Product</span>					
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="<?=base_url();?>Landingpage/Flights.html">
+						<div class="landing" style="height: 70px;">						
+							<img src="<?=base_url();?>/frontend/images/flightnew.png"/><br>
+							<span>Flight</span>
+						</div>
+					</a>
+				</div>			
+				<div class="col-xs-6">
+					<a href="<?=base_url();?>Hotel.html">
+						<div class="landing" style="height: 70px;">						
+							<img src="<?=base_url();?>/frontend/images/hotelnew.png"/><br>					
+							<span>Hotel</span>					
+						</div>
+					</a>
+				</div>			
+				<div class="col-xs-6">
+					<a href="<?=base_url();?>Landingpage/Deals.html">
+						<div class="landing" style="height: 70px;">							
+							<img src="<?=base_url();?>/frontend/images/deal5.png"/><br>					
+							<span>Deal</span>						
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="landing ">
+					<div onclick="foodbook()" class="">
+						<img src="<?=base_url();?>/frontend/images/foodbook4.png"/><br>
+						<span>Foodbook</span>
+					</div>
+				</div>			
+			</div>
 		</div>
 		<div class="clear"></div>
-		<div class="col-md-12 col-sm-12 col-xs-12" align="center">
+		<div class="col-md-12 col-sm-12 col-xs-12 hidden-xs" align="center">
 			<div class="aboutuslogo">						
 				<img src="<?=base_url();?>frontend/images/amazon.jpg"/>					
 			</div>					
@@ -211,15 +256,26 @@
 			
 		</div>			
 		<div class="clear"></div>
-		<div class="content_top hidden-xs">    		
+		<div class="hidden-md yourform hidden-xs" style="text-align: left;">
+		
+			<a href="javascript:;" title="Go to home page">					
+							
+				<i onclick="backhome()" class="fa fa-home"></i>	
+						
+			</a>
+		</div>
+		<div class="content_top hidden-xs yourform">    		
 			<div class="heading">    		
 				<h3>Search restaurant</h3>    		
 			</div> 
-			<div class="clear"></div>    	
+			<div class="clear"></div>   	
 		</div>		
-		<div class="section group hidden-xs">
-			<div class="widget_wrap" style="width:100%;height:400px;display:inline-block;"><iframe src="https://www.zomato.com/widgets/res_search_widget.php?city_id=26&theme=red&widgetType=custom&sort=popularity" style="position:relative;width:100%;height:100%;" border="0" frameborder="0"></iframe></div>
-		</div>
+		<div class="section group hidden-xs yourform">
+			<div class="widget_wrap" style="width:100%;height:400px;display:inline-block;">
+				<iframe src="https://www.zomato.com/widgets/res_search_widget.php?city_id=26&theme=red&widgetType=custom&sort=popularity" style="position:relative;width:100%;height:100%;" border="0" frameborder="0"></iframe>
+			</div>
+		<div class="clear"></div>
+		</div>		
 		<div class="clear"></div>
 		<div class="content_top hidden-xs">    	
 			<div class="heading">    	
@@ -472,3 +528,17 @@ function fromID(placekey)
 			}
 			}
   </script>
+<script>
+	function foodbook(){		
+		 $("#display").addClass("hidden-xs");		
+		 $(".yourform").removeClass("hidden-xs");		
+		
+	}
+	function backhome(){
+		
+		 $("#display").removeClass("hidden-xs");		
+		 $(".yourform").addClass("hidden-xs");
+		
+		
+	}
+</script>

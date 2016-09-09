@@ -105,9 +105,9 @@
 				</ul>			
 				<div class="clear"></div>			
 				<div class="row">				
-					<div class="col-md-3 col-sm-4 col-xs-12">				
+					<div class="col-md-3 col-sm-4 col-xs-3">				
 						<div class=" ">					
-							<a href="<?=base_url();?>"><img class="logo1" src="<?=base_url();?>frontend/images/pngtransparent (2).png" alt="" /></a>				
+							<a href="<?=base_url();?>"><img class="logo1" src="<?=base_url();?>frontend/images/pngtransparent (1).png" alt="" /></a>				
 						</div>				
 					</div>				
 					<?php 
@@ -117,7 +117,7 @@
 					
 					?>
 					
-					<div class="col-md-9 col-sm-8 col-xs-12">						
+					<div class="col-md-9 col-sm-8 col-xs-9">						
 						<div class="header_top_right">	
 							<div class="search_box tooltip-primary" data-toggle="tooltip" data-placement="bottom" title="Hello, search through searchb4kharch android app to earn Rs.10 daily">	
 								<form action="<?=base_url();?>Landingpage/Product/Search.html" method="get">
@@ -134,7 +134,7 @@
 									
 								</form>									
 							</div>
-							<a href="<?=base_url();?>Landingpage/Deals.html"> <img style="width:12%;margin-top: 10px;" src="<?=base_url();?>frontend/images/best-deals-.png"/> 
+							<a href="<?=base_url();?>Landingpage/Deals.html"> <img style=" display:none;width:12%;margin-top: 10px;" src="<?=base_url();?>frontend/images/best-deals-.png"/> 
 						</a></div>	
 						<div class="clear"></div>
 					</div>	

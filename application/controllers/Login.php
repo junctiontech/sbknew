@@ -84,7 +84,7 @@ class Login extends CI_Controller {
 			
 		}
 		
-			$this->display ('frontend/Login');
+			$this->load->view ('frontend/Login' , $this->data);
 		}
 		
 	}
@@ -317,23 +317,24 @@ class Login extends CI_Controller {
 				$this->session->set_userdata('searchb4kharch', $sbk);				
 				$this->session->set_flashdata('message_type', 'success');
 				$this->session->set_flashdata('message', $this->config->item("index") . "You've Logged in successfully. ");
-				redirect('User/Dashboard');
+				//redirect('User/Dashboard');
+						echo "true";
 					}
 					else{					
-						$this->session->set_flashdata('category_error_login', "Your email is not verified, please verify your email.");
+						echo "Your email is not verified, please verify your email.";
 					}
 				}else{
 					
-					$this->session->set_flashdata('category_error_login', "Username Or Password is invalid, please try again.");
+					echo "Username Or Password is invalid, please try again.";
 				}
 		
 		}else{
-				$this->session->set_flashdata('category_error_login', "Username Or Password is invalid, please try again.");
+				echo "Username Or Password is invalid, please try again.";
 			}
 		}else{
-				$this->session->set_flashdata('category_error_login', "Username Or Password is invalid, please try again.");
+				echo "Username Or Password is invalid, please try again.";
 		}
-				redirect("Login");
+				//redirect("Login");
 	}
 	/* Login Authentication End............................................................................................................. */	
 	public function signup()
@@ -485,7 +486,7 @@ class Login extends CI_Controller {
         $this->session->sess_destroy();
 		$this->session->set_flashdata('message_type', 'success');
 		$this->session->set_flashdata('message', $this->config->item("index") . " Logout Successfully!! Thank You.. ");
-		redirect("Login");
+		redirect('Landingpage');
 	}
 	function AdminLogout()
 	{

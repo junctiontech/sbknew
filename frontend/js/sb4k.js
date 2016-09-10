@@ -140,3 +140,38 @@ function Changestatus(value,id){
 	return big;
 }
 
+function Checked_login1(value){
+
+	var useremail = document.getElementById("inputSuccess2").value;
+	var password = document.getElementById("inputSuccess3").value;
+	var submit = document.getElementById("submit").value;
+		
+				
+		
+		
+	$.ajax({
+				type: "POST",
+				data: {useremail:useremail,password:password,submit:submit },
+				async: false,
+				url : base_url+'Login/Checked_login',				
+			})	
+				 .done(function(msg){
+	 
+		if(msg == 'true'){					
+		//	var mass='You ve Logged in successfully.';
+		//	 $( ".log" ).text(mass);
+			window.location = (base_url+'User/Dashboard');
+			
+					return true;	
+		}else{
+			var mass=msg;
+		
+				 $( ".error" ).text(mass);
+				$('.error').fadeIn().delay(3000).fadeOut();	
+		return false;	
+		}
+				}); 
+		
+		return false;
+	
+}

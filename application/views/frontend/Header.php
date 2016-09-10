@@ -88,7 +88,7 @@
 							<i class="fa-link-ext"></i>				
 						</a>				
 						<?php }else{ ?>					
-						<a href="<?=base_url();?>Login.html" title="Login to your account">					
+						<a href="<?=base_url();?>Login.html"class="taright" data-toggle="modal" data-target=".bs-example-modal-lg" title="Login to your account">					
 							<span class="white">Login</span>					
 							<i class="fa-link-ext"></i>					
 						</a>					

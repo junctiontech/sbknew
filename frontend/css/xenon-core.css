@@ -5606,7 +5606,7 @@ blockquote small {
   display: none;
 }
 .form-horizontal .control-label {
-  text-align: right;
+  text-align: left;
 }
 .form-horizontal > .form-group:last-child {
   margin-bottom: 0;

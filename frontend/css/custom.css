@@ -727,7 +727,7 @@ font-family:tahoma;
 	margin-bottom:10px;
 }
 .sign{
-margin-top:60px;
+margin-top:30px;
 }
 .signup_button{
 	color:white; background-color:black;border-color:black;}
@@ -1745,6 +1745,9 @@ top: -5px;
 .sub li{float:left !important;}
 .sub1 li{float:none;}
 .log{color: rgb(60, 118, 61);background-color: rgb(223, 240, 216);border-color: rgb(214, 233, 198);padding: 13px;border-radius: 25px;margin-bottom: 14px; display:none;}
+
+
+.error{color:#a94442;background-color:#f2dede;border-color: rgb(214, 233, 198);padding: 13px;border-radius: 25px;margin-bottom: 14px; display:none;}
 .fiexdheght{height: 290px; overflow-y: scroll;}
 .landing{ background: rgb(254, 252, 255) none repeat scroll 0% 0%;
 padding: 7px;

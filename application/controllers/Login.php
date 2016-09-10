@@ -329,7 +329,7 @@ class Login extends CI_Controller {
 				}
 		
 		}else{
-				echo "Username Or Password is invalid, please try again.";
+				echo "Username Or Password is invalid, please try again."; 
 			}
 		}else{
 				echo "Username Or Password is invalid, please try again.";

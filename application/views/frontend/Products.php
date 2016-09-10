@@ -42,7 +42,7 @@
 							<?php if(!empty($userinfos)){ if(in_array($product['product_id'],$whislistproduct)==false){ ?>
 							<a href="<?=base_url();?>User/AddToWishList/<?=$product['product_id']?>.html" class="fa fa-shopping-cart"></a>							
 							<?php } }else{ ?>					
-							<a href="<?=base_url();?>Login.html?return=true" class="fa fa-shopping-cart"></a>					
+							<a href="<?=base_url();?>Login.html?return=true" data-toggle="modal" data-target=".bs-example-modal-lg" class="taright fa fa-shopping-cart"></a>					
 							<?php }?>						
 						</label> 					
 					</div>  			

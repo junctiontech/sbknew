@@ -401,7 +401,170 @@ class Login extends CI_Controller {
 						$name1 = md5($userFirstName);				
 						$base=base_url ();				
 						$subject="searchb4kharch:- Activated your Account ";				
-						$message= "<html><body><h3>Hello: $userFirstName </h3><p>Please click in below link and activated your Account....<br>  Your activated Account link is {$base}Login/Activetedaccount/$name1/$encry/&&$name.html/ <br><br> if any query so please contact to info@searchb4kharch.com!!</h3></p><br> </p></body></html>";				
+						$message= '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
+<div style="background:#f6f8fa">
+	<table cellpadding="0" cellspacing="0" style="background:#fff;max-width:600px;width:100%;margin:0px auto;font-family:&#39;Open Sans&#39;,sans-serif;color:#333">
+		<tr>
+			<td style="background:#670099;height:20px"></td>
+		</tr>
+		<tr>
+			<td align="center" style="padding:10px">
+				<table cellpadding="10">
+					<tr>
+						<td><img src="http://www.searchb4kharch.com/frontend/images/pngtransparent%20(2).png" width="200px"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td align="center">
+							<h1 style="margin:10px 0;color:#404040;font-weight:400">“A smile is the universal welcome”</h1>
+						</td>
+					</tr>
+					<tr>
+						<td  align="center" style="padding:0 10px;margin:0;font-size:15px;color:#333">
+							<p>
+								Hello '.$userFirstName.',
+							</p>
+							<p>
+								It’s great to see you here.
+							</p>
+							<p>
+								The whole SBK team welcomes you.
+							</p>
+							<p>
+								We are delighted as you’ve chosen
+ India’s first of its kind website & app as your new shopping mate.
+We are sure that you will make full use of it 
+for search, compare & buy 
+products to book flights & hotels and 
+to get the info about food & restaurant
+ anywhere, anytime.
+							</p>
+							<p>
+								Please click in below link and activated your Account.
+							</p>
+							<p>
+								Your activated Account link is '.$base.'Login/Activetedaccount/'.$name1.'/'.$encry.'/&&'.$name.'.html/ <br><br> if any query so please contact to info@searchb4kharch.com!!
+							</p>
+							<p>
+								Search through android app to earn Rupoints..
+							</p>
+							<p>
+								<bold>Don’t be Kharcheela, be Searcheela..</bold>
+							</p>
+
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="height:10px"></td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table cellpadding="10">
+					<tr>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/Landingpage/Flights.html" target="_blank"><img src="https://s4.postimg.org/6xfi8ldal/white_flight_1.png" width="70%" style="padding-top:20px"></a>
+							</div>
+						</td>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/Hotel.html" target="_blank"><img src="https://s4.postimg.org/78wylctql/sleepicon8.png" width="70%" style="padding-top:20px"></a>
+							</div>
+						</td>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/" target="_blank"><img src="https://s4.postimg.org/pzyvviob1/products.png" width="70%" style="padding-top:20px"></a>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table cellpadding="10" style="border-bottom:1px solid #ccc">
+					<tr>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/" target="_blank"><img src="https://s4.postimg.org/gblfsdthp/foodbook.png" width="50%" style="padding-top:30px"></a>
+							</div>
+						</td>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/Landingpage/Deals" target="_blank"><img src="https://s4.postimg.org/95p3c6v0t/deals_2.pngDEALS" width="60%" style="padding-top:25px"></a>
+							</div>
+						</td>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/Landingpage/Product/Accessories.html" target="_blank"><img src="https://s4.postimg.org/iipogayrx/others.pngOTHERS" width="70%" style="padding-top:20px"></a>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="color:#333;font-size:13px">
+				
+											<p>
+								Thanks & Regards,
+							</p>
+							<p>
+								Team SBK
+							</p>
+							<p>
+								For downloading android app: google playstore link icon
+							</p>
+							<p style="padding:10px;margin:10px">
+								For any support: <a style="font-style:italic;color:#333;text-decoration:none" href="mailto:info@searchb4kharch.com" target="_blank">info@searchb4kharch.com</a>
+							</p>
+							<p>
+								Like us on Facebook: https://www.facebook.com/SEARCHB4KHARCH/ (icon)
+							</p>
+							<p>
+								Follow us on Google+: https://plus.google.com/+Searchb4kharch (icon)
+							</p>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="height:10px"></td>
+		</tr>
+		<tr>
+			<td>
+				<table style="width:100%;background:#670099;padding:5px 10px">
+					<tr>
+						<td align="left" style="color:#fff">
+							<a style="color:#fff;text-decoration:none" href="#0.1_">About us</a> |
+							<a style="color:#fff;text-decoration:none" href="#0.1_">Contact us</a>
+						</td>
+						<td align="left">
+							
+						</td>
+						<td align="right">
+							<a style="display:inline-block;vertical-align:middle">
+								<img style="width:30px;vertical-align:middle" src="https://s4.postimg.org/a6pc1bc0d/andriodico.png">
+							</a>
+							<a style="display:inline-block;vertical-align:middle" href="https://www.facebook.com/SEARCHB4KHARCH/" target="_blank">
+								<img style="width:30px;vertical-align:middle" src="https://s4.postimg.org/fxfif1k0d/fbico.png">
+							</a>
+							<a style="display:inline-block;vertical-align:middle" href="https://plus.google.com/+Searchb4kharch" target="_blank">
+								<img style="width:30px;vertical-align:middle" src="https://s4.postimg.org/3lh7faljh/gmailico.png">
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div></body></html>';				
 						$name='Searchb4kharch.com';				
 						date_default_timezone_set('Etc/UTC');				
 						require 'PHPMailer/PHPMailerAutoload.php';				
@@ -417,7 +580,7 @@ class Login extends CI_Controller {
 						//Ask for HTML-friendly debug output			
 						$mail->Debugoutput = 'html';			
 						//Set the hostname of the mail server			
-						$mail->Host = 'smtp.gmail.com';		
+						$mail->Host = 'smtp.mailgun.org';		
 						//Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission			
 						$mail->Port = 587;			
 						//Set the encryption system to use - ssl (deprecated) or tls			
@@ -425,13 +588,13 @@ class Login extends CI_Controller {
 						//Whether to use SMTP authentication			
 						$mail->SMTPAuth = true;				
 						//Username to use for SMTP authentication - use full email address for gmail			
-						$mail->Username = 'searchkharch@gmail.com';			
+						$mail->Username = 'postmaster@searchb4kharch.com';			
 						//Password to use for SMTP authentication			
-						$mail->Password = 'navrang99';			
+						$mail->Password = 'a5d7a6b8855cc8356a9542118ce866db';			
 						//Set who the message is to be sent from		
-						$mail->setFrom($userEmail,$name);			
+						$mail->setFrom('support@searchb4kharch.com','');			
 						//Set an alternative reply-to address			
-						$mail->addReplyTo('searchkharch@gmail.com', $name);			
+						$mail->addReplyTo('support@searchb4kharch.com','');			
 						//Set who the message is to be sent to			
 						$mail->addAddress($userEmail);			
 						//Set the subject line			

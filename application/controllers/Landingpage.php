@@ -744,4 +744,40 @@ class Landingpage extends CI_Controller {
 				redirect($_SERVER['HTTP_REFERER']);					 
 			}	
 	}
+		
+	public function coupon ()
+	{
+		$this->data['Status']=$this->Landingpage_model->get_states('s4k_state');
+		//print_r($this->data['Status']);die;
+		$this->parser->parse('frontend/Header',$this->data);
+		$this->parser->parse('frontend/getcoupon',$this->data);
+		$this->parser->parse('frontend/Footer',$this->data);
+		
+	}
+	public function get_Opraters()
+	{
+		$type=$this->input->post('data');		
+		$query=$this->Landingpage_model->get_opraters('s4k_operator',array('Type'=>$type));	
+		if(!empty($query)){			
+			foreach ($query as $data) {				
+				echo "<option value ='".$data->operatorName."'>".$data->operatorName."</option>";
+			}			
+		}
+	}
+	
+	public function insertredeemrequet()
+	{
+		$data=array (
+			//'userID'=>$this->input->post('userID'),
+			'Type'=>$this->input->post('type'),
+			'Number'=>$this->input->post('number'),
+			'Opretor'=>$this->input->post('oprater'),
+			'States'=>$this->input->post('state'),
+			'Status'=>'Requested'
+		);		
+		$this->Landingpage_model->insertredeemrequest('s4k_user_redeem_request',$data);
+		$this->session->set_flashdata('message_type', 'success');			
+		$this->session->set_flashdata('message', $this->config->item("Landingpage") . "You Have Successfully !!");			
+		redirect ('Landingpage');
+	}
 }

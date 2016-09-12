@@ -1,3 +1,23 @@
+<div class="clear"></div>
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">	 
+	<div class="modal-dialog modal-lg">                
+		<div class="modal-content ">  
+		</div>             
+	</div>          
+</div>
+
+<div class="clear"></div>
+
+
+<script>
+$(document).on('hidden.bs.modal', function (e) {
+		var target = $(e.target);
+        target.removeData('bs.modal')
+              .find(".modal-content").html('');
+    });
+</script>
+
+
 <div class="modal fade" id="modal-6">
 	<div class="modal-dialog">
 		<div class="modal-content">	
@@ -134,17 +154,18 @@
 		</div>			
 	</div>	
 </div>
+<div class="clear"></div>
 <div class="footer">   	  
 	<div class="wrapper">	
-	     <div class="section group">
-				<div class="col_1_of_4 span_1_of_4 span_1_of_4w">					
-					<!--<h4>Information</h4>-->						
-					<ul class="marker_none">						
-						<li><a href="<?=base_url();?>Landingpage/Aboutus.html"><span>About Us</span></a></li>					
-						<!--<li><a href="javascript:;"><span>Services (coming soon)</span></a></li>						
+	     <div class="section group">				
+			 <div class="col_1_of_4 span_1_of_4 span_1_of_4w">					
+					<!--<h4>Information</h4>-->					
+				 <ul class="marker_none">				
+					 <li><a href="<?=base_url();?>Landingpage/Aboutus.html"><span>About Us</span></a></li>	
+					 <!--<li><a href="javascript:;"><span>Services (coming soon)</span></a></li>						
 <li><a href="javascript:;"><span>Advanced Search</span></a></li>
 <li><a href="javascript:;"><span>Contact Us</span></a></li>-->
-					</ul>				
+					</ul>		 
 			 </div>	
 			 <div class="col_1_of_4 span_1_of_4 span_1_of_4w">
 				 <!--<h4>My account</h4>-->
@@ -168,9 +189,9 @@
 				 <!--	<div class="social-icons">				 			
 <h4>Follow Us</h4>-->					   		
 				 <ul>							
-					 <a href="https://www.facebook.com/SEARCHB4KHARCH/" target="_blank"><li class="facebook"></li></a>							
+					 <a href="https://www.facebook.com/SEARCHB4KHARCH/" target="_blank"><li class="facebook"><img src="<?=base_url();?>frontend/images/icon-2.png"></li></a>							
 					 <!--  <a href="javascript:;" target="_blank"> <li class="twitter"></li></a>-->							   
-					 <a href="https://www.google.com/+Searchb4kharch" target="_blank"><li class="googleplus"> </li></a>							     
+					 <a href="https://www.google.com/+Searchb4kharch" target="_blank"><li class="googleplus"><img src="<?=base_url();?>frontend/images/icon-4.png"></li></a>							     
 					 <!--<a href="javascript:;" target="_blank">									
 						 <li class="contact tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="info@searchb4kharch.com" ></li>
 					 </a>   -->

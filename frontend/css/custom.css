@@ -142,7 +142,7 @@ ol,ul{list-style:none;margin:0;padding:0;}
 	padding:1.5%;
 	text-align:center;
 	position:relative; 
-	height:245px;
+	height:250px;
 	margin-right: 10px;
 }
 .imageswidth{
@@ -727,7 +727,7 @@ font-family:tahoma;
 	margin-bottom:10px;
 }
 .sign{
-margin-top:60px;
+margin-top:30px;
 }
 .signup_button{
 	color:white; background-color:black;border-color:black;}
@@ -740,6 +740,7 @@ margin-top:60px;
 	.listview_1_of_2{
     	margin: 2.4% 0 0% 1.6%;
     }
+	.sidenav{width: 100%;}
 	.fiexdheght{height: auto !important; overflow-y: scroll;}
 	.fixed1{position:relative !important;}
 	.hotel_p{margin-top:25px !important;}
@@ -808,7 +809,7 @@ margin-top:60px;
     	padding: 10px 0px 0px 10px;
     }
 	.imageheightfix {   			
-		height: 100px !important;
+		height: 130px !important;
 	}
 	.wrapper{
     	width:95%;
@@ -884,6 +885,7 @@ margin:-21px !important;
 		float:inherit;
 		width:100%;
 	}
+	.hidden-xs{display:none;}
 	.hidden-md{display:block;}
 	.fiexdheght{height: auto !important; overflow-y: scroll;}
 	.fixed1{position:relative !important;}
@@ -899,6 +901,35 @@ margin:-21px !important;
 	/*	top: 33%;  */
 		z-index: 101;
 	}
+		.sidenav  {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;   
+    left: 0;color: #fff;
+  /*  background-color: #111;*/
+    overflow-x: hidden;background: linear-gradient(to bottom, #3c103e, #efcfcf);
+    transition: 0.5s;
+    padding-top: 15px;
+}
+	.sidenav a {
+    
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFF;
+    display: block;
+    transition: 0.3s
+}
+	.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+	.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
 	.search_box form input[type="text"] {
 		width:78.5%;
     }
@@ -1034,11 +1065,42 @@ margin:-21px !important;
 }
 @media only screen and (min-width:300px) and (max-width: 639px) {	
 
-.search_box {
-		float:inherit;
-		width:100%;
+
+	.search_box {		
+	float:inherit;		
+	width:100%;	
 	height: 35px;
 	}
+	
+	.sidenav  {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;   
+    left: 0;color: #fff;
+  /*  background-color: #111;*/
+    overflow-x: hidden;background: linear-gradient(to bottom, #3c103e, #efcfcf);
+    transition: 0.5s;
+    padding-top: 15px;
+}
+	.sidenav a {
+    
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFF;
+    display: block;
+    transition: 0.3s
+}
+	.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+	.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
 	.hidden-md{display:block;}
 	.fiexdheght{height: auto !important; overflow-y: scroll;}
 	.fixed1{position:relative !important;}
@@ -1116,7 +1178,7 @@ margin:-21px !important;
 		padding:3%;
 	}
 	.images_1_of_4{
-		width:95% !important;
+		width:95%;
 		height:260px;
 		padding:2.5%;
 	}
@@ -1673,11 +1735,11 @@ top: -5px;
     padding: 0;
     width: 28px;
     height: 25px;
-    background: #699a1c url(../images/sprite.png) no-repeat -540px -100px;
+ /*   background:url(../images/sprite.png) no-repeat 0px 0px;*/	
     float: left;
-    border: 1px solid #fff;
+   /*   border: 1px solid #fff;
     border-radius: 80px;
-    text-indent: -9999px;
+  text-indent: -9999px;*/
     display: inline-block;
     transition: all 700ms ease-out 0s;
 }
@@ -1685,7 +1747,7 @@ top: -5px;
  background:transparent;
 }
 .imageheightfix{
-	height:115px;
+	height:130px;
 }
 .wishlist{
 	margin-left:20%;
@@ -1745,6 +1807,9 @@ top: -5px;
 .sub li{float:left !important;}
 .sub1 li{float:none;}
 .log{color: rgb(60, 118, 61);background-color: rgb(223, 240, 216);border-color: rgb(214, 233, 198);padding: 13px;border-radius: 25px;margin-bottom: 14px; display:none;}
+
+
+.error{color:#a94442;background-color:#f2dede;border-color: rgb(214, 233, 198);padding: 13px;border-radius: 25px;margin-bottom: 14px; display:none;}
 .fiexdheght{height: 290px; overflow-y: scroll;}
 .landing{ background: rgb(254, 252, 255) none repeat scroll 0% 0%;
 padding: 7px;

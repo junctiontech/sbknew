@@ -68,7 +68,7 @@
 							<p>Share Product :</p>						
 							<ul>							
 								 <li><a href="javascript:;" onclick="share(); return false;"><img  src="<?=base_url();?>frontend/images/facebook.png" alt="" id="shareBtn"></a></li>						
-								<li> <a href="javascript:;" class="g-plusone"   ></a></li>						
+								<li> <a href="javascript:;" class="g-plusone"></a></li>						
 							</ul>					 
 						</div>					
 						<div class="add-cart">						

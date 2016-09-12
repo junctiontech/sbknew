@@ -8,16 +8,6 @@
 
 <div class="clear"></div>
 
-
-<script>
-$(document).on('hidden.bs.modal', function (e) {
-		var target = $(e.target);
-        target.removeData('bs.modal')
-              .find(".modal-content").html('');
-    });
-</script>
-
-
 <div class="modal fade" id="modal-6">
 	<div class="modal-dialog">
 		<div class="modal-content">	

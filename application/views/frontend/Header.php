@@ -21,11 +21,11 @@
 			<div class="navbar-inner">			
 				<div class="nav navbar-mobile">				
 					<div class="mobile-menu-toggle">					
-						<a href="#" data-toggle="user-info-menu-horizontal">						
-							<i class=" ">My Account</i>						 					
+						<a href="#"class="login" data-toggle="user-info-menu-horizontal">						
+							<img src="<?=base_url();?>frontend/images/login1.png">						 					
 						</a>						
-						<a href="#" data-toggle="mobile-menu-horizontal">					
-							<i class="fa-bars"></i>				
+						<a href="#" class="login"  data-toggle="mobile-menu-horizontal">					
+							<img src="<?=base_url();?>frontend/images/categories.png">				
 						</a>				
 					</div>	
 				</div>
@@ -41,7 +41,7 @@
 						<?php if(!empty($userinfos)) { ?>
 						<a href="javascript:;" onclick="jQuery('#modal-6').modal('show', {backdrop: 'static'});" class="fa fa-bell-o"></a>
 						<?php } else { ?>
-						<a href="<?=base_url();?>Login.html" class="fa fa-bell-o"></a>						
+						<a href="<?=base_url();?>Login.html" class="fa fa-bell-o taright" data-toggle="modal" data-target=".bs-example-modal-lg"></a>						
 						<?php } ?>
 					</li>				
 					<li>					
@@ -84,12 +84,12 @@
 					<li>					
 						<?php if(!empty($userinfos)){ ?>					
 						<a href="<?=base_url();?>User/Dashboard.html" title="Go to dashboard">						
-							<span class="white">Hi <?=isset($userinfos['userFirstName'])?$userinfos['userFirstName']:''?></span>					
+							<span class="">Hi <?=isset($userinfos['userFirstName'])?$userinfos['userFirstName']:''?></span>					
 							<i class="fa-link-ext"></i>				
 						</a>				
 						<?php }else{ ?>					
-						<a href="<?=base_url();?>Login.html"class="taright" data-toggle="modal" data-target=".bs-example-modal-lg" title="Login to your account">					
-							<span class="white">Login</span>					
+						<a href="<?=base_url();?>Login.html" class="taright" data-toggle="modal" data-target=".bs-example-modal-lg" title="Login to your account">					
+							<span class="">Login</span>					
 							<i class="fa-link-ext"></i>					
 						</a>					
 						<?php } ?>				
@@ -97,7 +97,7 @@
 					<?php if(!empty($userinfos)){ ?>				
 					<li>					
 						<a href="<?=base_url();?>Login/Logout.html" title="Logout">					
-							<span class="white">Logout</span>					
+							<span class="">Logout</span>					
 							<i class="fa-link-ext"></i>					
 						</a>				
 					</li>				

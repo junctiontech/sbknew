@@ -7,7 +7,7 @@
 
 	<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				 
+				 <div class="error"></div>
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<form onsubmit="Checked_login1()" class="form-horizontal form-label-left input_mask" action="javascript:;" method="post">
 						
@@ -22,23 +22,21 @@
 									<input type="password" class="form-log" id="inputSuccess3" placeholder="Enter Password" name="password">
 								</div>
 							</div>
-							<div class="form-group">
-								<div class="col-md-4 col-sm-4 col-xs-12 lg_button">
-									<button type="submit" name="submit" value="submit" id="submit" class="btn btn-success">LOGIN</button>
-								</div>
-								<div class="col-md-8 col-sm-8 col-xs-12 lg_button ">								 
-									<a href="javascript:;" onclick="jQuery('#modal-2').modal('show');"><p>Forgot Password?</p></a>
+							<div class="form-group">	
+								<div class="row">	
+									<div class="col-md-3 col-sm-3 col-xs-3">	
+																
+										<button type="submit" name="submit" value="submit" id="submit" class="btn btn-success">LOGIN</button>					
+									</div>								
+												
+									<div class="col-md-4 col-sm-4 col-xs-4">						
+										<a href="<?=base_url();?>Login/signup.html" class="btn btn-success" role="button">SIGN UP</a>								
+									</div>							
+									<div class="col-md-5 col-sm-5 col-xs-5">								
+										<a href="javascript:;" class="btn btn-success" onclick="jQuery('#modal-2').modal('show');">Forgot Password?</a>		
+									</div>							
 								</div>
 							</div>
-							<div class="sign">
-								<div class="form-group">
-								<div class="col-md-4 col-sm-6 col-xs-12 lg_button">
-									<a href="<?=base_url();?>Login/signup.html" class="btn btn-success" role="button">SIGN UP</a>
-								</div>
-								<div class="col-md-8">
-								<p style="margin-bottom:10px;font-size:15px;margin-top: 30px;">New to SearchB4kharch.com</p></div>
-							</div>
-						</div>
 						</div>
 					</form>
 					<div class="col-md-1 col-sm-1 col-xs-12 center">									
@@ -59,8 +57,7 @@
 											echo '<a href="'.$googleauthUrl.'"><img src="'.base_url().'frontend/images/goo_login.png" alt=""/></a>';
 										}
 						?>										
-					</div>					
-					<p style="font-size:15px">Recover your social account</p>					
+					</div>				 			
 				</div>
 			</div>
 			 
@@ -98,3 +95,10 @@
 </div>
 
 
+<script>
+$(document).on('hidden.bs.modal', function (e) {
+		var target = $(e.target);
+        target.removeData('bs.modal')
+              .find(".modal-content").html('');
+    });
+</script>

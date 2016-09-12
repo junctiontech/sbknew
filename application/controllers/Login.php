@@ -542,8 +542,8 @@ to get the info about food & restaurant
 				<table style="width:100%;background:#670099;padding:5px 10px">
 					<tr>
 						<td align="left" style="color:#fff">
-							<a style="color:#fff;text-decoration:none" href="#0.1_">About us</a> |
-							<a style="color:#fff;text-decoration:none" href="#0.1_">Contact us</a>
+							<a style="color:#fff;text-decoration:none" href="'.$base.'Landingpage/Aboutus.html">About us</a> |
+							<a style="color:#fff;text-decoration:none" href="'.$base.'Landingpage/Contactus.html">Contact us</a>
 						</td>
 						<td align="left">
 							

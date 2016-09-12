@@ -177,43 +177,47 @@
 			
 					<a href="#" data-toggle="mobile-menu-horizontal">					
 						<div class="landing">	
-							<img style="height: 80px;" src="<?=base_url();?>/frontend/images/productblack.png"/><br>
-							<span>Product</span>					
+							<img style="height: 80px; float:right" class="tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Product" src="<?=base_url();?>/frontend/images/productblack.png"/><br>											
 						</div>
 					</a>
 				</div>
 				<div class="col-xs-6">
 					<a href="<?=base_url();?>Landingpage/Flights.html">
 						<div class="landing">						
-							<img style="height: 80px;" src="<?=base_url();?>/frontend/images/flightnew.png"/><br>
-							<span>Flight</span>
+							<img style="height: 80px; float:left" class="tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Flight" src="<?=base_url();?>/frontend/images/flightnew.png"/><br>					
 						</div>
 					</a>
 				</div>			
 				<div class="col-xs-6">
 					<a href="<?=base_url();?>Hotel.html">
 						<div class="landing">						
-							<img style="height: 80px;" src="<?=base_url();?>/frontend/images/hotelnew.png"/><br>					
-							<span>Hotel</span>					
+							<img style="height: 80px; float:right" class="tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Hotel" src="<?=base_url();?>/frontend/images/hotelnew.png"/><br>											
 						</div>
 					</a>
 				</div>			
 				<div class="col-xs-6">
 					<a href="<?=base_url();?>Landingpage/Deals.html">
 						<div class="landing">							
-							<img style="height: 80px;" src="<?=base_url();?>/frontend/images/deal5.png"/><br>					
-							<span>Deal</span>						
+							<img style="height: 80px; float:left" class="tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Deal" src="<?=base_url();?>/frontend/images/deal5.png"/><br>											
 						</div>
 					</a>
 				</div>
+				
 			</div>
-			<div class="col-xs-12">
+			<div class="col-xs-6">
 				<div class="landing ">
 					<div onclick="foodbook()">
-						<img style="height: 80px;" src="<?=base_url();?>/frontend/images/foodbook4.png"/><br>
-						<span>Foodbook</span>
+						<img style="height: 80px;float:right" class="tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Foodbook" src="<?=base_url();?>/frontend/images/foodbook4.png"/><br>						
 					</div>
 				</div>			
+			</div>
+			
+			<div class="col-xs-6">					
+				<a href="javascript:;">					
+					<div class="landing">
+						<img style="height: 80px; float:left" class="tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Buying Guide" src="<?=base_url();?>/frontend/images/buying.png"/><br>
+					</div>
+				</a>
 			</div>
 		</div>
 		<div class="clear"></div>

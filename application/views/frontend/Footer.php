@@ -1,4 +1,4 @@
-
+<div class="clear"></div>
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">	 
 	<div class="modal-dialog modal-lg">                
 		<div class="modal-content ">  
@@ -6,7 +6,7 @@
 	</div>          
 </div>
 
-
+<div class="clear"></div>
 
 
 <script>
@@ -154,17 +154,18 @@ $(document).on('hidden.bs.modal', function (e) {
 		</div>			
 	</div>	
 </div>
+<div class="clear"></div>
 <div class="footer">   	  
 	<div class="wrapper">	
-	     <div class="section group">
-				<div class="col_1_of_4 span_1_of_4 span_1_of_4w">					
-					<!--<h4>Information</h4>-->						
-					<ul class="marker_none">						
-						<li><a href="<?=base_url();?>Landingpage/Aboutus.html"><span>About Us</span></a></li>					
-						<!--<li><a href="javascript:;"><span>Services (coming soon)</span></a></li>						
+	     <div class="section group">				
+			 <div class="col_1_of_4 span_1_of_4 span_1_of_4w">					
+					<!--<h4>Information</h4>-->					
+				 <ul class="marker_none">				
+					 <li><a href="<?=base_url();?>Landingpage/Aboutus.html"><span>About Us</span></a></li>	
+					 <!--<li><a href="javascript:;"><span>Services (coming soon)</span></a></li>						
 <li><a href="javascript:;"><span>Advanced Search</span></a></li>
 <li><a href="javascript:;"><span>Contact Us</span></a></li>-->
-					</ul>				
+					</ul>		 
 			 </div>	
 			 <div class="col_1_of_4 span_1_of_4 span_1_of_4w">
 				 <!--<h4>My account</h4>-->

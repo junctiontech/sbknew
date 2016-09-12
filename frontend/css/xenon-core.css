@@ -1899,7 +1899,7 @@ left: -4px;
   .navbar.horizontal-menu .navbar-inner > .nav.navbar-mobile a {
     position: relative;
     display: inline-block;
-    color: #979898;
+    color: #FFF;
     line-height: 1;
     margin-left: 15px;
   }

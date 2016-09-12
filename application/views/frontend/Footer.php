@@ -188,9 +188,9 @@ $(document).on('hidden.bs.modal', function (e) {
 				 <!--	<div class="social-icons">				 			
 <h4>Follow Us</h4>-->					   		
 				 <ul>							
-					 <a href="https://www.facebook.com/SEARCHB4KHARCH/" target="_blank"><li class="facebook"></li></a>							
+					 <a href="https://www.facebook.com/SEARCHB4KHARCH/" target="_blank"><li class="facebook"><img src="<?=base_url();?>frontend/images/icon-2.png"></li></a>							
 					 <!--  <a href="javascript:;" target="_blank"> <li class="twitter"></li></a>-->							   
-					 <a href="https://www.google.com/+Searchb4kharch" target="_blank"><li class="googleplus"> </li></a>							     
+					 <a href="https://www.google.com/+Searchb4kharch" target="_blank"><li class="googleplus"><img src="<?=base_url();?>frontend/images/icon-4.png"></li></a>							     
 					 <!--<a href="javascript:;" target="_blank">									
 						 <li class="contact tooltip-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="info@searchb4kharch.com" ></li>
 					 </a>   -->

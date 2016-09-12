@@ -176,32 +176,32 @@
 				<div class="col-xs-6">			
 			
 					<a href="#" data-toggle="mobile-menu-horizontal">					
-						<div class="landing" style="height: 70px;">	
-							<img src="<?=base_url();?>/frontend/images/productblack.png"/><br>
+						<div class="landing">	
+							<img style="height: 80px;" src="<?=base_url();?>/frontend/images/productblack.png"/><br>
 							<span>Product</span>					
 						</div>
 					</a>
 				</div>
 				<div class="col-xs-6">
 					<a href="<?=base_url();?>Landingpage/Flights.html">
-						<div class="landing" style="height: 70px;">						
-							<img src="<?=base_url();?>/frontend/images/flightnew.png"/><br>
+						<div class="landing">						
+							<img style="height: 80px;" src="<?=base_url();?>/frontend/images/flightnew.png"/><br>
 							<span>Flight</span>
 						</div>
 					</a>
 				</div>			
 				<div class="col-xs-6">
 					<a href="<?=base_url();?>Hotel.html">
-						<div class="landing" style="height: 70px;">						
-							<img src="<?=base_url();?>/frontend/images/hotelnew.png"/><br>					
+						<div class="landing">						
+							<img style="height: 80px;" src="<?=base_url();?>/frontend/images/hotelnew.png"/><br>					
 							<span>Hotel</span>					
 						</div>
 					</a>
 				</div>			
 				<div class="col-xs-6">
 					<a href="<?=base_url();?>Landingpage/Deals.html">
-						<div class="landing" style="height: 70px;">							
-							<img src="<?=base_url();?>/frontend/images/deal5.png"/><br>					
+						<div class="landing">							
+							<img style="height: 80px;" src="<?=base_url();?>/frontend/images/deal5.png"/><br>					
 							<span>Deal</span>						
 						</div>
 					</a>
@@ -209,8 +209,8 @@
 			</div>
 			<div class="col-xs-12">
 				<div class="landing ">
-					<div onclick="foodbook()" class="">
-						<img src="<?=base_url();?>/frontend/images/foodbook4.png"/><br>
+					<div onclick="foodbook()">
+						<img style="height: 80px;" src="<?=base_url();?>/frontend/images/foodbook4.png"/><br>
 						<span>Foodbook</span>
 					</div>
 				</div>			

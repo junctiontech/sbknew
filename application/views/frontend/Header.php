@@ -66,7 +66,7 @@
 				<ul class="nav nav-userinfo white navbar-right">				
 					<li>				
 						<a href="javascript:;" title="Download our android app">					
-							<i class="android"></i>				
+							<i class="android"><img src="<?=base_url();?>frontend/images/sprite2.png"></i>				
 							<!--	<span class="badge badge-green">15</span>-->				
 						</a>
 					</li>

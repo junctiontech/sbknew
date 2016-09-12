@@ -768,7 +768,7 @@ class Landingpage extends CI_Controller {
 	public function insertredeemrequet()
 	{
 		$data=array (
-			//'userID'=>$this->input->post('userID'),
+			//'userID'=>$this->input->post('userID'),   
 			'Type'=>$this->input->post('type'),
 			'Number'=>$this->input->post('number'),
 			'Opretor'=>$this->input->post('oprater'),

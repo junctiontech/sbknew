@@ -30,5 +30,5 @@ class Coupon extends CI_Controller
 		$this->Coupon_model->update('s4k_user_redeem_request',array('Status'=>$status),array('redeemRequestID'=>$id));		
 	}
 	 
-}
+} 
 ?>

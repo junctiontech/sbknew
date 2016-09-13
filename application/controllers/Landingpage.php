@@ -582,75 +582,213 @@ class Landingpage extends CI_Controller {
 		$data=array('userPassword'=>$tempCode);	 
 		$this->Landingpage_model->forgetpassword($data,$email);
 		$subject="searchb4kharch:- Rest Password ";
-		$message= "<html><body><h3>Hello: $username </h3><p>Please click in below link and reset your password....<br> Your OTP Code is:- <b>$tempCode</b> <br> Your reset password link is {$base}Login/forgetpassword/$link/$link1.html/ <br><br> if any query so please contact to info@searchb4kharch.com!!  </h3></p><br> </p></body></html>";
+		$message='<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html>
+		<head><META http-equiv="Content-Type" content="text/html; charset=utf-8"/></head>
+		<body>
+<div style="background:#f6f8fa">	
+	<table cellpadding="0" cellspacing="0" style="background:#fff;max-width:600px;width:100%;margin:0px auto;font-family:&#39;Open Sans&#39;,sans-serif;color:#333">
+		<tr>
+			<td style="background:#670099;height:20px"></td>
+		</tr>
+		<tr>
+			<td align="center" style="padding:10px">
+				<table cellpadding="10">
+					<tr>
+						<td><img src="http://www.searchb4kharch.com/frontend/images/pngtransparent%20(2).png" width="200px"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td align="center">
+							<h3 style="margin:10px 0;color:#404040;font-weight:400"><b>“The advantage of a bad memory is that one enjoys several times the same good things for the first time.”</b></h3>
+						</td>
+					</tr>
+					<tr>
+						<td  align="center" style="padding:0 10px;margin:0;font-size:15px;color:#333">
+							<p>
+								Hello '.$username.',
+							</p>
+							<p>
+								Sometimes it’s great to forget old things<br> 
+								as it allows us to make a fresh start<br>
+								to commit the same mistake again. 
+							</p>
+							<p>
+								We are really happy to get a chance to know you again. 
+
+							</p>
+							
+							<p>
+								Please click on the link to reset your password.
+							</p>
+							<p>
+								Your One Time Otp is:- '.$tempCode.' <br>
+								Your Link to Reset Password:- '.$base.'Login/forgetpassword/'.$link.'/'.$link1.'.html/ <br>								
+							</p>
+							<p>
+								Search through android app to earn Rupoints..
+							</p>
+							<p>
+								<b>Don’t be Kharcheela, be Searcheela..</b>
+							</p>
+
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="height:10px"></td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table cellpadding="10">
+					<tr>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/Landingpage/Flights.html" target="_blank"><img src="https://s4.postimg.org/6xfi8ldal/white_flight_1.png" width="70%" style="padding-top:20px"></a>
+							</div>
+						</td>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/Hotel.html" target="_blank"><img src="https://s4.postimg.org/78wylctql/sleepicon8.png" width="70%" style="padding-top:20px"></a>
+							</div>
+						</td>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/" target="_blank"><img src="https://s4.postimg.org/pzyvviob1/products.png" width="70%" style="padding-top:20px"></a>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table cellpadding="10" style="border-bottom:1px solid #ccc">
+					<tr>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/" target="_blank"><img src="https://s4.postimg.org/gblfsdthp/foodbook.png" width="50%" style="padding-top:30px"></a>
+							</div>
+						</td>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/Landingpage/Deals" target="_blank"><img src="https://s4.postimg.org/95p3c6v0t/deals_2.pngDEALS" width="60%" style="padding-top:25px"></a>
+							</div>
+						</td>
+						<td>
+							<div style="background:#670099;border-radius:100%;width:120px;height:120px;text-align:center;line-height:120px;border:5px solid #eee;color:#fff">
+								<a href="http://www.searchb4kharch.com/Landingpage/Product/Accessories.html" target="_blank"><img src="https://s4.postimg.org/iipogayrx/others.pngOTHERS" width="70%" style="padding-top:20px"></a>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="color:#333;font-size:13px">
+				
+											<p>
+								Thanks & Regards,
+							</p>
+							<p>
+								Team SBK
+							</p>
+							
+							<p style="padding:10px;margin:10px">
+								For any support: <a style="font-style:italic;color:#333;text-decoration:none" href="mailto:info@searchb4kharch.com" target="_blank">info@searchb4kharch.com</a>
+							</p>
+							
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="height:10px"></td>
+		</tr>
+		<tr>
+			<td>
+				<table s{$base}Login/forgetpassword/$link/$link1.html/tyle="width:100%;background:#670099;padding:5px 10px">
+					<tr>
+						<td align="left" style="color:#fff">
+							<a style="color:#fff;text-decoration:none" href="'.$base.'Landingpage/Aboutus.html">About us</a> |
+							<a style="color:#fff;text-decoration:none" href="'.$base.'Landingpage/Contactus.html">Contact us</a>
+						</td>
+						<td align="left">
+							
+						</td>
+						<td align="right">
+							<a style="display:inline-block;vertical-align:middle">
+								<img style="width:30px;vertical-align:middle" src="https://s4.postimg.org/a6pc1bc0d/andriodico.png">
+							</a>
+							<a style="display:inline-block;vertical-align:middle" href="https://www.facebook.com/SEARCHB4KHARCH/" target="_blank">
+								<img style="width:30px;vertical-align:middle" src="https://s4.postimg.org/fxfif1k0d/fbico.png">
+							</a>
+							<a style="display:inline-block;vertical-align:middle" href="https://plus.google.com/+Searchb4kharch" target="_blank">
+								<img style="width:30px;vertical-align:middle" src="https://s4.postimg.org/3lh7faljh/gmailico.png">
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div></body></html>';
+	
 		$name='Searchb4kharch.com';
 		date_default_timezone_set('Etc/UTC');
 		require 'PHPMailer/PHPMailerAutoload.php';
-		//Create a new PHPMailer instance
-			$mail = new PHPMailer;			
-			//Tell PHPMailer to use SMTP
-			$mail->isSMTP();			
-			//Enable SMTP debugging
-			// 0 = off (for production use)
-			// 1 = client messages
-			// 2 = client and server messages
-			$mail->SMTPDebug = 0;			
-			//Ask for HTML-friendly debug output
-			$mail->Debugoutput = 'html';
-			
-			//Set the hostname of the mail server
-			$mail->Host = 'smtp.gmail.com';
-			
-			//Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-			$mail->Port = 587;
-			
-			//Set the encryption system to use - ssl (deprecated) or tls
-			$mail->SMTPSecure = 'tls';
-			
-			//Whether to use SMTP authentication
-			$mail->SMTPAuth = true;
-			
-			//Username to use for SMTP authentication - use full email address for gmail
-			$mail->Username = 'searchkharch@gmail.com';
-			
-			//Password to use for SMTP authentication
-			$mail->Password = 'navrang99';
-			
-			//Set who the message is to be sent from
-			$mail->setFrom($email,$name);
-			
-			//Set an alternative reply-to address
-			$mail->addReplyTo('searchkharch@gmail.com', $name);
-			
-			//Set who the message is to be sent to
-			$mail->addAddress($email);
-			
-			//Set the subject line
-			$mail->Subject = $subject;
-			
-			//Read an HTML message body from an external file, convert referenced images to embedded,
-			//convert HTML into a basic plain-text alternative body
-			$mail->msgHTML($message);
-			
-			//Replace the plain text body with one created manually
-			$mail->AltBody = 'This is a plain-text message body';
-			
-			//Attach an image file
-			//$mail->addAttachment($uploadfile,$filename);
-			
-			//send the message, check for errors
-			
-			
-			if (!$mail->send())
-			{
-				print "We encountered an error sending your mail";
-					
-			}
-			else
-			{
-					?><script> alert('Kindly check your email for your OTP code !!!!');</script><?php
-					redirect($_SERVER['HTTP_REFERER'],"refresh");
-			}	
+		//Create a new PHPMailer instance		
+		$mail = new PHPMailer;						
+		//Tell PHPMailer to use SMTP		
+		$mail->isSMTP();						
+		//Enable SMTP debugging			
+		// 0 = off (for production use)		
+		// 1 = client messages		
+		// 2 = client and server messages		
+		$mail->SMTPDebug = 0;						
+		//Ask for HTML-friendly debug output			
+		$mail->Debugoutput = 'html';			
+		//Set the hostname of the mail server			
+		$mail->Host = 'smtp.mailgun.org';			
+		//Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission			
+		$mail->Port = 587;	
+		//Set the encryption system to use - ssl (deprecated) or tls	
+		$mail->SMTPSecure = 'tls';			
+		//Whether to use SMTP authentication		
+		$mail->SMTPAuth = true;		
+		//Username to use for SMTP authentication - use full email address for gmail		
+		$mail->Username = 'postmaster@searchb4kharch.com';		
+		//Password to use for SMTP authentication	
+		$mail->Password = 'a5d7a6b8855cc8356a9542118ce866db';		
+		//Set who the message is to be sent from		
+		$mail->setFrom('support@searchb4kharch.com','');		
+		//Set an alternative reply-to address		
+		$mail->addReplyTo('support@searchb4kharch.com','');			
+		//Set who the message is to be sent to	
+		$mail->addAddress($email);		
+		//Set the subject line	
+		$mail->Subject = $subject;		
+		//Read an HTML message body from an external file, convert referenced images to embedded,	
+		//convert HTML into a basic plain-text alternative body			
+		$mail->msgHTML($message);		
+		//Replace the plain text body with one created manually			
+		$mail->AltBody = 'This is a plain-text message body';		
+		//Attach an image file		
+		//$mail->addAttachment($uploadfile,$filename);		
+		//send the message, check for errors		
+		if (!$mail->send())		
+		{			
+			print "We encountered an error sending your mail";		
+		}			
+		else			
+		{					
+			?><script> alert('Kindly check your email for your OTP code !!!!');</script><?php					
+			redirect($_SERVER['HTTP_REFERER'],"refresh");			
+		}	
 	}
 	
 	public function Aboutus()

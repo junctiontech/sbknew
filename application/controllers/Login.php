@@ -401,7 +401,7 @@ class Login extends CI_Controller {
 						$name1 = md5($userFirstName);				
 						$base=base_url ();				
 						$subject="searchb4kharch:- Activated your Account ";				
-						$message= '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
+						$message= '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"/></head><body>
 <div style="background:#f6f8fa">
 	<table cellpadding="0" cellspacing="0" style="background:#fff;max-width:600px;width:100%;margin:0px auto;font-family:&#39;Open Sans&#39;,sans-serif;color:#333">
 		<tr>
@@ -764,7 +764,7 @@ to get the info about food & restaurant
 				$this->session->set_flashdata('category_error_login', "Username Or Password is invalid, please try again.");
 			}
 		 
-				redirect("Login");
+				redirect("Landingpage");
 		}
 		 	
 	}

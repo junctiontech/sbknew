@@ -35,7 +35,7 @@
 							</thead>			
 							<tbody>
 								<tr>
-									<td>Link :- Coupon</td>
+									<td>Link :- base_url();/landingpage/coupon</td>
 									<td>Status</td>
 									<td>Created On / Expire On</td> 									 
 								</tr>								

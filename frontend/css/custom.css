@@ -234,7 +234,7 @@ ol,ul{list-style:none;margin:0;padding:0;}
 .heading h3{
 	font-family: 'Monda', sans-serif;
 	font-size:22px;
-	color:#fa0000;
+	color:#fff;
 	text-transform:uppercase;
 }
 .content_top{
@@ -410,7 +410,7 @@ ol,ul{list-style:none;margin:0;padding:0;}
 .back-links{
 	float:left;
 	padding-top:5px;
-	width:20%;
+	width:50%;
 }
 .page-no {
     float: right;
@@ -898,13 +898,19 @@ margin:-21px !important;
 	.flighthedden{display:block !important;}		
 	.col-xs-0{display:none !important;}
 	.filter{display:block !important; margin-top:20px;}
-	.delas_hedden {  
-		margin-bottom: 30px;  
-		display: inline-block !important;   
-		margin-left: 0px !important;   
-		position: fixed;  
-	/*	top: 33%;  */
+
+		.delas_hedden{
+		margin-bottom:30px;
+		display:inline-block !important;
+		margin-left:0px !important; 
+		position: fixed;
+		top: 28%;
 		z-index: 101;
+		left:-30px;
+	}
+	.panel {
+    
+    background-color:transparent;
 	}
 		.sidenav  {
     height: 100%;
@@ -973,7 +979,7 @@ margin:-21px !important;
 	.images_1_of_4{
 		width:48%;
 		margin-right: 7px;
-		height: 230px;
+		height: 265px;
 	}
 	.deal_1_of_3{
 		width:94%;
@@ -1313,7 +1319,7 @@ margin:-21px !important;
 		display:inline-block !important;
 		margin-left:0px !important; 
 		position: fixed;
-		/*top: 36%;*/
+		top: 25%;
 		z-index: 101;
 		left:-30px;
 	}
@@ -1343,7 +1349,7 @@ margin:-21px !important;
 }
 .copy_right{
 	text-align:center;
-	padding:15px 0;
+	padding:11px 0;
  }
  .copy_right p{
 	font-size:12px;
@@ -1749,6 +1755,15 @@ top: -5px;
     display: inline-block;
     transition: all 700ms ease-out 0s;
 }
+.BuyingGuide{		
+	margin: 0px 0px -7px 0px;
+    padding: 0;
+    width: 28px;
+    height: 25px;  
+	float: left;
+    display: inline-block;
+	transition: all 700ms ease-out 0s;
+}
 .comepare_bgc{
  background:transparent;
 }
@@ -1823,3 +1838,5 @@ margin: 2px;
 top: 5px;
 margin-bottom: 10px;
 border-radius: 6px;}
+.panel-heding{padding: 15px 15px 15px 15px !important;background:#670099 !important;color:#fff !important;}
+.marker{list-style-type: square;margin-left: 50px;line-height: 25px;}

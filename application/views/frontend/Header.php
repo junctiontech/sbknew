@@ -64,6 +64,15 @@
 					</li>	
 				</ul>	
 				<ul class="nav nav-userinfo white navbar-right">				
+					<li class="hidden-xs">
+						<a href="<?=base_url();?>Landingpage/BuyingGuide.html" title="Buying Guide">
+							<i class="BuyingGuide"><img src="<?=base_url();?>/frontend/images/buying.png"/>
+							</i>
+						</a>
+						
+					</li>
+					
+					
 					<li>				
 						<a href="javascript:;" title="Download our android app">					
 							<i class="android"><img src="<?=base_url();?>frontend/images/sprite2.png"></i>				

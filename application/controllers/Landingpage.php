@@ -885,8 +885,7 @@ class Landingpage extends CI_Controller {
 		
 	public function coupon ()
 	{
-		$this->data['Status']=$this->Landingpage_model->get_states('s4k_state');
-		//print_r($this->data['Status']);die;
+		$this->data['Status']=$this->Landingpage_model->get_states('s4k_state');		 
 		$this->parser->parse('frontend/Header',$this->data);
 		$this->parser->parse('frontend/getcoupon',$this->data);
 		$this->parser->parse('frontend/Footer',$this->data);
@@ -917,5 +916,36 @@ class Landingpage extends CI_Controller {
 		$this->session->set_flashdata('message_type', 'success');			
 		$this->session->set_flashdata('message', $this->config->item("Landingpage") . "You Have Successfully !!");			
 		redirect ('Landingpage');
+	}
+	
+	public function BuyingGuide ()
+	{
+		$this->parser->parse('frontend/Header',$this->data);
+		$this->parser->parse('frontend/BuyingGuide',$this->data);
+		$this->parser->parse('frontend/Footer',$this->data);	
+		
+	}
+	public function check_wish_list($app=false)
+	{
+		 if($app==true){
+		 
+			 if($this->input->post('userID') && $this->input->post('productID'))
+			 {
+				$mywishlist=$this->Landingpage_model->checkwishlist('s4k_user_wishlist',array('userID'=>$this->input->post('userID'), 'productID'=>$this->input->post('productID')));
+				 if(!empty($mywishlist)){
+					 
+					 					
+						echo json_decode(array('code'=>200,'message'=>'true'));			
+						exit;
+				 }
+				 else{
+					 
+					 echo json_decode(array('code'=>300, 'massage'=>'false'));	
+					 exit;
+					 
+				 }
+			 }
+		 
+		 }
 	}
 }

@@ -400,7 +400,17 @@ class Landingpage_model extends CI_Model {
 	{
 		$this->db->insert($table,$data);		
 	}
-	
+	public function checkwishlist($table=false, $where=false)
+	{
+		$this->db->select('userWishListID');
+		$this->db->from($table);
+		$this->db->where($where);
+		$query=$this->db->get();
+		return $query->result();
+		
+		
+		
+	}
 }
 
 ?>

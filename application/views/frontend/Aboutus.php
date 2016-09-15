@@ -130,39 +130,66 @@
 				</div>
 				<div class=" "><p class="lineheight"><b>And in the last presenting our</b><br> 
 					<b> Actors:</b>  <br></p>
-		<div class="col-md-12 col-sm-12 col-xs-12" align="center">
-			<div class="aboutuslogo">						
-				<img src="<?=base_url();?>frontend/images/amazon.jpg"/>					
+	
+					<div class="col-md-12 col-sm-12 col-xs-12 hidden-xs" align="center">
+			<div class="aboutuslogo">
+				<a target="_blank" href="http://www.amazon.in/b/?ie=UTF8&node=5331319031&rw_useCurrentProtocol=1&tag=seab4kha-21">				
+					<img src="<?=base_url();?>frontend/images/amazon.jpg"/>	
+				</a>
 			</div>					
-			<div class="aboutuslogo" style=" "> 					
-				<img src="<?=base_url();?>frontend/images/cb2852.jpg"/>			
+			<div class="aboutuslogo">
+				<a target="_blank" href="https://dl.flipkart.com/dl/womens-clothing/ethnic-wear/pr?q=apparel&affid=searchkha&sid=2oq,c1r,3pj">				
+					<img src="<?=base_url();?>frontend/images/cb2852.jpg"/>	
+				</a>
 			</div>				
-			<div class="aboutuslogo" >				
-				<img src="<?=base_url();?>frontend/images/rsz_snapdeal_new.jpg"/>				
+			<div class="aboutuslogo" >	
+				<a target="_blank" href="https://www.snapdeal.com/products/men-apparel-shirts?sort=plrty&utm_source=aff_prog&utm_campaign=afts&offer_id=17&aff_id=101593">		
+					<img src="<?=base_url();?>frontend/images/rsz_snapdeal_new.jpg"/>
+				</a>
 			</div>			 
-			<div class="aboutuslogo" >						
-				<img src="<?=base_url();?>frontend/images/eway-logo-1.png"/>
+			<div class="aboutuslogo" >	
+				<a target="_blank" href="https://linksredirect.com/?pub_id=13404CL12128&url=http%3A//www.ebay.in/">
+					<img src="<?=base_url();?>frontend/images/eway-logo-1.png"/>
+				</a>
 			</div> 
 			<div class="aboutuslogo" >
-				<img src="<?=base_url();?>frontend/images/shopclues_store.png"/>
+				<a target="_blank" href="https://linksredirect.com/?pub_id=13404CL12128&url=http%3A//www.shopclues.com/">
+				
+					<img src="<?=base_url();?>frontend/images/shopclues_store.png"/>
+				</a>
 			</div>
 			<div class="aboutuslogo" >
-				<img src="<?=base_url();?>frontend/images/Zomato.png"/>
+				<a target="_blank" href="https://linksredirect.com/?pub_id=13404CL12128&url=https%3A//paytm.com/shop">
+				<!--<img src="<?=base_url();?>frontend/images/Zomato.png"/>-->				
+					<img src="<?=base_url();?>frontend/images/Paytm.png"/>
+				</a>
 			</div>
 			<div class="aboutuslogo">
-				<img src="<?=base_url();?>frontend/images/infibeam.png"/>
+				<a target="_blank" href="http://www.infibeam.com/Mobiles?trackId=searc">				
+					<img src="<?=base_url();?>frontend/images/infibeam.png"/>
+				</a>
 			</div>
 			<div class="aboutuslogo">
-				<img src="<?=base_url();?>frontend/images/limeroad.resized.png"/>
+				<a target="_blank" href="https://linksredirect.com/?pub_id=13404CL12128&url=http%3A//www.limeroad.com">
+				
+					<img src="<?=base_url();?>frontend/images/limeroad.resized.png"/>
+				</a>
 			</div>
 			<div class="aboutuslogo">
-				<img src="<?=base_url();?>frontend/images/home-shop-18.png"/>
+				<a target="_blank" href="https://linksredirect.com/?pub_id=13404CL12128&url=http%3A//www.homeshop18.com/">
+					<img src="<?=base_url();?>frontend/images/home-shop-18.png"/>
+				</a>
 			</div>
 			<div class="aboutuslogo">
-				<img src="<?=base_url();?>frontend/images/jabong1.png"/>
+				<a target="_blank" href="https://linksredirect.com/?pub_id=13404CL12128&url=http%3A//www.jabong.com/">
+					<img src="<?=base_url();?>frontend/images/jabong1.png"/>
+				</a>
 			</div>
 			<div class="aboutuslogo">
-				<img src="<?=base_url();?>frontend/images/coolwinks_fpezt4.png"/>
+				<a target="_blank" href="https://linksredirect.com/?pub_id=13404CL12128&url=https%3A//www.coolwinks.com/">
+
+					<img src="<?=base_url();?>frontend/images/coolwinks_fpezt4.png"/>
+				</a>
 			</div>
 			
 			

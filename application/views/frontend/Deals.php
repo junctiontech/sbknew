@@ -1,88 +1,116 @@
-
 <div class="page-container">
 	<div class="sidebar-menu toggle-others fixed">
-		<div class="sidebar-menu-inner">
-        
-			<div class="col-xs-0">
-		    <div class="to_do black">		
-					<div style="font-weight: bold; padding: 10px;">Top Deals</div>
-                        <?php if(!empty($dealsgategorys)){ ?>
-							<ul id="main-menu" class="main-menu">
-<?php	foreach($dealsgategorys as $dealsgategory){?>
+		<div class="sidebar-menu-inner">	
+			<div class="col-xs-0">		    
+				<div class="to_do black">				
+					<div style="font-weight: bold; padding: 10px;">Top Deals</div>                      
+					<?php if(!empty($dealsgategorys)){ ?>							
+					<ul id="main-menu" class="main-menu">
+<?php	foreach($dealsgategorys as $dealsgategory){?>					
+						
+						<li>                           
+							
+							<a href="<?=base_url();?>Landingpage/Deals/<?=str_replace(' ','_',$dealsgategory->category)?>.html"><?=ucwords($dealsgategory->category)?></a>    
 						<li>
-                            <a href="<?=base_url();?>Landingpage/Deals/<?=str_replace(' ','_',$dealsgategory->category)?>.html"><?=ucwords($dealsgategory->category)?></a>
-                   <li>
 						<?php } ?>
-</ul>
-<?php } ?>                                        
-			</div>
-			</div>
-		 
-		</div>
-		 
-	</div>
-	<div class="delas_hedden">
-		<div class="panel panel-default collapsed"><!-- Add class "collapsed" to minimize the panel -->							
-							<div class="panel-options">								
-								<a href="#" data-toggle="panel">
-									<span class="btn btn-success collapse-icon">Top Deals</span>						 
-								</a>								
-							</div>												
-						<div class="panel-body colspandeal">
-							<div class="scrollable ps-container ps-active-y">
-									<?php if(!empty($dealsgategorys)){foreach($dealsgategorys as $dealsgategory){?>
-						<div class="deal_htr">
-                            <a href="<?=base_url();?>Landingpage/Deals/<?=str_replace(' ','_',$dealsgategory->category)?>.html"><?=ucwords($dealsgategory->category)?></a>
-                    </div>
-						<?php } } ?>  		
-						</div>
-			</div>
-					</div>	<div class="clear"></div>	
-			</div>
-	<div class="main-content">
-	<div class="page-loading-overlay">
-				<div class="loader-2"><img src="<?=base_url();?>frontend/images/search-animated-icon.gif" style="width:200px;height:200px"></div>
-			</div>
-	<div class="col-md-10 col-sm-10 col-xs-12 pageno-fixed">
-			 
-				<div class="page-no" style="margin-top:0%">
-    			<?php if (!empty($totalresult)) { ?>
-					<p>Total Result:<?php echo isset($totalresult)?$totalresult:'';?> </p><?php if(!empty($pagination)) { ?><p>Result Pages:<?php echo isset($pagination)?$pagination:'';?></p><?php } ?>
-    			<?php } ?>
+					</ul>
+					<?php } ?> 
 				</div>
-      
+			</div>
+		</div>
+	</div>
+	<div class="main-content">	
+		<div class="page-loading-overlay">		
+			<div class="loader-2"><img src="<?=base_url();?>frontend/images/search-animated-icon.gif" style="width:200px;height:200px"></div>			
+		</div>			
+		<div class="delas_hedden">
+			<div class="panel panel-default collapsed"><!-- Add class "collapsed" to minimize the panel -->	
+				<div class="panel-options">	
+					<a href="#" data-toggle="panel">					
+						<span class="btn btn-success collapse-icon">Top Deals</span>				
+					</a>			
+				</div>	
+				<div class="panel-body colspandeal">
+					<div class="scrollable ps-container ps-active-y">				
+						<?php if(!empty($dealsgategorys)){foreach($dealsgategorys as $dealsgategory){?>			
+						<div class="deal_htr">
+							<a href="<?=base_url();?>Landingpage/Deals/<?=str_replace(' ','_',$dealsgategory->category)?>.html"><?=ucwords($dealsgategory->category)?></a>	
+						</div>
+						<?php } } ?>  
+					</div>
+				</div>
 			</div>		
+			<div class="clear"></div>		
+		</div>		
+		<div class="col-md-10 col-sm-10 col-xs-12 pageno-fixed">
+			 
+				
+			<div class="page-no" style="margin-top:0%">
+    			
+				<?php if (!empty($totalresult)) { ?>
+				
+				<p>Total Result:<?php echo isset($totalresult)?$totalresult:'';?> </p><?php if(!empty($pagination)) { ?><p>Result Pages:<?php echo isset($pagination)?$pagination:'';?></p><?php } ?>
+    			
+				<?php } ?>
+				
+			</div>
+      
+			
+		</div>		
 		
 			
+		
 		<div class="col-md-12 col-sm-12 col-xs-12" style=margin-top:2%;>
-		 <?php if(!empty($dealsdata))
+		
+			<?php if(!empty($dealsdata)){ foreach($dealsdata as $deal){?>
+				
+			<div class="grid_1_of_4 deal_1_of_3">
 					
-				{ foreach($dealsdata as $deal){?>
-				<div class="grid_1_of_4 deal_1_of_3">
-					<div><img src="<?=$deal->url;?>" alt="" /> </div>
-					<!-- <p class="deal"><?=$deal->offer_name;?>+<?=$deal->coupon_description;?>+<?=$deal->coupon_title;?></p>
+				<div><img src="<?=$deal->url;?>" alt="" /> </div>
+					
+				<!-- <p class="deal"><?=$deal->offer_name;?>+<?=$deal->coupon_description;?>+<?=$deal->coupon_title;?></p>
 					 <p class="deal_coupon"><a onclick="window.open('<?=$deal->link;?>','_blank');" href="javascript:;">View More</a></p>-->							 
-					 <p class="deal_coupon">Coupn Code : <?=$deal->coupon_code;?></p>
-					<!--<div class="deal_coupon"><small>Coupon Expiry : <?=$deal->coupon_expiry;?></small><Small>added : <?=$deal->added;?></small></div>-->
-					<a onclick="window.open('<?=$deal->link;?>','_blank');" style="color:white;" href="javascript:;" class=""><div class="btn btn-round btn-success deal"><span>Get Deal</span></div></a>
-				</div>	
-			
-		  <?php } } else { ?>
-		  <div class="clear"></div>
-			 <div class="col-md-6 col-sm-6 col-xs-12">
-		   <!-- FlexSlider -->
-              <section class="slider">
-				  <div class="flexslider">
-					<ul class="slides">
 					
-					<?php //if(!empty($deals)){ foreach($deals as $deal){ 
+				<p class="deal_coupon">Coupn Code : <?=$deal->coupon_code;?></p>
+					<!--<div class="deal_coupon"><small>Coupon Expiry : <?=$deal->coupon_expiry;?></small><Small>added : <?=$deal->added;?></small></div>-->
+					
+				<a onclick="window.open('<?=$deal->link;?>','_blank');" style="color:white;" href="javascript:;" class="">
+					<div class="btn btn-round btn-success deal">
+						<span>Get Deal</span>
+					</div>
+				</a>
+				
+			</div>	
+			
+		 
+			<?php } } else { ?>
+		 
+			<div class="clear"></div>
+			
+			
+			<div class="col-md-6 col-sm-6 col-xs-12">
+		   <!-- FlexSlider -->
+             
+				<section class="slider">
+				 
+					<div class="flexslider">
+					
+						<ul class="slides">
+					
+					
+							<?php //if(!empty($deals)){ foreach($deals as $deal){ 
 					$i1=''; for($start1=0;$start1<=15;$start1++){ ?>
-						<li >
 						
-						<!-- Javascript Ad Tag: 1214 -->
-						<div id="icubes1214GHHBFx<?=$i1?>"></div>
-						<script src="http://tracking.icubeswire.com/aff_ad?campaign_id=1214&aff_id=14151&format=javascript&format=js&divid=icubes1214GHHBFx<?=$i1?>" type="text/javascript"></script>
-						<noscript><iframe src="http://tracking.icubeswire.com/aff_ad?campaign_id=1214&aff_id=14151&format=javascript&format=iframe" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" width="300" height="250"></iframe></noscript>
+							<li >
+						
+						
+								<!-- Javascript Ad Tag: 1214 -->
+						
+								<div id="icubes1214GHHBFx<?=$i1?>"></div>
+						
+								<script src="http://tracking.icubeswire.com/aff_ad?campaign_id=1214&aff_id=14151&format=javascript&format=js&divid=icubes1214GHHBFx<?=$i1?>" type="text/javascript"></script>
+						
+								<noscript><iframe src="http://tracking.icubeswire.com/aff_ad?campaign_id=1214&aff_id=14151&format=javascript&format=iframe" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" width="300" height="250"></iframe></noscript>
 						<!-- // End Ad Tag -->
 						
 							
@@ -93,7 +121,13 @@
 				  </div>
 	      </section>
 <!-- FlexSlider -->
+				
+			<iframe width='600' height='600' frameborder='0' scrolling='no' src='http://www.cuelinks.com/widgets/8800?pub_id=13404CL12128'></iframe>
+
+
 	    </div>
+			
+			
 			 <div class="col-md-6 col-sm-6 col-xs-12">
 		   <!-- FlexSlider Secound -->
               <section class="slider">
@@ -116,6 +150,9 @@
 				  </div>
 	      </section>
 <!-- FlexSlider -->
+				 
+				 
+				<iframe width='600' height='600' frameborder='0' scrolling='no' src='http://www.cuelinks.com/widgets/8799?pub_id=13404CL12128'></iframe>
 	    </div>		
 
  

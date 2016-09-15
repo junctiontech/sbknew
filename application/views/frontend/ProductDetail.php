@@ -149,10 +149,13 @@
 													<?php if(!empty($similarproduct)){ foreach($similarproduct as $similarproducted){?>												 
 													<td>  <div class="section group">								
 														<a target="_blank" href="<?=base_url();?>Landingpage/Product/p/<?=$similarproducted['product_sub_cate']?>/<?=$similarproducted['product_id']?>/<?=str_replace(' ', '_',$similarproducted['product_title'])?>.html">								
-															<div class="grid_1_of_4 images_1_of_4 imageswidth">									
-																<img src="<?=$similarproducted['product_image']?>" alt="" />	
+															<div class="grid_1_of_4 images_1_of_4 imageswidth">	
+																<div class="imageheightfix">																
+																	<img src="<?=$similarproducted['product_image']?>" alt="" />
+																</div>
 																<h2><?=$similarproducted['product_title']?> </h2>										
 																<p>										
+																	
 																	<span class="price">			
 						<?php if($similarproducted['product_lowest_price'] && $similarproducted['product_lowest_price'] !=0){?>Rs.            
 						<?=number_format($similarproducted['product_lowest_price'],2)?><?php }else{ echo"coming soon"; }?>           

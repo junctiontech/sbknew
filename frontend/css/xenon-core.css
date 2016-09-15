@@ -2994,7 +2994,7 @@ body.chat-open #chat {
 }
 @media screen and (max-width: 768px) {
   .page-container {
-    display: block;
+    display: table;
   }
   .page-container .sidebar-menu,
   .page-container .main-content {

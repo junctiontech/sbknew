@@ -46,8 +46,11 @@ class User extends CI_Controller {
 	}
 	
 	public function AddToWishList($productID=false)
-	{				print_r($_POST); echo"<br>";
-					 print_r($_GET);die;
+	{	print_r($_POST); echo "<br>";
+	 print_r($_GET);die;
+		$app=$this->input->get('app');
+		$user_id=$this->input->post('user_id');
+		if(!empty($user_id)){
 			$userID=$user_id;	
 		}else{
 			$userID=$this->userinfos['userID'];	

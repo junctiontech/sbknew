@@ -55,7 +55,7 @@ class Landingpage extends CI_Controller {
 		}
 	   }
 		if($app==true){					 
-			echo json_encode($data);
+			echo json_encode(array('data'=>$data));
 		}else{
 		$lshproduct=$this->call_api('categorysearch',"category=$lshproductcategory");
 		$this->data['lshproduct']=$lshproduct['data'];

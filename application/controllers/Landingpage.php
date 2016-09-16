@@ -30,18 +30,38 @@ class Landingpage extends CI_Controller {
 	}
 	public function index(){
 		$app=$this->input->get('app');
-		$this->data['lsh_data']=$lsh_data=array('ls'=>8,'lsheading'=>"Top Mobiles",'category'=>'mobiles');
-		$this->data['feature_data']=$feature_data=array('fs'=>8,'fsheading'=>"Top laptops",'category'=>'laptops');
-		$this->data['new_data']=$new_data=array('ns'=>8,'nsheading'=>"Top Tvs",'category'=>'tv');
-		if($app==true){
-			$data=array($lsh_data,$feature_data,$new_data);
-			echo json_encode(array('data'=>$data));
+		$query=$this->Landingpage_model->landingpage_product();
+	if(!empty($query)){
+		$lshproductcategory="";$featureproductcategory="";$newproductcategory="";$data=array();
+		foreach($query as $dt){
+			if($dt->inventoryName =='LHS Landing page')
+			{	
+				$lshproductcategory=$dt->categoryName;			
+				$this->data['lsh_data']=$lsh_data=array('ls'=>$dt->quantity,'lsheading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);			
+				$data[]=array('count'=>$dt->quantity,'heading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);
+			}
+			if($dt->inventoryName =='Feature Product')
+			{	
+				$featureproductcategory=$dt->categoryName;
+				$this->data['feature_data']=$feature_data=array('fs'=>$dt->quantity,'fsheading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);
+				$data[]=array('count'=>$dt->quantity,'heading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);
+			}
+			if($dt->inventoryName =='New Product')
+			{	
+				$newproductcategory=$dt->categoryName;
+				$this->data['new_data']=$new_data=array('ns'=>$dt->quantity,'nsheading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);
+				$data[]=array('count'=>$dt->quantity,'heading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);
+			}
+		}
+	   }
+		if($app==true){					 
+			echo json_encode($data);
 		}else{
-		$lshproduct=$this->call_api('categorysearch',"category=mobiles");
+		$lshproduct=$this->call_api('categorysearch',"category=$lshproductcategory");
 		$this->data['lshproduct']=$lshproduct['data'];
-		$featureproduct=$this->call_api('categorysearch',"category=laptops");
+		$featureproduct=$this->call_api('categorysearch',"category=$featureproductcategory");
 		$this->data['featureproduct']=$featureproduct['data'];
-		$newproduct=$this->call_api('categorysearch',"category=tv");
+		$newproduct=$this->call_api('categorysearch',"category=$newproductcategory");
 		$this->data['newproduct']=$newproduct['data'];
 		$this->display ('frontend/Landingpage');
 		}

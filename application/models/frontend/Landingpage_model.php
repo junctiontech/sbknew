@@ -408,6 +408,15 @@ class Landingpage_model extends CI_Model {
 		$query=$this->db->get();
 		return $query->result();
 	}
+	public function landingpage_product()
+	{
+	
+		$query=$this->db->get('s4k_landingpage_product');
+		return $query->result();
+		
+		
+		
+	}
 }
 
 ?>

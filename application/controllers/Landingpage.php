@@ -946,6 +946,10 @@ class Landingpage extends CI_Controller {
 				 }
 			 }
 		 
+		 }else{
+		 
+		 		echo"invalid request";
+		 
 		 }
 	}
 }

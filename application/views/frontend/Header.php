@@ -66,7 +66,7 @@
 				<ul class="nav nav-userinfo white navbar-right">				
 					<li class="hidden-xs">
 						<a href="<?=base_url();?>Landingpage/BuyingGuide.html" title="Buying Guide">
-							<i class="BuyingGuide"><img src="<?=base_url();?>/frontend/images/buying.png"/>
+							<i class="BuyingGuide"><img src="<?=base_url();?>/frontend/images/buyingguide.png"/>
 							</i>
 						</a>
 						

@@ -379,7 +379,7 @@
 		  <?php if($fs==$feature_data['fs']){break;} } }else{ echo"No product Found!!";}?>	
 		</div>		
 		
-		<!---------------------------------- ads start------------------------------>
+		<!---------------------------------- ads start---------------------------- 
 		
 		<div class="hidden-xs">	
 			<div class="col-md-6">
@@ -434,7 +434,7 @@
 				
 		  <?php if($ns==$new_data['ns']){break;} } }else{ echo"No product Found!!";}?>			
 		</div>	
-		<!-------------------------------------ads start ----------------------------------------->
+		<!-------------------------------------ads start --------------------------- 
 		<div class="hidden-xs">		
 			<div class="col-md-6">
 			

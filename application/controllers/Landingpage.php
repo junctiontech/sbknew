@@ -28,11 +28,15 @@ class Landingpage extends CI_Controller {
 		$this->load->view($template_file, $this->data);
 		$this->parser->parse('frontend/Footer',$this->data);
 	}
-
 	public function index(){
-		$this->data['lsh_data']=array('ls'=>8,'lsheading'=>"Top Mobiles");
-		$this->data['feature_data']=array('fs'=>8,'fsheading'=>"Top laptops");
-		$this->data['new_data']=array('ns'=>8,'nsheading'=>"Top Tvs");
+		$app=$this->input->get('app');
+		$this->data['lsh_data']=$lsh_data=array('ls'=>8,'lsheading'=>"Top Mobiles",'category'=>'mobiles');
+		$this->data['feature_data']=$feature_data=array('fs'=>8,'fsheading'=>"Top laptops",'category'=>'laptops');
+		$this->data['new_data']=$new_data=array('ns'=>8,'nsheading'=>"Top Tvs",'category'=>'tv');
+		if($app==true){
+			$data=array($lsh_data,$feature_data,$new_data);
+			echo json_encode(array('data'=>$data));
+		}else{
 		$lshproduct=$this->call_api('categorysearch',"category=mobiles");
 		$this->data['lshproduct']=$lshproduct['data'];
 		$featureproduct=$this->call_api('categorysearch',"category=laptops");
@@ -40,8 +44,8 @@ class Landingpage extends CI_Controller {
 		$newproduct=$this->call_api('categorysearch',"category=tv");
 		$this->data['newproduct']=$newproduct['data'];
 		$this->display ('frontend/Landingpage');
+		}
 	}
-	
 	public function Product($action=false,$category=false,$product=false){
 		$this->data['searchq']=$searchq=$this->input->Get('q');
 		$this->data['searchc']=$searchc=$this->input->Get('c');

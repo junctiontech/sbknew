@@ -100,7 +100,7 @@
 									</a>
 								</h4>
 							</div>
-							<div id="collapseOne" class="panel-collapse collapse in">
+							<div id="collapseOne" class="panel-collapse collapse">
 								<div class="panel-body">
 									<p><b>A tablet for all..</b></p>
 									
@@ -139,13 +139,24 @@ best suited. iPad has 8 inch screen. Medium sized tablets (with size 8.9 to 10.1
 inches) have better screen resolution and larger screens than 7-inch tablets.
 They are best suited for watching movies and doing office work. Very few
 tablets have screen size more than 10.1 inch (they are also called hybrids) and
-serve the purpose somewhere between tablet and PC.								
-											
+serve the purpose somewhere between tablet and PC.										
 										</li>
-										
-										
-										
-									</ul><br>
+										<li>Storage : Tablets require storage space for all purposes, whether it is for storing
+games, movies or any text document. Minimum storage space available is 8 GB.
+As and when storage capacity increses, price also increases . Additional microSD
+slot is available in almost all tablets except in iPad and can be expanded further
+as well.	
+										</li>
+									</ul>
+									
+									<p>If you want to work on the tablet, then opt for Windows8 tablet as it is more
+user-friendly. For typing and watching movies, choose lighter and portable small-sizedtablets. We have vast collection of tablets of all popular and reputed brands like Acer,
+Sony, Dell, Apple, Lenovo, HP, HCl, Samsung, Toshiba, Asus, Micromax, Karbonn, to
+										name a few.</p>
+									
+									
+									
+									<br>
 									
 									
 									
@@ -157,13 +168,64 @@ serve the purpose somewhere between tablet and PC.
 							<div class="panel-heading panel-heding">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseTwo">
-										Collapsible Group Item #2
+										LAPTOPS
 									</a>
 								</h4>
 							</div>
 							<div id="collapseTwo" class="panel-collapse collapse">
 								<div class="panel-body">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									<p><b>Laptop Buying guide</b></p><br>
+									
+									<p>A laptop is a portable and handy personal computer which has a display screen and
+keyboard and is battery powered. Its size is even smaller than a briefcase and is
+majorly used during travelling. Selecting the right laptop suiting your requirement is a
+very challenging task.</p><br>
+									<p>You should identify the purpose of buying a laptop, whether it is for business, gaming
+										or for web browsing.</p><br>
+									
+									<ul class="marker2">
+										<li><b>Gaming Laptops :</b> ​ Gaming laptops should have high resolution display, large
+											RAM and good processing power to give user a rich gaming experience.</li>
+										
+										<li><b>Business Laptops :</b> ​ For business purpose, you need rugged and easy to carry
+laptops with good features, updated Intel Core i5 processors, excellent battery
+life and lot of connectivity options. Apple Macbook Pro, Dell Latitude, Lenovo
+Thinkpad series, Toshiba Kirabook, HP Elitebook and HP Ultrabook are suitable
+											for travellers.</li>
+										<li><b>Family Laptops :</b>​ These types of laptops are basically, suitable for whole family
+and are perfect for daily and basic activities like web browsing, sharing pictures,doing homework, emailing, writing word documents and playing basic games.
+Look out for medium-priced laptop with decent features.</li>
+										<li>Here is the list of specifications to be considered while buying a good laptop :
+											<ul class="marker2">
+												<li><b>RAM (Random Access Memory) :</b>​ RAM is one of the foremost thing to be
+considered while selecting a laptop. More RAM leads to efficient working of
+various tasks simultaneously. For video editing, image changes and 3D gaming,
+at least 4 GB RAM is required for smooth working experience. 2 GB RAM can
+only satisfy your basic needs like internet surfing, normal office works, emailing.
+For professional users, one should go for 8GB RAM in case of 3D/2D graphic
+designing and more.</li>
+												<li><b>CPU Processor :</b> ​ Always go for latest and updated version of processor with
+higher speed for better performance of computer. More the number of cores in
+the processor, smoother and better is the performance of laptop.
+												</li>
+												<li><b>Display Screen:</b> ​ Good quality screen is always advisable for better viewing.
+Smaller screen sized laptop is very portable and easy to carry. 14 inch-16 inch
+size is very good enough for all purposes. If you have higher resolution works,
+then go for bigger sized screens like 17 inch or more.</li>
+												
+												<li><b>Storage:</b>​ Go for at least 500GB to 750GB of disk space, considering the user’s
+work requirement. For gaming purposes, you should opt for high storage
+spaces like 8GB or more as games require lot of disk space.
+												</li>
+												<li><b>Brand :</b> ​ While choosing a laptop, go for good reputed brand manufacturers like
+Lenovo, HP, Compaq, Asus, Acer, Apple, HCL, Samsung, Sony, Toshiba or Dell.
+													They provide good service and quality.</li>
+												
+											</ul>
+											
+										</li>
+									</ul>
+									
 								</div>
 							</div>
 						</div>
@@ -172,13 +234,138 @@ serve the purpose somewhere between tablet and PC.
 							<div class="panel-heading panel-heding">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseThree" class="collapsed">
-										Collapsible Group Item #3
+										MOBILES
 									</a>
 								</h4>
 							</div>
 							<div id="collapseThree" class="panel-collapse collapse">
 								<div class="panel-body">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									<p><b>Best Priced Mobile Phone</b></p> <br>
+									<p>With availability of so many choices of mobile phones in same budget has made it
+really difficult for the buyers to choose the right mobile phone. These options make
+selection very difficult. Buyers either get confused with the features or lucrative prices
+of different brands. Just type the term 'mobile phone in Rs.10,000 price range' and you
+will be bombarded with the numerous choices from same or different brands. The
+best technique to choose right mobile phone from the large options is to compare
+different phones for features, prices and guarantee. You should also define the
+										preferences before comparing mobile phones.</p><br>
+									
+									<p>With the technological advancements, mobile phone companies have filled the market
+with abundant models with different features. So, the mobile analysis task starts with
+the need recognition. Some people give preference to simple handsets while some like
+trendy mobile phones with advanced features like high mega pixel camera, more
+										memory, 4G net connectivity etc.</p><br>
+									
+									<p><b>Major factors to check before deciding on any particular brand or model are:</b></p><br>
+									<ul class="marker2">
+										<li><b>Operating System :</b> ​ There are three main operating platforms to choose from -
+Windows, iOS and Android. iOS operating system is developed by Apple and
+their phones are costliest of all three. iOS provides smooth operation of Apple
+phones , providing ample options of downloaded apps from itunes store.Android OS is more customizable (in terms of widgets, lock screen and apps)
+and provides open source platform where even third party developers can
+create apps and tools. Though Windows phones are quite consistent than
+Android or iPhones but they are less popular as they provide minimal options in
+terms of apps and games selection.</li>
+										<li><b>Screen Size :</b> ​ Once you have shortlisted the type of platform, the screen size of
+a mobile is next foremost step to consider. The phones come in varied screen
+sizes ranging from 2.4 inch to 6 inches. Small screen phones (less than 4 inch)
+are very easy to hold or pocket and are mainly used for calling and messaging.
+Medium screen phones (4-5 inches) are well suited for internet browsing or
+even watching movies or videos. Phablets (having more than 5 inches screen
+size) are bulky and are difficult to carry but are suitable for 3D gaming and
+											larger readable view of videos, text, apps and websites.</li>
+										<li><b>Type of Processor :</b> ​ Processor helps in managing the tasks efficiently, hence
+you can select a mobile phone according to the processor type- Dual core, Quad
+core or Octa core. More number of cores will lead to smooth execution of
+multiple tasks simultaneously. Also the clock speed should be greater than
+1GHz as high clock speed will lead to smooth and effortless running of apps,
+											games and videos.</li>
+										
+										<li><b>Camera :</b>​ Smartphone cameras have replaced the point-and-shoot and digital
+cameras. So while buying smartphones with good cameras, make sure it has
+autofocus and generally phones with 8MP or more have good image resolution
+											and are considered appropriate.</li>
+										<li><b>Keypad :</b> ​ These days, most bigger sized phones have touchscreen keypads for
+comfort whereas few cheaper and old models with full Qwerty keypads are also
+											available in the market.</li>
+										<li><b>Battery Backup :</b> ​ While purchasing a mobile, battery plays a vital role so as to
+avoid any sort of inconvenience. The battery of approximately 2500 mAH or
+											more is considered to be apt for any kind of mobile usage.</li>
+										<li><b>Other features :</b>​ Thinner and slimmer phones are easy to handle and take less
+space in pockets and purses. Mobile phone should be fully equipped with
+advanced features like dual SIM, GPS, Bluetooth, Wifi, WiFi hotspot, HDMI,
+DLNA, NFC , 4G and good battery backup. Few high-end phones have exquisite
+features like dust-proof, water-proof, scratch resistant glass, fingerprint scanner
+											and shock proof.</li>
+										<li><b>Price :</b>​ Choose the mobiles according to your budget and then compare their
+											specifications and features.</li>
+									</ul><br>
+									
+									<p>Price is the most important thing you need to compare before making the final
+										purchase. Check the complete ​<b> price lists of mobile phones in India</b>​ offered at
+different stores. Daily updated price list helps you get the best deals on mobile
+phones. It also saves you time wasted on visiting different portals to get prices and
+										then comparing those.</p>
+									
+									
+									
+								</div>
+							</div>
+						</div>
+												
+						<div class="panel panel-default">
+							<div class="panel-heading panel-heding">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseFour" class="collapsed">
+										AIR CONDITIONERS
+									</a>
+								</h4>
+							</div>
+							<div id="collapseFour" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<p><b>What to see when buying an Air Conditioner</b></p><br>
+									<p>In hot weather, Air-coolers are cheaper option but they add to humidity especially in
+the months of June and July when it becomes unbearable and in that case, Air
+										conditioners are the best option. While choosing right ​<b>air-conditioner price</b>​ for
+your room, there are certain things which have to be kept in mind like the size ofyour room, number of people occupying the room , outdoor climate, amount of light
+coming into the room, area of windows, number of windows and on which floor
+										your room is.</p><br>
+									<ul class="marker2">
+										<li><b>Tonnage of Air conditioner :</b> ​ Tonnage refers to the cooling capacity of an air
+conditioner as per the size and requirement of the room. A thumb rule which is used
+internationally is that for every square foot of room, we require 20 Btu/hr (British
+Thermal Units per hour). The cooling capacity of an AC is measured in Btu/hr (British
+thermal unit/hour) which is is its ability to extract a certain amount of heat from a
+room in an hour.. The AC is considered to be more powerful when the Btu/hr value
+is higher. An oversized or high capacity air-conditioner is less effective and less
+energy efficient. For room size less than 150 sqft, 1 ton capacity of AC is sufficient. At
+Least 1.5 ton AC capacity is needed for room size having area approximately 151 –
+											250 sqft, and for Room Size 251 – 400 sqft, AC capacity needed is 2 ton or above.</li>
+										<li><b>Compressor :</b> ​ Compressor is a very important component of AC. They are
+classified into three types- reciprocating, rotary and scroll. Reciprocating
+compressors are usually used in small to medium systems, such as car ACs, and are
+bulky and noisy. Rotary units are compact and less noisy, while scroll compressors
+are the quietest and most efficient of the three. However, the last two are more
+											expensive and are also difficult to repair.</li>
+										<li><b>Split or Window AC- Which is better?</b>
+											
+											<ul class="marker2">
+												<li>Window ​<b>air conditioner price</b>​ is is quite low as compared to that of a split AC
+													and is easy to install and maintain.</li>
+												<li>Split AC makes less noise than window AC as the unit is installed outside the
+													room.</li>
+												<li>The regular maintenance is high in case of split AC. The gas has to be filled
+after certain time period. This is an added burden on the consumer apart from the
+													high initial split air conditioner price.</li>
+												<li>Leakage Issue: In case of a Split AC, sometimes the water tips from the air
+unit during high humidity. This is because of the fact that the droplets are formed
+													right on the face of blower.</li>
+												<li>Split AC is better when it comes to cooling and power efficiency.<li>
+											</ul>
+										</li>
+										
+									</ul>
+									
 								</div>
 							</div>
 						</div>

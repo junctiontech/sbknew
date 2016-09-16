@@ -925,8 +925,9 @@ class Landingpage extends CI_Controller {
 		$this->parser->parse('frontend/Footer',$this->data);	
 		
 	}
-	public function check_wish_list($app=false)
+	public function check_wish_list()
 	{
+		$app=$this->input->get('app');
 		 if($app==true){
 			 $userID=$this->input->post('userID');
 			 $productID=$this->input->post('productID');

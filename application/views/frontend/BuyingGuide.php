@@ -10,11 +10,11 @@
 						<div class="panel-heading panel-heding">							
 							<h4 class="panel-title">								
 								<a data-toggle="collapse" data-parent="#accordion-test-2" href="#collapseOne-2">									
-									<b>	How to Book the Cheapest Flight Possible to Anywhere</b>								
+									Book the Cheapest Flight Possible to Anywhere								
 								</a>							
 							</h4>
 						</div>	
-						<div id="collapseOne-2" class="panel-collapse collapse in">
+						<div id="collapseOne-2" class="panel-collapse collapse">
 							<div class="panel-body">								
 								<p>We’ve all experienced the tiresome, repeated searching when trying to book the cheapest possible flights to any given destination. With endless search engines and continually fluctuating prices, the approach to frugal flight booking is overwhelming. Here’s some key tips that will save you time, frustration and most importantly money when booking your next flight.</p><br>								
 								
@@ -57,7 +57,7 @@
 						<div class="panel-heading panel-heding">
 							<h4 class="panel-title"> 
 								<a data-toggle="collapse" data-parent="#accordion-test-2" href="#collapseTwo-2" class="collapsed">
-									<b>How to Save Money on Hotels</b>	
+									Save Money on Hotels	
 								</a>	
 							</h4>
 						</div>
@@ -101,7 +101,7 @@
 						<div class="panel-heading panel-heding">
 							<h4 class="panel-title">
 								<a data-toggle="collapse" data-parent="#accordion-test-2" href="#collapseThree-2" class="collapsed">
-									<b>Product</b>
+									Product
 								</a>
 							</h4>
 						</div>
@@ -116,7 +116,7 @@
 												</a>							
 											</h4>							
 										</div>							
-										<div id="collapseOne" class="panel-collapse collapse in">								
+										<div id="collapseOne" class="panel-collapse collapse">								
 											<div class="panel-body">									
 												<p><b>A tablet for all..</b></p>
 												<p>Finding a tablet is never a easy task when there are so many options available in the

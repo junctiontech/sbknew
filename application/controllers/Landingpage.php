@@ -34,19 +34,19 @@ class Landingpage extends CI_Controller {
 	if(!empty($query)){
 		$lshproductcategory="";$featureproductcategory="";$newproductcategory="";$data=array();
 		foreach($query as $dt){
-			if($dt->inventoryName =='LHS Landing page')
+			if($dt->inventoryName =='LHSLandingpage')
 			{	
 				$lshproductcategory=$dt->categoryName;			
 				$this->data['lsh_data']=$lsh_data=array('ls'=>$dt->quantity,'lsheading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);			
 				$data[]=array('count'=>$dt->quantity,'heading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);
 			}
-			if($dt->inventoryName =='Feature Product')
+			if($dt->inventoryName =='FeatureProduct')
 			{	
 				$featureproductcategory=$dt->categoryName;
 				$this->data['feature_data']=$feature_data=array('fs'=>$dt->quantity,'fsheading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);
 				$data[]=array('count'=>$dt->quantity,'heading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);
 			}
-			if($dt->inventoryName =='New Product')
+			if($dt->inventoryName =='NewProduct')
 			{	
 				$newproductcategory=$dt->categoryName;
 				$this->data['new_data']=$new_data=array('ns'=>$dt->quantity,'nsheading'=>$dt->inventoryHedding,'category'=>$dt->categoryName);

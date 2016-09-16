@@ -46,7 +46,7 @@ class User extends CI_Controller {
 	}
 	
 	public function AddToWishList($productID=false)
-	{				print_r(json_encode($_POST)); echo "<br>";
+	{				print_r(json_encode($_POST['user_id'])); echo "<br>";
 	 				print_r(json_encode($_GET)); die;
 		$app=$this->input->get('app');
 		$user_id=$this->input->post('user_id');

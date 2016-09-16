@@ -335,532 +335,482 @@ keyboard and is battery powered. Its size is even smaller than a briefcase and i
 											<div class="panel-body">									
 												<p><b>What to see when buying an Air Conditioner</b></p><br>									
 												<p>In hot weather, Air-coolers are cheaper option but they add to humidity especially in
-
-													the months of June and July when it becomes unbearable and in that case, Air
-										
+													the months of June and July when it becomes unbearable and in that case, Air									
 													conditioners are the best option. While choosing right ​<b>air-conditioner price</b>​ for
-
-													your room, there are certain things which have to be kept in mind like the size ofyour room, number of people 
-													
+													your room, there are certain things which have to be kept in mind like the size ofyour room, number of people
 													occupying the room , outdoor climate, amount of light coming into the room, area of windows, number of 
-													windows and on which floor
+													windows and on which floor your room is.</p><br>
+									
+												<ul class="marker2">										
+													<li><b>Tonnage of Air conditioner :</b> ​ Tonnage refers to the cooling capacity of an air
+														conditioner as per the size and requirement of the room. A thumb rule which is used
+														internationally is that for every square foot of room, we require 20 Btu/hr (British
+														Thermal Units per hour). The cooling capacity of an AC is measured in Btu/hr (British
+														thermal unit/hour) which is is its ability to extract a certain amount of heat from a
+														room in an hour.. The AC is considered to be more powerful when the Btu/hr value
+														is higher. An oversized or high capacity air-conditioner is less effective and less
+														energy efficient. For room size less than 150 sqft, 1 ton capacity of AC is sufficient. At
+														Least 1.5 ton AC capacity is needed for room size having area approximately 151 –						
+														250 sqft, and for Room Size 251 – 400 sqft, AC capacity needed is 2 ton or above.</li>
+													
+													<li><b>Compressor :</b> ​ Compressor is a very important component of AC. They are
+														classified into three types- reciprocating, rotary and scroll. Reciprocating
+														compressors are usually used in small to medium systems, such as car ACs, and are
+														bulky and noisy. Rotary units are compact and less noisy, while scroll compressors
+														are the quietest and most efficient of the three. However, the last two are more						
+														expensive and are also difficult to repair.</li>
 										
-													your room is.</p><br>
+													<li><b>Split or Window AC- Which is better?</b>	
+														<ul class="marker2">												
+															<li>Window ​<b>air conditioner price</b>​ is is quite low as compared to that of a split AC				
+																and is easy to install and maintain.</li>
+												
+															<li>Split AC makes less noise than window AC as the unit is installed outside the room.</li>
+												
+															<li>The regular maintenance is high in case of split AC. The gas has to be filled
+																after certain time period. This is an added burden on the consumer apart from the				
+																high initial split air conditioner price.</li>
+												
+															<li>Leakage Issue: In case of a Split AC, sometimes the water tips from the air
+																unit during high humidity. This is because of the fact that the droplets are formed					
+																right on the face of blower.</li>
+												
+															<li>Split AC is better when it comes to cooling and power efficiency.</li>								
+														</ul>										
+													</li>
+										
+													<li><b>Energy Efficiency and Star Rating:</b> ​ A unit with a higher star rating is more
+														expensive than the one with fewer stars.However, it will also consume less electricity
+														and cut down on power consumption while saving energy and being
+														environment-friendly. In India, an AC runs for around 252 days on an average. The
+														BEE rates appliances from 1 to 5 stars. A 5 star AC is the most energy efficient and
+														consumes the lowest energy while conserving energy and drastically reducing your
+														electricity bills.But you should consider a 5 star rated product only when the
+														consumption is extremely high. Hence with the help of above mentioned points,
+														buyer can make a right buying decision after choosing comparing specifications and							
+														<b>air conditioner price</b>​ of various models available in the market.</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">							
+										<div class="panel-heading panel-heding">								
+											<h4 class="panel-title">									
+												<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseFive" class="collapsed">						
+													AUDIO VIDEO
+												</a>
+											</h4>
+										</div>							
+										<div id="collapseFive" class="panel-collapse collapse">								
+											<div class="panel-body">									
+												<p><b>How to buy Good Audio system?</b></p><br>
+												
+												<p>Audio is the sound which is audible to human beings within acoustic range. Audio files
+													are usually compressed in MP3 format or wav file format for faster transmission.</p><br>
+									
+												<p><b>There are two types of audio amplifiers which help in choosing right audio system:</b></p><br>
+									
 									
 												<ul class="marker2">
+													<li><b>Class A/B analog amplifier :</b>​ These types of amplifiers are conventional or
+														traditional type of amplifiers. They consume more power and are less energy
+														efficient than digital amplifiers. An analog amplifier consists of two separate
+														circuits – output circuit which generates electrical power output signal for
+														speakers from incoming audio signal and an AC signal which modulates the
+														sound waves.</li>
 										
-													<li><b>Tonnage of Air conditioner :</b> ​ Tonnage refers to the cooling capacity of an air
-
-														conditioner as per the size and requirement of the room. A thumb rule which is used
-
-														internationally is that for every square foot of room, we require 20 Btu/hr (British
-
-														Thermal Units per hour). The cooling capacity of an AC is measured in Btu/hr (British
-
-														thermal unit/hour) which is is its ability to extract a certain amount of heat from a
-
-														room in an hour.. The AC is considered to be more powerful when the Btu/hr value
-
-														is higher. An oversized or high capacity air-conditioner is less effective and less
-
-														energy efficient. For room size less than 150 sqft, 1 ton capacity of AC is sufficient. At
-
-														Least 1.5 ton AC capacity is needed for room size having area approximately 151 –
-										
-														250 sqft, and for Room Size 251 – 400 sqft, AC capacity needed is 2 ton or above.</li>
+													<li><b>Class D digital amplifier :</b>​ These are high-quality digital amplifiers which are
+														used nowadays and are more energy efficient (90% or more) than analog
+														amplifiers. Digital amplifiers use high frequency switching circuits to modulate
+														the output devices.</li>
 									
-													<li><b>Compressor :</b> ​ Compressor is a very important component of AC. They are
-classified into three types- reciprocating, rotary and scroll. Reciprocating
-compressors are usually used in small to medium systems, such as car ACs, and are
-bulky and noisy. Rotary units are compact and less noisy, while scroll compressors
-are the quietest and most efficient of the three. However, the last two are more
-											expensive and are also difficult to repair.</li>
-										<li><b>Split or Window AC- Which is better?</b>
+												</ul><br>
+								
+												<p>The sound is reproduced in multiple formats like monophonic sound, stereophonic
+													sound, Dolby Digital Plus (it is a six-channel audio system and is commonly used in
+													home theater systems). You should be careful while buying amplifiers as a
+													low-powered amplifier can burn out the speakers whereas large amplifiers will									
+													generate clean and distortion-free AC audio signals.</p><br>
+									
+									
+												<p>For a high quality sound, we require good and reputed audio system and speakers.
+													Following are the three things which will help in selecting Right Audio systems for ur house :</p><br>
+									
+												<ul class="marker2">										
+													<li><b>Purpose to Buy :</b> ​ You should first identify the primary use of audio systems. In
+														case you want to buy it with the purpose of watching movies and television,
+														then opt for a surround sound system for an accurate viewing as well as										
+														listening experience.</li>
+										
+													<li><b>Size of Room :</b> ​ The size of room also plays a vital role in deciding which audio
+														system you wish to purchase. In case , your room size is big, then you must								
+														select full-sized and full-range speakers to get powerful and excellent sound.</li>
+									
+													<li><b>Budget allocated :</b> ​ Your budget and price range also decides in selecting the
+														quality of audio system. For bigger rooms, you have to buy powerful audio									
+														systems, and hence have to invest in more money.</li>									
+												</ul><br>
+									
+												<p>While buying, online purchase the products of reputed brands and manufacturers like
+													Philips, Panasonic, Sony, Skullcandy, JBL, Transcend, Vox, Ambrane, iBall, Sennheiser,							
+													Advik, to name a few.</p><br>								
+											</div>							
+										</div>						
+									</div>
+									
+									<div class="panel panel-default">
+										<div class="panel-heading panel-heding">								
+											<h4 class="panel-title">									
+												<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseSixe" class="collapsed">						
+													APPLIANCES
+												</a>
+											</h4>						
+										</div>							
+										<div id="collapseSixe" class="panel-collapse collapse">							
+											<div class="panel-body">									
+												<p><b>How to buy appliances?</b></p><br>					
+									
+												<p>With our hectic lives and busy schedules, all of us want a comfortable home so as to
+													relax in the most luxurious yet affordable way. Indiatimes Shopping makes this
+													endeavour easy for you. We have a variety of home and kitchen appliances that are
+													easy to use, cost-effective and also utilitarian. Your home will become a comfortable
+													abode when you get the appliances from our collection. Gone are the days of those
+													hot and sultry summer days or the times when you have to eat out because cooking at
+													home is such a task. Our goal is to make your lives easy and we do not fall short in that						
+													endeavour.</p><br>									
+									
+												<p>We offer you the best products from the best brands. Choose from our exclusive range
+													of products from reputed brands like Godrej, Jaipan, Morphy Richards, Philips and
+													many more. You have the opportunity to select the most suitable product according to
+													your need and budget. Choose from our range of ​ Air conditioners​ that make your
+													summers as cool as it can get, our refrigerators that keep your food fresh, a variety of
+													semi-automatic and fully automatic washing machines that help you save valuable
+													time in cleaning clothes and many more such products that are committed to make
+													your lives simpler. We also have in our stock, ​ food processors​ , ​ mixer grinder​ , ​ waterpurifier​ , 
+													pizza maker, etc. These modern home and kitchen appliances are designed
+													especially for the workaholic youth of our nation. With our appliances, you will want to					
+													stay at home always.</p><br>
+									
+												<p>Select the product that complements your need in the most efficient manner. You can
+													surf through our range of products and make the right choice. Enjoy an uninterrupted
+													and smooth shopping experience in our portal. Our deals have been created to									
+													maximise your satisfaction. Happy shopping to you!</p><br>								
+											</div>							
+										</div>						
+									</div>					
+									
+									<div class="panel panel-default">							
+										<div class="panel-heading panel-heding">								
+											<h4 class="panel-title">									
+												<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseSevan" class="collapsed">					
+													TV Buying Guide									
+												</a>								
+											</h4>							
+										</div>							
+										<div id="collapseSevan" class="panel-collapse collapse">								
+											<div class="panel-body">									
+												<p>Nowadays, Television has become a necessity rather than a luxury and
+													buying a TV is one of the most toughest decision that anyone can take.
+													The numerous options of brands and models available in the market has
+													made buying a television a challenge. With advanced technology and
+													constant addition of new features by Television manufacturers to
+													provide better viewing experience, the consumers get confused and are										
+													often lured by the offers given by various online and offline retailers."</p><br>
+									
+												<p>Before you pick a right TV, you need to understand the basic terminology
+													associated with TV like screen size, screen types, resolution, refresh rate,
+													contrast ratio etc. This TV buying guide will help you identify and
+													evaluate them through simple questions and their answers so that the									
+													decision making becomes easier.</p><br>									
+								
+												<p><b>What is the right TV size suitable for you ?</b></p><br>									
+									
+												<p>There is a tremendous increase in demand of larger screen televisions.
+													While selecting the screen size, you should consider how far you will be
+													sitting from the screen and size of the room. If you are sitting too close
+													to TV, then you will see pixelated images and lot of picture noise
+													whereas if you are too far from TV, then the picture details will merge
+													with each other and adversely affect your viewing experience. Minimum
+													viewing distance is twice your TV size whereas maximum viewing
+													distance is 1.6 times of the minimum viewing distance. For example, for
+													32 inch TV (81 cm), minimum viewing distance is 162cm (64”) or 5 feet
+													and maximum viewing distance is 8 feet. Most of the television models									
+													have 16:9 aspect ratio (widescreen design).</p><br>
+												<table cellspacing="0" class="table table-small-font table-bordered table-striped">
+													<thead>
+														<tr class="headings">
+															<th>Screen Size (inches)</th>
+															<th>Viewing Distance (in feet)</th>	
+														</tr>							
+													</thead>
+													<tbody>
+														<tr>
+															<td>26</td>	
+															<td>4-6</td>					
+														</tr>
+														<tr>								
+															<td>32</td>								
+															<td>5-8</td>							
+														</tr>							
+														<tr>								
+															<td>40-42</td>								
+															<td>6-10</td>							
+														</tr>							
+														<tr>
+															<td>50</td>	
+															<td>8-14</td>
+														</tr>							
+														<tr>							
+															<td>55-60</td>						
+															<td>9-15</td>						
+														</tr>							
+														<tr>
+															<td>65-75</td>
+															<td>Minimum 14 feet</td>						
+														</tr>							
+														<tr>								
+															<td>Above 75</td>								
+															<td>Minimum 20 feet</td>						
+														</tr>
+													</tbody>					
+												</table><br>
+												
+												<p><b>What TV technology is best - LCD, LED, Plasma or OLED ?</b></p><br>
+												
+												<p>The most common screen types of TV are Plasma, LCD, LED and OLED.
+													Earlier the screen options were limited to Plasma and LCD but with latest
+													advanced technologies, LED and OLED TVs have become more popular among the users.</p><br>
+									
+												<p><b>LCD TV :</b></p><br>
+									
+												<p>Liquid Crystal Display (LCD) TVs use fluorescent tubes (CCFLs) to light the
+													screen. They are ideal for indoor viewing and feature a relatively low
+													contrast. They are less expensive as compared to other new technologies
+													but are slowly been replaced with ultrathin LED-backlit LCDs models.
+													They are bulkier and provide inferior picture quality as compared to that of LED Tvs.</p><br>
+												
+												<p><b>LED TV :</b></p><br>
+												
+												<p>LED TVs are similar to LCD TVs except that they use coloured LEDs (light
+													emitting diodes) instead of CCFL to backlit the display. This is done in
+													two ways – either by placing LEDs directly behind the screen (Back lit
+													LED) or by placing LEDs along the edges of the panel (which is called
+													Edge lit LED). Both the techniques use consume less energy than Plasma or LCD TVs.</p><br>
+												<table cellspacing="0" class="table table-small-font table-bordered table-striped">						
+													<thead>	
+														<tr class="headings">
+															<th></th>
+															<th>Back Lit LED</th>
+															<th>Edge Lit LED</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>Lighting</td>
+															<td>Lights from the back</td>
+															<td>Lights from right and left edges</td>
+														</tr>
+														<tr>	
+															<td>Picture Quality</td>
+															<td>Better</td>	
+															<td>Good</td>
+														</tr>
+														<tr>	
+															<td>Thickness</td>
+															<td>Not so slim</td>
+															<td>Slimmer</td>
+														</tr>
+														<tr>	
+															<td>Cost</td>	
+															<td>Expensive</td>
+															<td>Cheaper</td>
+														</tr>
+													</tbody>
+												</table><br>
+												<p><b>PLASMA TV :</b></p><br>
+												
+												<p>Unlike LCD displays which requires backlight, plasma TV displays use
+													self-emitting small cells called plasmas which contain electrically charged
+													ionized gases and light up on their own. They are superior to LCD panels
+													in terms of contrast ratio, colour quality and offer wider viewing angle
+													but they are only viable in case of bigger screens (50 inches or more).
+													Nowadays, plasma displays are diminishing from the market as they are
+													complex to manufacture as compared to other technologies and do not										
+													perform well in brightly lit rooms.</p><br>
+												
+												<p><b>OLED TV :</b></p><br>
+												
+												<p>OLED TVs (Organic Light Emitting Diode) are the latest technology in
+													digital display. The light emitting diodes emit their own light when an
+													electric current is passed through them. They are self-luminated and do
+													not need a bulky backlight making them ultra-slim and more power
+													efficient than LED TVs. They offer much better contrast and widerviewing angle of 180 degrees. The only 
+													drawback is that they are exorbitantly priced.</p><br>									
+												
+												<p><b>Brief Comparison of all four screen types :</b></p><br>
+												
+												<table cellspacing="0" class="table table-small-font table-bordered table-striped">						
+													<thead>
+														<tr class="headings">
+															<th>Features</th>	
+															<th>LCD</th>	
+															<th>LED</th>	
+															<th>PLASMA</th>	
+															<th>OLED</th>
+														</tr>
+													</thead>
+													<tbody>	
+														<tr>
+															<td>Brightness</td>	
+															<td>Medium</td>
+															<td>High</td>
+															<td>Low</td>
+															<td>Image-based</td>
+														</tr>
+														<tr>
+															<td>Contrast</td>
+															<td>Low</td>
+															<td>Low</td>
+															<td>Medium</td>	
+															<td>High</td>
+														</tr>
+														<tr>	
+															<td>Motion Blur</td>								
+															<td>Yes</td>							
+															<td>Yes</td>							
+															<td>No</td>							
+															<td>No</td>						
+														</tr>
+														<tr>	
+															<td>Thickness</td>
+															<td>Thickest</td>
+															<td>Thin</td>
+															<td>Thick</td>
+															<td>Ultra-thin</td>
+														</tr>
+														<tr>
+															<td>Viewing Angle</td>
+															<td>Narrow</td>	
+															<td>Narrow</td>	
+															<td>Wide(160°)</td>	
+															<td>Widest(180°)</td>
+														</tr>
+														<tr>
+															<td>Refresh Rate</td>	
+															<td>Low</td>
+															<td>Medium</td>	
+															<td>High</td>	
+															<td>Highest</td>
+														</tr>						
+													</tbody>					
+												</table><br>
+												<p><b>What display resolution should I go for ?</b></p><br>									
+												<p>Display Resolution is the number of pixels you can view in a dimension.
+													It is referred to as width x height. For example : 1920X1080 pixel
+													resolution. Most of the televisions offer HD Ready or Full HD resolution.
+													TVs having SD resolution have become obsolete now. The resolution ofUltra HD is exactly four times higher 
+													than that of full HD, hence ensuring
+													much more picture detailing, with content requiring a lot more
+													bandwidth and storage space. If you sit closer to TV, then you should opt
+													for higher resolution Ultra HD TV over a 1080p TV to view every minute
+													detail. 4K TVs are used in digital cinemas as they offer resolution of
+													4096x2160 and there are currently very few options for watching native
+													4K content. It is always better to opt for full HD resolution for better picture clarity.</p><br>
+												
+												<table cellspacing="0" class="table table-small-font table-bordered table-striped">	
+													<thead>
+														<tr class="headings">	
+															<th>Resolution Type</th>
+															<th>Content Supported</th>
+															<th>Display Resolution</th>
+														</tr>
+													</thead>
+													<tbody>		
+														<tr>	
+															<td>SD</td>	
+															<td>480p</td>
+															<td>N/A</td>	
+														</tr>
+														<tr>	
+															<td>HD Ready or HD</td>	
+															<td>720p</td>	
+															<td>1366x768 pixels</td>
+														</tr>							
+														<tr>
+															<td>Full HD</td>
+															<td>1080p</td>	
+															<td>1920 x 1080 pixels</td>
+														</tr>
+														<tr>							
+															<td>Ultra HD</td>
+															<td>2160p</td>
+															<td>3840 x 2160 pixels</td>	
+														</tr>							
+														<tr>	
+															<td>4K</td>	
+															<td>2160p</td>
+															<td>4096 x 2160 pixels</td>	
+														</tr>
+													</tbody>					
+												</table><br>
+												<p><b>Refresh Rate :</b></p><br>			
+								
+												<p>The video you see on TV is the series of many still images in rapid
+													succession. The images occur so fast that they give an illusion of motion.
+													The speed at which the images are displayed on screen per second isreferred to as Refresh Rate. It is 
+													expressed in Hertz (Hz). A faster refresh rate ensures speedy motion, ideal for sporting events, action
+													movies and playing video games. Higher refresh rate reduces the time between the
+													display of frames hence leading to improved and blur-free picture
+													quality. Plasma Tvs have refresh rate of 600Hz whereas basic LCD TV has									
+													60Hz refresh rate.</p><br>
+									
+									
+												<p><b>What is a 3D TV?</b></p><br>			
+								
+												<p>3D is an add-on feature in mostly high-end television models to provide
+													live experience to the users and make them feel as if they are in the
+													middle of the action. These Tvs display 3D videos and require special 3D
+													glasses for viewing. They come in two different technologies - Active and										
+													Passive.</p><br>									
+									
+												<p><b>Active 3D :</b></p><br>									
 											
-											<ul class="marker2">
-												<li>Window ​<b>air conditioner price</b>​ is is quite low as compared to that of a split AC
-													and is easy to install and maintain.</li>
-												<li>Split AC makes less noise than window AC as the unit is installed outside the
-													room.</li>
-												<li>The regular maintenance is high in case of split AC. The gas has to be filled
-after certain time period. This is an added burden on the consumer apart from the
-													high initial split air conditioner price.</li>
-												<li>Leakage Issue: In case of a Split AC, sometimes the water tips from the air
-unit during high humidity. This is because of the fact that the droplets are formed
-													right on the face of blower.</li>
-												<li>Split AC is better when it comes to cooling and power efficiency.</li>
-											</ul>
-										</li>
-										<li><b>Energy Efficiency and Star Rating:</b> ​ A unit with a higher star rating is more
-expensive than the one with fewer stars.However, it will also consume less electricity
-and cut down on power consumption while saving energy and being
-environment-friendly. In India, an AC runs for around 252 days on an average. The
-BEE rates appliances from 1 to 5 stars. A 5 star AC is the most energy efficient and
-consumes the lowest energy while conserving energy and drastically reducing your
-electricity bills.But you should consider a 5 star rated product only when the
-consumption is extremely high. Hence with the help of above mentioned points,
-buyer can make a right buying decision after choosing comparing specifications and
-											<b>air conditioner price</b>​ of various models available in the market.</li>
-										
-									</ul>
-									
-								</div>
-							</div>
-						</div>
-						
-						<div class="panel panel-default">
-							<div class="panel-heading panel-heding">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseFive" class="collapsed">
-										AUDIO VIDEO
-									</a>
-								</h4>
-							</div>
-							<div id="collapseFive" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p><b>How to buy Good Audio system?</b></p><br>
-									
-									<p>Audio is the sound which is audible to human beings within acoustic range. Audio files
-										are usually compressed in MP3 format or wav file format for faster transmission.</p><br>
-									<p><b>There are two types of audio amplifiers which help in choosing right audio
-										system:</b></p><br>
-									
-									<ul class="marker2">
-										<li><b>Class A/B analog amplifier :</b>​ These types of amplifiers are conventional or
-traditional type of amplifiers. They consume more power and are less energy
-efficient than digital amplifiers. An analog amplifier consists of two separate
-circuits – output circuit which generates electrical power output signal for
-speakers from incoming audio signal and an AC signal which modulates the
-sound waves.</li>
-										<li><b>Class D digital amplifier :</b>​ These are high-quality digital amplifiers which are
-used nowadays and are more energy efficient (90% or more) than analog
-amplifiers. Digital amplifiers use high frequency switching circuits to modulate
-											the output devices.</li>
-									</ul><br>
-									<p>The sound is reproduced in multiple formats like monophonic sound, stereophonic
-sound, Dolby Digital Plus (it is a six-channel audio system and is commonly used in
-home theater systems). You should be careful while buying amplifiers as a
-low-powered amplifier can burn out the speakers whereas large amplifiers will
-										generate clean and distortion-free AC audio signals.</p><br>
-									
-									<p>For a high quality sound, we require good and reputed audio system and speakers.
-Following are the three things which will help in selecting Right Audio systems for ur
-										house :</p><br>
-									<ul class="marker2">
-										<li><b>Purpose to Buy :</b> ​ You should first identify the primary use of audio systems. In
-case you want to buy it with the purpose of watching movies and television,
-then opt for a surround sound system for an accurate viewing as well as
-											listening experience.</li>
-										<li><b>Size of Room :</b> ​ The size of room also plays a vital role in deciding which audio
-system you wish to purchase. In case , your room size is big, then you must
-											select full-sized and full-range speakers to get powerful and excellent sound.</li>
-										<li><b>Budget allocated :</b> ​ Your budget and price range also decides in selecting the
-quality of audio system. For bigger rooms, you have to buy powerful audio
-											systems, and hence have to invest in more money.</li>
-										
-									</ul><br>
-									<p>While buying, online purchase the products of reputed brands and manufacturers like
-Philips, Panasonic, Sony, Skullcandy, JBL, Transcend, Vox, Ambrane, iBall, Sennheiser,
-										Advik, to name a few.</p><br>
-											
-								 
-									
-								</div>
-							</div>
-						</div>
-						
-						<div class="panel panel-default">
-							<div class="panel-heading panel-heding">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseSixe" class="collapsed">
-										APPLIANCES
-									</a>
-								</h4>
-							</div>
-							<div id="collapseSixe" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p><b>How to buy appliances?</b></p><br>
-									
-									<p>With our hectic lives and busy schedules, all of us want a comfortable home so as to
-relax in the most luxurious yet affordable way. Indiatimes Shopping makes this
-endeavour easy for you. We have a variety of home and kitchen appliances that are
-easy to use, cost-effective and also utilitarian. Your home will become a comfortable
-abode when you get the appliances from our collection. Gone are the days of those
-hot and sultry summer days or the times when you have to eat out because cooking at
-home is such a task. Our goal is to make your lives easy and we do not fall short in that
-										endeavour.</p><br>
-									
-									<p>We offer you the best products from the best brands. Choose from our exclusive range
-of products from reputed brands like Godrej, Jaipan, Morphy Richards, Philips and
-many more. You have the opportunity to select the most suitable product according to
-your need and budget. Choose from our range of ​ Air conditioners​ that make your
-summers as cool as it can get, our refrigerators that keep your food fresh, a variety of
-semi-automatic and fully automatic washing machines that help you save valuable
-time in cleaning clothes and many more such products that are committed to make
-your lives simpler. We also have in our stock, ​ food processors​ , ​ mixer grinder​ , ​ waterpurifier​ , pizza maker, etc. These modern home and kitchen appliances are designed
-especially for the workaholic youth of our nation. With our appliances, you will want to
-										stay at home always.</p><br>
-									<p>Select the product that complements your need in the most efficient manner. You can
-surf through our range of products and make the right choice. Enjoy an uninterrupted
-and smooth shopping experience in our portal. Our deals have been created to
-										maximise your satisfaction. Happy shopping to you!</p><br>
-									
-								</div>
-							</div>
-						</div>
-										
-						<div class="panel panel-default">
-							<div class="panel-heading panel-heding">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseSevan" class="collapsed">
-										TV Buying Guide
-									</a>
-								</h4>
-							</div>
-							<div id="collapseSevan" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Nowadays, Television has become a necessity rather than a luxury and
-buying a TV is one of the most toughest decision that anyone can take.
-The numerous options of brands and models available in the market has
-made buying a television a challenge. With advanced technology and
-constant addition of new features by Television manufacturers to
-provide better viewing experience, the consumers get confused and are
-										often lured by the offers given by various online and offline retailers."</p><br>
-									<p>Before you pick a right TV, you need to understand the basic terminology
-associated with TV like screen size, screen types, resolution, refresh rate,
-contrast ratio etc. This TV buying guide will help you identify and
-evaluate them through simple questions and their answers so that the
-										decision making becomes easier.</p><br>
-									
-									<p><b>What is the right TV size suitable for you ?</b></p><br>
-									
-									<p>There is a tremendous increase in demand of larger screen televisions.
-While selecting the screen size, you should consider how far you will be
-sitting from the screen and size of the room. If you are sitting too close
-to TV, then you will see pixelated images and lot of picture noise
-whereas if you are too far from TV, then the picture details will merge
-with each other and adversely affect your viewing experience. Minimum
-viewing distance is twice your TV size whereas maximum viewing
-distance is 1.6 times of the minimum viewing distance. For example, for
-32 inch TV (81 cm), minimum viewing distance is 162cm (64”) or 5 feet
-and maximum viewing distance is 8 feet. Most of the television models
-										have 16:9 aspect ratio (widescreen design).</p><br>
-									
-			 
-					<table cellspacing="0" class="table table-small-font table-bordered table-striped">			
-						<thead>				
-							<tr class="headings">				
-								<th>Screen Size (inches)</th>					
-								<th>Viewing Distance (in feet)</th>			
-							</tr>			
-						</thead>			
-						<tbody>					
-							<tr>				
-								<td>26</td>				   
-								<td>4-6</td>			
-							</tr>
-			
-							<tr>				
-								<td>32</td>				   
-								<td>5-8</td>			
-							</tr>
-							<tr>				
-								<td>40-42</td>				   
-								<td>6-10</td>			
-							</tr>
-							<tr>				
-								<td>50</td>				   
-								<td>8-14</td>			
-							</tr>
-							<tr>				
-								<td>55-60</td>				   
-								<td>9-15</td>			
-							</tr>
-							<tr>				
-								<td>65-75</td>				   
-								<td>Minimum 14 feet</td>			
-							</tr>
-							<tr>
-								<td>Above 75</td>
-								<td>Minimum 20 feet</td>
-							</tr>
-		   
-						</tbody>
-
-					</table><br>
-									
-									<p><b>What TV technology is best - LCD, LED, Plasma or OLED ?</b></p><br>
-									
-									<p>The most common screen types of TV are Plasma, LCD, LED and OLED.
-Earlier the screen options were limited to Plasma and LCD but with latest
-advanced technologies, LED and OLED TVs have become more popular
-										among the users.</p><br>
-									<p><b>LCD TV :</b></p><br>
-									<p>Liquid Crystal Display (LCD) TVs use fluorescent tubes (CCFLs) to light the
-screen. They are ideal for indoor viewing and feature a relatively low
-contrast. They are less expensive as compared to other new technologies
-but are slowly been replaced with ultrathin LED-backlit LCDs models.
-They are bulkier and provide inferior picture quality as compared to that
-										of LED Tvs.</p><br>
-									
-									<p><b>LED TV :</b></p><br>
-									
-									<p>LED TVs are similar to LCD TVs except that they use coloured LEDs (light
-emitting diodes) instead of CCFL to backlit the display. This is done in
-two ways – either by placing LEDs directly behind the screen (Back lit
-LED) or by placing LEDs along the edges of the panel (which is called
-Edge lit LED). Both the techniques use consume less energy than Plasma
-										or LCD TVs.</p><br>
-
-							 <table cellspacing="0" class="table table-small-font table-bordered table-striped">			
-						<thead>				
-							<tr class="headings">				
-								<th></th>					
-								<th>Back Lit LED</th>					
-								<th>Edge Lit LED</th>			
-							</tr>			
-						</thead>			
-						<tbody>					
-							<tr>				
-								<td>Lighting</td>				   
-								<td>Lights from the back</td>				   
-								<td>Lights from right and left edges</td>			
-							</tr>
-			
-							<tr>				
-								<td>Picture Quality</td>				   
-								<td>Better</td>				   
-								<td>Good</td>			
-							</tr>
-							<tr>				
-								<td>Thickness</td>				   
-								<td>Not so slim</td>				   
-								<td>Slimmer</td>			
-							</tr>
-							<tr>				
-								<td>Cost</td>				   
-								<td>Expensive</td>				   
-								<td>Cheaper</td>			
-							</tr>
-							 
-						 
-		   
-						</tbody>
-
-					</table><br>
-									
-									<p><b>PLASMA TV :</b></p><br>
-									
-									<p>Unlike LCD displays which requires backlight, plasma TV displays use
-self-emitting small cells called plasmas which contain electrically charged
-ionized gases and light up on their own. They are superior to LCD panels
-in terms of contrast ratio, colour quality and offer wider viewing angle
-but they are only viable in case of bigger screens (50 inches or more).
-Nowadays, plasma displays are diminishing from the market as they are
-complex to manufacture as compared to other technologies and do not
-										perform well in brightly lit rooms.</p><br>
-									
-									<p><b>OLED TV :</b></p><br>
-									
-									<p>OLED TVs (Organic Light Emitting Diode) are the latest technology in
-digital display. The light emitting diodes emit their own light when an
-electric current is passed through them. They are self-luminated and do
-not need a bulky backlight making them ultra-slim and more power
-efficient than LED TVs. They offer much better contrast and widerviewing angle of 180 degrees. The only drawback is that they are
-										exorbitantly priced.</p><br>
-									
-									<p><b>Brief Comparison of all four screen types :</b></p><br>
-									
-									<table cellspacing="0" class="table table-small-font table-bordered table-striped">			
-						<thead>				
-							<tr class="headings">				
-								 					
-								<th>Features</th>					
-								<th>LCD</th>			
-								<th>LED</th>			
-								<th>PLASMA</th>			
-								<th>OLED</th>			
-							</tr>			
-						</thead>			
-						<tbody>					
-							<tr>				
-								<td>Brightness</td>				   
-								<td>Medium</td>				   
-								<td>High</td>			
-								<td>Low</td>			
-								<td>Image-based</td>			
-							</tr>
-			
-							<tr>				
-								<td>Contrast</td>				   
-								<td>Low</td>				   
-								<td>Low</td>			
-								<td>Medium</td>			
-								<td>High</td>			
-							</tr>
-							<tr>				
-								<td>Motion Blur</td>				   
-								<td>Yes</td>				   
-								<td>Yes</td>			
-								<td>No</td>			
-								<td>No</td>			
-							</tr>
-							<tr>				
-								<td>Thickness</td>				   
-								<td>Thickest</td>				   
-								<td>Thin</td>			
-								<td>Thick</td>			
-								<td>Ultra-thin</td>			
-							</tr>
-							
-							<tr>				
-								<td>Viewing Angle</td>				   
-								<td>Narrow</td>				   
-								<td>Narrow</td>			
-								<td>Wide(160°)</td>			
-								<td>Widest(180°)</td>			
-							</tr>
-							<tr>				
-								<td>Refresh Rate</td>				   
-								<td>Low</td>				   
-								<td>Medium</td>			
-								<td>High</td>			
-								<td>Highest</td>			
-							</tr>
-							 
-						 
-		   
-						</tbody>
-
-					</table><br>
-									
-									<p><b>What display resolution should I go for ?</b></p><br>
-									
-									<p>Display Resolution is the number of pixels you can view in a dimension.
-It is referred to as width x height. For example : 1920X1080 pixel
-resolution. Most of the televisions offer HD Ready or Full HD resolution.
-TVs having SD resolution have become obsolete now. The resolution ofUltra HD is exactly four times higher than that of full HD, hence ensuring
-much more picture detailing, with content requiring a lot more
-bandwidth and storage space. If you sit closer to TV, then you should opt
-for higher resolution Ultra HD TV over a 1080p TV to view every minute
-detail. 4K TVs are used in digital cinemas as they offer resolution of
-4096x2160 and there are currently very few options for watching native
-4K content. It is always better to opt for full HD resolution for better
-										picture clarity.</p><br>
-									
-									<table cellspacing="0" class="table table-small-font table-bordered table-striped">			
-						<thead>				
-							<tr class="headings">							 					
-								<th>Resolution Type</th>					
-								<th>Content Supported</th>			
-								<th>Display Resolution</th>										
-							</tr>			
-						</thead>			
-						<tbody>					
-							<tr>				
-								<td>SD</td>				   
-								<td>480p</td>				   
-								<td>N/A</td>			
-								 		
-							</tr>
-			
-							<tr>				
-								<td>HD Ready or HD</td>				   
-								<td>720p</td>				   
-								<td>1366x768 pixels</td>			
-										
-							</tr>
-							<tr>				
-								<td>Full HD</td>				   
-								<td>1080p</td>				   
-								<td>1920 x 1080 pixels</td>			
-									
-							</tr>
-							<tr>				
-								<td>Ultra HD</td>				   
-								<td>2160p</td>				   
-								<td>3840 x 2160 pixels</td>			
-								 		
-							</tr>
-							
-							<tr>				
-								<td>4K</td>				   
-								<td>2160p</td>				   
-								<td>4096 x 2160 pixels</td>			
-								 		
-							</tr>
-		   
-						</tbody>
-
-					</table><br>
-									
-									<p><b>Refresh Rate :</b></p><br>
-									
-									<p>The video you see on TV is the series of many still images in rapid
-succession. The images occur so fast that they give an illusion of motion.
-The speed at which the images are displayed on screen per second isreferred to as Refresh Rate. It is expressed in Hertz (Hz). A faster refresh
-rate ensures speedy motion, ideal for sporting events, action movies and
-playing video games. Higher refresh rate reduces the time between the
-display of frames hence leading to improved and blur-free picture
-quality. Plasma Tvs have refresh rate of 600Hz whereas basic LCD TV has
-										60Hz refresh rate.</p><br>
-									
-									<p><b>What is a 3D TV?</b></p><br>
-									
-									<p>3D is an add-on feature in mostly high-end television models to provide
-live experience to the users and make them feel as if they are in the
-middle of the action. These Tvs display 3D videos and require special 3D
-glasses for viewing. They come in two different technologies - Active and
-										Passive.</p><br>
-									
-									<p><b>Active 3D :</b></p><br>
-									<p>Active 3D glasses work by quickly alternating the images between both
-right and left eyes. They offer full size 1080p images at a greater depth
-but can be very tiresome if used for long hours. They are more expensive
-										and require battery to operate.</p><br>
-									
-									
-									<p><b>Passive 3D :</b></p><br>
-									
-									<p>Passive 3D glasses show different images simultaneously but each eye
-can view only one of the images. They provide slightly inferior picturequality at 720p but are cheaper and do not require a battery. These are
-										mostly used in movie theaters to watch 3D movies.</p><br>
-									
-									<p><b>What is a Smart TV?</b></p><br>
-									
-									<p>Smart TV feature enables you to connect your internet connection with
-your TV. You can also connect your Smart TV with your laptop/phone and
-operate via various advanced technologies like miracast or DLNA. The
-user can access web, watch online videos, live events, manage social
-networking profiles like Twitter, Facebook, Youtube etc and much more
-on TV. Few Smart TVs are equipped with camera for various functions
-										like Skype calls and message clients.</p><br>
-									<p>Shoppers should make a wise purchase by evaluating the TV features
-and then narrow down the choices depending upon their budget, type of
-content they wish to watch, room size and their requirement. Most
-popular brands of TV are SONY, PANASONIC, LG, SAMSUNG, PANASONIC
-										and PHILIPS.</p><br>
-									
-									<div class="clear"></div>
-									
-									
-								</div>
-							</div>
-						</div>
-										
-										
-					</div>
+												<p>Active 3D glasses work by quickly alternating the images between both
+													right and left eyes. They offer full size 1080p images at a greater depth
+													but can be very tiresome if used for long hours. They are more expensive										
+													and require battery to operate.</p><br>	
 								
-								
-								
-							</div>
-							
-						</div>
-						
-					</div>
-					
-					<div class="clear"></div>
-					 
+												<p><b>Passive 3D :</b></p><br>			
+									
+												<p>Passive 3D glasses show different images simultaneously but each eye
+													can view only one of the images. They provide slightly inferior picturequality at 720p but are cheaper and 
+													do not require a battery. These are	mostly used in movie theaters to watch 3D movies.</p><br>
+									
+									
+												<p><b>What is a Smart TV?</b></p><br>									
+									
+												<p>Smart TV feature enables you to connect your internet connection with
+													your TV. You can also connect your Smart TV with your laptop/phone and
+													operate via various advanced technologies like miracast or DLNA. The
+													user can access web, watch online videos, live events, manage social
+													networking profiles like Twitter, Facebook, Youtube etc and much more
+													on TV. Few Smart TVs are equipped with camera for various functions										
+													like Skype calls and message clients.</p><br>
+									
+												<p>Shoppers should make a wise purchase by evaluating the TV features
+													and then narrow down the choices depending upon their budget, type of
+													content they wish to watch, room size and their requirement. Most
+													popular brands of TV are SONY, PANASONIC, LG, SAMSUNG, PANASONIC									
+													and PHILIPS.</p><br>
+												<div class="clear"></div>								
+											</div>							
+										</div>						
+									</div>
+								</div>
+							</div>							
+						</div>						
+					</div>					
+					<div class="clear"></div>					 
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -869,3 +819,4 @@ popular brands of TV are SONY, PANASONIC, LG, SAMSUNG, PANASONIC
 		<div class="clear"></div>
 	</div>
 </div>
+<div class="clear"></div>

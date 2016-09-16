@@ -941,7 +941,7 @@ class Landingpage extends CI_Controller {
 				 }
 				 else{
 					 
-					 echo json_encode(array('code'=>300, 'massage'=>'false'));	
+					 echo json_encode(array('code'=>200, 'massage'=>'false'));	
 					 exit;
 					 
 				 }

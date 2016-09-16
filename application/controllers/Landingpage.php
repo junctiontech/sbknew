@@ -927,14 +927,11 @@ class Landingpage extends CI_Controller {
 	}
 	public function check_wish_list($app=false)
 	{
-		 if($app==true){
-		 
+		 if($app==true){	 
 			 if($this->input->post('userID') && $this->input->post('productID'))
 			 {
 				$mywishlist=$this->Landingpage_model->checkwishlist('s4k_user_wishlist',array('userID'=>$this->input->post('userID'), 'productID'=>$this->input->post('productID')));
-				 if(!empty($mywishlist)){
-					 
-					 					
+				 if(!empty($mywishlist)){					 					
 						echo json_decode(array('code'=>200,'message'=>'true'));			
 						exit;
 				 }

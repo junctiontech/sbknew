@@ -1840,3 +1840,4 @@ margin-bottom: 10px;
 border-radius: 6px;}
 .panel-heding{padding: 15px 15px 15px 15px !important;background:#670099 !important;color:#fff !important;}
 .marker{list-style-type: square;margin-left: 50px;line-height: 25px;}
+.marker2{list-style-type: upper-number;margin-left:50px;line-height:20px;}

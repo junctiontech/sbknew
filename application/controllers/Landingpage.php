@@ -935,12 +935,12 @@ class Landingpage extends CI_Controller {
 			 {
 				$mywishlist=$this->Landingpage_model->checkwishlist('s4k_user_wishlist',array('userID'=>$userID, 'productID'=>$productID));
 				 if(!empty($mywishlist)){					 					
-						echo json_decode(array('code'=>200,'message'=>'true'));			
+						echo json_encode(array('code'=>200,'message'=>'true'));			
 						exit;
 				 }
 				 else{
 					 
-					 echo json_decode(array('code'=>300, 'massage'=>'false'));	
+					 echo json_encode(array('code'=>300, 'massage'=>'false'));	
 					 exit;
 					 
 				 }

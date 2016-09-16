@@ -96,19 +96,65 @@
 							<div class="panel-heading panel-heding">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseOne" class="collapsed">
-										Collapsible Group Item #1
+										Tablets>
 									</a>
 								</h4>
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in">
 								<div class="panel-body">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									<p><b>A tablet for all..</b></p>
+									
+									<p>Finding a tablet is never a easy task when there are so many options available in the
+market. A tablet is a portable computer that operates from a touchscreen or with a
+stylus. Some tablets even have a keyboard which makes it even more comfortable to
+use. They are normally smaller and lighter in weight than an average laptop. They are
+very helpful during travelling as they are very handy and convenient to use. Just like
+laptops and mobiles, tablets also comes with Windows browser and pre-installed
+applications. Tablets also have in-built battery having battery life of average 10-13
+hours or more , depending on its version. All new models have Wi-fi, GPS connectivity
+and webcam attached to it. Lot of great models of various reputed manufacturers are
+available in the market but it is difficult to choose.</p><br>
+									
+									
+									<p>Following are the points which will help you in deciding which tablet to buy:</p><br>
+									
+									<ul class="marker2">
+										
+										<li>Operating System : Most important factor in buying a tablet depends on the
+operating system you want to go for. Tablets operability is determined by its
+operating system. There are three types of operating system- Apple iOS,Android OS and Windows 8 operating system. Apple iPads are very easy-to-use
+tablets with smooth experience but are costlier than other tablets. Nowadays,
+iPad mini is also available which is cheaper option. Android OS tablets are easy
+to use and they are free, hence lot of options are available from branded as well
+Chinese manufacturers. The latest Android operating system being used these
+days is version 5, also called Lollipop. But some Android models are using
+										earlier versions like 4.2.</li>
+										
+										<li>Size of Tablet: Tablet comes in various screen sizes. Usually the screen size
+varies from 6 to 12 inches diagonally across the screen. The small sized tablets
+have screen size of 6 to 8 inches and are usually cheaper and require less
+power than larger tablets. If you are looking for light-weight, portable tablet
+which can fit easily in purse or small handbag, then probably 6-7 inches tablet is
+best suited. iPad has 8 inch screen. Medium sized tablets (with size 8.9 to 10.1
+inches) have better screen resolution and larger screens than 7-inch tablets.
+They are best suited for watching movies and doing office work. Very few
+tablets have screen size more than 10.1 inch (they are also called hybrids) and
+serve the purpose somewhere between tablet and PC.								
+											
+										</li>
+										
+										
+										
+									</ul><br>
+									
+									
+									
 								</div>
 							</div>
 						</div>
 						
 						<div class="panel panel-default">
-							<div class="panel-heading">
+							<div class="panel-heading panel-heding">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseTwo">
 										Collapsible Group Item #2
@@ -123,7 +169,7 @@
 						</div>
 						
 						<div class="panel panel-default">
-							<div class="panel-heading">
+							<div class="panel-heading panel-heding">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion-test" href="#collapseThree" class="collapsed">
 										Collapsible Group Item #3

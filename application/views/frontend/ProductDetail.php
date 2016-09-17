@@ -37,11 +37,20 @@
 						<div class="col-md-12 col-sm-12 col-xs-12">
 							<?php if(!empty($products['data'])){ 
 							usort($products['data'], function($a, $b) {return $a['product_price_after'] - $b['product_price_after'];});?>
-							<?php foreach($products['data'] as $shopData){ ?>	
+							<?php foreach($products['data'] as $shopData){ 
+							$affidkeys='';
+							if(!empty($shop_affiliate_id)){
+								if(in_array($shopData['product_store'],array_column($shop_affiliate_id, 'shopname'))){
+								$affidkeys = array_keys(array_column($shop_affiliate_id, 'shopname'),$shopData['product_store']);
+								$affidkeys=isset($shop_affiliate_id[$affidkeys[0]]['affiliateid'])?$shop_affiliate_id[$affidkeys[0]]['affiliateid']:'';
+								}else{
+									$affidkeys ='';
+								}
+							}?>	
 							<div class="col-md-4 col-sm-4 col-xs-4">
 								<img src="<?=isset($shopData['product_store_logo'])?$shopData['product_store_logo']:''?>">							
 								<p>Price: <br><span><?php if(!empty($shopData['product_price_after']) && $shopData['product_price_after'] !=0 || $shopData['product_price']){?>Rs. <?=number_format(isset($shopData['product_price_after'])?$shopData['product_price_after']:$shopData['product_price'],2)?><?php }else{ echo"coming soon"; }?></span></p>
-								<a target="_blank" style="color:white;" href="<?=isset($shopData['product_store_url'])?$shopData['product_store_url']:''?>"><div class="btn btn-black">									
+								<a target="_blank" style="color:white;" href="<?=isset($shopData['product_store_url'])?$shopData['product_store_url']:''?><?=isset($affidkeys)?$affidkeys:''?>"><div class="btn btn-black">									
 									<span >Buy now</span>								
 									</div>							
 								</a>

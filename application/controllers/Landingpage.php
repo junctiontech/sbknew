@@ -100,7 +100,7 @@ class Landingpage extends CI_Controller {
 					$this->data['similarproduct']=$products['data'];
 					$this->data['shop_affiliate_id']=array(array('shopname'=>'Flipkart','affiliateid'=>'&affid=378e9b9d24b7439f9ebe5a4b33870a8b'),
 														   array('shopname'=>'Amazon.in','affiliateid'=>'&tag=seab4kha-21'),
-														   array('shopname'=>'Snapdeal','affiliateid'=>'&aff_id=101593'));
+														   array('shopname'=>'Snapdeal','affiliateid'=>'?aff_id=101593'));
 					$this->display ('frontend/ProductDetail');
 				}elseif($category){
 					$products=$this->call_api('categorysearch',"category={$category}{$iscomparable}&page={$page}");

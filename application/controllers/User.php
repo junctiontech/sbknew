@@ -31,6 +31,13 @@ class User extends CI_Controller {
 	
 	public function dashboard()
 	{	
+		$userID='';
+		if(!empty($this->userinfos['userID'])){
+		$userID=$this->userinfos['userID'];
+		}
+		$this->data['searchdata']=$this->User_model->getdata('s4k_share_products',array('userID'=>$userID));
+		$coupondata=$this->User_model->getdata('s4k_coupon',array('userID'=>$userID));
+		$this->data['coupondata']=count($coupondata);
 		$this->parser->parse('frontend/Header',$this->data);
 		$this->parser->parse('frontend/Leftheader',$this->data);
 		$this->parser->parse('frontend/Dashboard',$this->data);

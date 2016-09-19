@@ -1,7 +1,9 @@
  <div class="modal-header">
 	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span> </button>
-	<h4 class="modal-title" id="myModalLabel">LOGIN</h4>
-</div>		
+	<h4 class="modal-title visible" id="myModalLabel">LOGIN</h4>
+	 <h4 class="modal-title lekhpal hidden">Forgot Password?</h4>
+</div>	
+<div class="visible">
 <div class="panel-body">
 		
 
@@ -33,7 +35,7 @@
 										<a href="<?=base_url();?>Login/signup.html" class="btn btn-success" role="button">SIGN UP</a>								
 									</div>							
 									<div class="col-md-5 col-sm-5 col-xs-12">								
-										<a href="javascript:;" class="btn btn-success" onclick="jQuery('#modal-2').modal('show');">Forgot Password?</a>		
+										<a href="javascript:;" class="btn btn-success" onclick="ForgotPassword()">Forgot Password?</a>		
 									</div>							
 								</div>
 							 
@@ -64,16 +66,18 @@
 		</div>
 	</div>
 </div>
+</div>
 <div class="clear"></div>
-<div class="modal fade custom-width" id="modal-2">
-	<div class="modal-dialog" style="width: 60%;">		
-		<div class="modal-content">				
-			<div class="modal-header">				
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>				
-				<h4 class="modal-title">Forgot Password?</h4>				
-			</div>			
-			<div class="modal-body">			
-				<form role="form" onsubmit="return Match_email()" class="validate form-horizontal form-label-left input_mask" action="<?=base_url();?>/Landingpage/forgetpassword" method="post">			
+
+<div class="hidden lekhpal">
+<div class="panel-body">
+		
+
+	<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				 <div class="error"></div>
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<form role="form" onsubmit="return Match_email()" class="validate form-horizontal form-label-left input_mask" action="<?=base_url();?>Landingpage/forgetpassword" method="post">			
 				
 					<div class="form-group">
 							<label class="col-md-3 control-label">Enter your email:</label>
@@ -85,14 +89,34 @@
 					<div id="Username"></div>
 				
 					<div class="modal-footer">					
-						<button type="button" class="btn btn-white" data-dismiss="modal">Close</button>				
+						<button type="button" class="btn btn-white" onclick="back()">Back</button>				
 						<button type="submit" class="btn btn-info">Send</button>				
 					</div>				
-				</form>			
-			</div>	
-		</div>		
-	</div>	
+				</form>					
+			</div>			 
+		</div>
+	</div>
 </div>
+</div>
+
+
+
+
+
+<script>
+	function ForgotPassword(){		
+		 $(".visible").addClass("hidden");		
+		 $(".lekhpal").removeClass("hidden");		
+		
+	}
+	function back(){
+		
+		 $(".visible").removeClass("hidden");		
+		 $(".lekhpal").addClass("hidden");
+		
+		
+	}
+</script>
 
 
 <script>

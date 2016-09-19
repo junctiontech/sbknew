@@ -7,9 +7,11 @@
 			<div class="col-sm-2"></div>		
 			<div class="col-md-8">
 				<div class="panel panel-default">
+				<?php if(empty($error)){ ?>
 					<div class="panel-body">
 						<p class="panel-title" style="text-align:center;" >Recharge now<p>	
 						<form role="form" class="validate form-horizontal form-label-left sign_up" method="post" action="<?=base_url();?>Landingpage/insertredeemrequet">		
+						<input type="hidden" name="token" value="<?=isset($token)?$token:''?>">
 							<div class="form-group">								
 								<div class="col-sm-12">	
 									<p style="text-align:center;">
@@ -62,6 +64,24 @@
 							</div>
 						</form>
 					</div>
+				<?php }else{ ?>
+					<div class="page-error centered">
+				
+				<div class="error-symbol">
+					<i class="fa-warning"></i>
+				</div>
+				
+				<h2>
+					<?=isset($error['message'])?$error['message']:''?>
+					<small>Page not found!</small>
+				</h2>
+				
+				<p>We did not find the page you were looking for!</p>
+				<p>You can search again or contact one of our agents to help you!</p>
+				
+			</div>
+				<?php } ?>		
+					
 				</div>
 			</div>
 			<div class="col-md-2"></div>	

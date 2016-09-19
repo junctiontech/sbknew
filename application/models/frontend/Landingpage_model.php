@@ -400,6 +400,25 @@ class Landingpage_model extends CI_Model {
 	{
 		$this->db->insert($table,$data);		
 	}
+	
+	public function checkToken($Token=false)
+	{
+		$this->db->select('*');
+		$this->db->from('s4k_coupon');
+		$this->db->where('Token',$Token);
+		$query=$this->db->get();
+		return $query->result();
+	}
+	
+	public function insert($table,$data,$filter=false){
+		if($filter){
+			$this->db->where($filter);
+			$this->db->update($table,$data);
+		}else{
+		$this->db->insert($table,$data);
+		}
+	}
+	
 	public function checkwishlist($table=false, $where=false)
 	{
 		$this->db->select('userWishListID');

@@ -34,11 +34,19 @@
 								</tr>		
 							</thead>			
 							<tbody>
+							<?php if(!empty($coupondata)){ foreach($coupondata as $coupondatas){ ?>
 								<tr>
-									<td>Link :- base_url();/landingpage/coupon</td>
-									<td>Status</td>
-									<td>Created On / Expire On</td> 									 
-								</tr>								
+									<td><a target="_blank" href="<?=base_url();?>Landingpage/coupon/<?=$coupondatas->Token?>/redeem.html">Redeem now</a></td>
+									<td><?=$coupondatas->Status?></td>
+									<td><?=$coupondatas->CreatedOn?> / <?=$coupondatas->ExpireOn?></td> 									 
+								</tr>
+							<?php } }else{ ?>
+							<tr>
+									<td>no data</td>
+									<td>no data</td>
+									<td>no data</td> 									 
+								</tr>
+							<?php } ?>
 							</tbody>
 						</table>
 					</div>

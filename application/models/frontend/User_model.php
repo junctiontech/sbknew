@@ -13,6 +13,43 @@ class User_model extends CI_Model
 	public function addwishlist($table,$data){
 		$this->db->insert($table,$data);
 	}
+	
+	public function insert($table,$data,$filter=false){
+		if($filter){
+			$this->db->where($filter);
+			$this->db->update($table,$data);
+		}else{
+		$this->db->insert($table,$data);
+		}
+	}
+	
+	public function getsharedata($table,$filter)
+	{ 
+		$this->db->select('*');
+		$this->db->from($table);
+		$this->db->where($filter);
+		$userwishlist=$this->db->get();
+		return $userwishlist->result();
+	}
+	
+	public function getdata($table,$filter)
+	{ 
+		$this->db->select('*');
+		$this->db->from($table);
+		$this->db->where($filter);
+		$userwishlist=$this->db->get();
+		return $userwishlist->result();
+	}
+	
+	public function get_user_email($filter)
+	{ 
+		$this->db->select('userEmail,userFirstName');
+		$this->db->from('s4k_user');
+		$this->db->where('userID',$filter);
+		$userwishlist=$this->db->get();
+		return $userwishlist->result();
+	}
+	
 	public function getuserwishlist($userID)
 	{ 
 		$this->db->select('t1.productID,t1.userWishListID');

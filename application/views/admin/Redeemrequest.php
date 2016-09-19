@@ -82,11 +82,11 @@
 							<td><?php echo $data->Opretor ;?></td> 
 							<td><?php echo $data->States ;?></td> 
 							<td>								
-								<select id=" ">								
-									<option onclick="Changestatus(this.value,'<?=$data->redeemRequestID ;?>')" <?php if($data->Status == 'Requested') {echo "Selected" ;}?> vlaue="Requested">Requested</option>
-									<option onclick="Changestatus(this.value,'<?=$data->redeemRequestID ;?>')" <?php if($data->Status == 'Pending') {echo "Selected" ;}?> vlaue="Pending">Pending</option>
-									<option onclick="Changestatus(this.value,'<?=$data->redeemRequestID ;?>')" <?php if($data->Status == 'Success') {echo "Selected" ;}?> vlaue="Success">Success</option>
-									<option onclick="Changestatus(this.value,'<?=$data->redeemRequestID ;?>')" <?php if($data->Status == 'Cancel') {echo "Selected" ;}?> vlaue="Cancel">Cancel</option>								
+								<select id=" " onchange="Changestatus(this.value,'<?=$data->redeemRequestID ;?>')">								
+									<option  <?php if($data->Status == 'Requested') {echo "Selected" ;}?> vlaue="Requested">Requested</option>
+									<option  <?php if($data->Status == 'Pending') {echo "Selected" ;}?> vlaue="Pending">Pending</option>
+									<option  <?php if($data->Status == 'Success') {echo "Selected" ;}?> vlaue="Success">Success</option>
+									<option  <?php if($data->Status == 'Cancel') {echo "Selected" ;}?> vlaue="Cancel">Cancel</option>								
 								</select>								
 							</td>
 						</tr>	

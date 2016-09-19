@@ -28,19 +28,25 @@
 						<table cellspacing="0" class="table table-small-font table-bordered table-striped">			
 							<thead>				
 								<tr class="headings">					
-									<th>Product Name</th>					
-									<th>Share Date</th>					
-									<th>Share Type</th>					
-									<th>Status</th>	
+									<th>Today's search</th>					
+									<th>Total search</th>					
+									<th>Last search</th>	
 								</tr>		
 							</thead>			
 							<tbody>									 
+								<?php if(!empty($searchdata)){ foreach($searchdata as $searhdatas){ ?>
 								<tr>
-									<td>Product Name</td>
-									<td>Share Date</td>
-									<td>Type</td>									
-									<td>Status</td> 								 
-								</tr>						 
+									<td><?php if(strtotime(date('Y-m-d'))==strtotime($searhdatas->currentDate)){ echo $searhdatas->todaysCount; }else{ echo 0; }?></td>
+									<td><?=$searhdatas->totalCount?></td>
+									<td><?=$searhdatas->updatedOn?></td> 									 
+								</tr>
+							<?php } }else{ ?>
+							<tr>
+									<td>no data</td>
+									<td>no data</td>
+									<td>no data</td>
+								</tr>
+							<?php } ?>					 
 							</tbody>
 						</table>
 					</div>

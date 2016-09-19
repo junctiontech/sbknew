@@ -66,6 +66,84 @@ class Landingpage extends CI_Controller {
 		$this->display ('frontend/Landingpage');
 		}
 	}
+	
+	public function coupon($token=false,$redeem=false)
+	{
+		if(!empty($token) && !empty($redeem)){
+			$checkToken=$this->Landingpage_model->checkToken($token);
+			if(!empty($checkToken)){
+				if($checkToken[0]->Status=='Active'){
+					if(strtotime($checkToken[0]->ExpireOn)>=strtotime(date('Y-m-d'))){
+						$this->data['token']=$token;
+						$this->data['Status']=$this->Landingpage_model->get_states('s4k_state');
+					}else{
+						$this->data['error']=array('error'=>true,'message'=>"Your coupon had expired on {$checkToken[0]->ExpireOn}");
+					}
+				}else{
+					$this->data['error']=array('error'=>true,'message'=>"You had already redeem your coupon");
+				}
+			}else{
+				$this->data['error']=array('error'=>true,'message'=>"Invalid request");
+			}
+		}else{
+			$this->data['error']=array('error'=>true,'message'=>"Invalid request");
+		}
+		$this->display('frontend/getcoupon');
+	}
+	
+	public function get_Opraters()
+	{
+		$type=$this->input->post('data');		
+		$query=$this->Landingpage_model->get_opraters('s4k_operator',array('Type'=>$type));	
+		if(!empty($query)){			
+			foreach ($query as $data) {				
+				echo "<option value ='".$data->operatorName."'>".$data->operatorName."</option>";
+			}			
+		}
+	}
+	
+	public function insertredeemrequet()
+	{
+		$type=$this->input->post('type');
+		$Number=$this->input->post('number');
+		$Opretor=$this->input->post('oprater');
+		$States=$this->input->post('state');
+		$token=$this->input->post('token');
+		if(!empty($token) && !empty($Number) && !empty($Opretor) && !empty($States) && !empty($type)){
+			$checkToken=$this->Landingpage_model->checkToken($token);
+			if(!empty($checkToken)){
+				if($checkToken[0]->Status=='Active'){
+					if(strtotime($checkToken[0]->ExpireOn)>=strtotime(date('Y-m-d'))){
+						$updatedata=array('Status'=>'Used');
+						$filter=array('Token'=>$token);
+						$this->Landingpage_model->insert('s4k_coupon',$updatedata,$filter);
+						$data=array('userID'=>$checkToken[0]->userID,
+									'Type'=>$this->input->post('type'),
+									'Number'=>$this->input->post('number'),
+									'Opretor'=>$this->input->post('oprater'),
+									'States'=>$this->input->post('state'),
+									'Status'=>'Requested');		
+						$this->Landingpage_model->insertredeemrequest('s4k_user_redeem_request',$data);
+						$this->session->set_flashdata('message_type', 'success');			
+						$this->session->set_flashdata('message', $this->config->item("Landingpage") . "Your request recieve successfully!!");			
+					}else{
+						$this->session->set_flashdata('message_type', 'error');			
+						$this->session->set_flashdata('message', $this->config->item("Landingpage") . "Your coupon had expired on {$checkToken[0]->ExpireOn}");
+					}
+				}else{
+					$this->session->set_flashdata('message_type', 'error');			
+					$this->session->set_flashdata('message', $this->config->item("Landingpage") . "You had already redeem your coupon");
+				}
+			}else{
+				$this->session->set_flashdata('message_type', 'error');			
+				$this->session->set_flashdata('message', $this->config->item("Landingpage") . "Invalid request");
+			}
+		}else{
+			
+		}
+		redirect ('Landingpage');
+	}
+	
 	public function Product($action=false,$category=false,$product=false){
 		$this->data['searchq']=$searchq=$this->input->Get('q');
 		$this->data['searchc']=$searchc=$this->input->Get('c');
@@ -910,40 +988,7 @@ class Landingpage extends CI_Controller {
 			}	
 	}
 		
-	public function coupon ()
-	{
-		$this->data['Status']=$this->Landingpage_model->get_states('s4k_state');		 
-		$this->parser->parse('frontend/Header',$this->data);
-		$this->parser->parse('frontend/getcoupon',$this->data);
-		$this->parser->parse('frontend/Footer',$this->data);
-		
-	}
-	public function get_Opraters()
-	{
-		$type=$this->input->post('data');		
-		$query=$this->Landingpage_model->get_opraters('s4k_operator',array('Type'=>$type));	
-		if(!empty($query)){			
-			foreach ($query as $data) {				
-				echo "<option value ='".$data->operatorName."'>".$data->operatorName."</option>";
-			}			
-		}
-	}
 	
-	public function insertredeemrequet()
-	{
-		$data=array (
-			//'userID'=>$this->input->post('userID'),   
-			'Type'=>$this->input->post('type'),
-			'Number'=>$this->input->post('number'),
-			'Opretor'=>$this->input->post('oprater'),
-			'States'=>$this->input->post('state'),
-			'Status'=>'Requested'
-		);		
-		$this->Landingpage_model->insertredeemrequest('s4k_user_redeem_request',$data);
-		$this->session->set_flashdata('message_type', 'success');			
-		$this->session->set_flashdata('message', $this->config->item("Landingpage") . "You Have Successfully !!");			
-		redirect ('Landingpage');
-	}
 	
 	public function BuyingGuide ()
 	{

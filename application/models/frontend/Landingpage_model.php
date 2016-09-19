@@ -65,7 +65,7 @@ class Landingpage_model extends CI_Model {
 	
 	public function get_sub_category($table=false,$filter=false)
 	{
-			$this->db->select('categoryName,subCategoryKey,categoryKey,level');
+			$this->db->select('categoryName,subCategoryKey as categoryKey,level');
 			$this->db->from($table);
 			$this->db->where($filter);
 			$query=$this->db->get();

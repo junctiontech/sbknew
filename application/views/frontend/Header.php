@@ -128,7 +128,7 @@
 					
 					<div class="col-md-9 col-sm-8 col-xs-9">						
 						<div class="header_top_right">	
-							<div class="search_box tooltip-primary" data-toggle="tooltip" data-placement="bottom" title="Hello, search through searchb4kharch android app to earn Rs.10 daily">	
+							<div class="search_box tooltip-primary" data-toggle="tooltip" data-placement="bottom" title="Hello, search through searchb4kharch android app to earn daily">	
 								<form action="<?=base_url();?>Landingpage/Product/Search.html" method="get">
 									<!--onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search for Products';}"  -->
 									<select class="hederselect" style="" name="c" >	
@@ -137,7 +137,7 @@
 										<option value="<?=$cats?>" <?php if(!empty($searchc)){ if($searchc==$cats){echo"selected";}}?>><?=ucwords($key)?></option>
 										<?php } ?>
 									</select>
-									<input type="text" placeholder="Search.. Shop.. Earn" id="search" list="searchdata" data-validate="required" data-message-required="Please enter more than two characters" autocomplete="off" Value="<?=isset($searchq)?$searchq:''?>" name="q" />	
+									<input type="text" placeholder="Search.. Compare.. Shop" id="search" list="searchdata" data-validate="required" data-message-required="Please enter more than two characters" autocomplete="off" Value="<?=isset($searchq)?$searchq:''?>" name="q" />	
 									<datalist id="searchdata"></datalist>
 									<input type="submit" value="SEARCH" />
 									
@@ -151,7 +151,7 @@
 					<div class="clear"></div>
 				</div>			
 				<ul class="navbar-nav">					
-					<li id="ss"><a href="javascript:;">Mobile</a>
+					<li><a href="javascript:;">Mobiles</a>
 						<ul id="mobile" class="fiexdheght">
 							<li><a href="javascript:;">Mobile, Tablets & Accessories</a>
 								<ul class="sub1">
@@ -288,50 +288,62 @@
 								</ul>							
 							</li>							
 						</ul>
-					</li>
-					<li><a href="javascript:;">Apparels</a>
-						<ul id="Apparels" class="fiexdheght">
-							<li><a href="javascript:;">men</a>
-								<ul>									
-									<li class="casual-shirts-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/casual-shirts-clothing-men.html">Casual Shirts</a></li>
-									<li class="tshirts-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/tshirts-clothing-men.html">T-Shirts</a></li>
-									<li class="formal-shirts-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/formal-shirts-clothing-men.html">Formal Shirts</a></li>
-									<li class="jeans-bottoms-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/jeans-bottoms-clothing-men.html">Jeans</a></li>
-									<li class="trousers-bottoms-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/trousers-bottoms-clothing-men.html">Pants & Trousers</a></li>
-									<li class="shorts-3-4th-bottoms-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/shorts-3-4th-bottoms-clothing-men.html">Shorts & 3/4ths</a></li>
-									<li class="ethnic-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/ethnic-clothing-men.html">Ethnic Wear</a></li>
-									<li class="sweatshirts-winterwear-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/sweatshirts-winterwear-clothing-men.html">Sweatshirts</a></li>
-									<li class="coats-winterwear-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/coats-winterwear-clothing-men.html">Coats & Blazers</a></li>
-									
-								</ul>								
-							</li>
-							<li><a href="javascript:;">women</a>							
+					</li>					
+					<li><a href="javascript:;">Camera</a>
+						<ul id="Camera" class="fiexdheght">
+							<li><a href="javascript:;">Camera</a>
 								<ul>
-									<li class="tops-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/tops-clothing-women.html">Shirts,Tops & Tees</a></li>
-									<li class="dress-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/dress-clothing-women.html">Dresses</a></li>
-									<li class="jeans-bottoms-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/jeans-bottoms-clothing-women.html">Jeans</a></li>
-									<li class="trousers-bottoms-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/trousers-bottoms-clothing-women.html">Trousers</a></li>
-									<li class="leggings-women"><a href="<?=base_url();?>Landingpage/Product/p/leggings-women.html">Leggings</a></li>
-									<li class="skirts-bottoms-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/skirts-bottoms-clothing-women.html">Skirts</a></li>
-									<li class="shrugs-and-jackets-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/shrugs-and-jackets-clothing-women.html">Shrugs & Jackets</a></li>
-									<li class="maternity-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/maternity-clothing-women.html">Maternity</a></li>
-									<li class="sportswear-women"><a href="<?=base_url();?>Landingpage/Product/p/sportswear-women.html">Sportswear</a></li>									
-									<li class="kurta-ethnic-women"><a href="<?=base_url();?>Landingpage/Product/p/kurta-ethnic-women.html">Kurtas & Kurtis</a></li>						
-									<li class="sarees-ethnic-women"><a href="<?=base_url();?>Landingpage/Product/p/sarees-ethnic-women.html">Sarees</a></li>									
-									<li class="suits-ethnic-women"><a href="<?=base_url();?>Landingpage/Product/p/suits-ethnic-women.html">Suit Sets</a></li>									
-									<li class="salwars-churidars-women"><a href="<?=base_url();?>Landingpage/Product/p/salwars-churidars-women.html">Salwars & Churidars</a></li>				
-									<li class="dressmaterial-ethnic-women"><a href="<?=base_url();?>Landingpage/Product/p/dressmaterial-ethnic-women.html">Dress Materials</a></li>					
-									<li class="bras-lingerie-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/bras-lingerie-clothing-women.html">Bras</a></li>							
-									<li class="jackets-winterwear-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/jackets-winterwear-clothing-women.html">Winter Jackets</a></li>				
-								</ul>						
+									<li class="digital-camera"><a href="<?=base_url();?>Landingpage/Product/p/digital-camera.html">Digital Cameras</a></li>		
+								</ul>
 							</li>							
-							<li><a href="javascript:;">kids</a>							
-								<ul>	
-									<li class="tshirts-boys-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/tshirts-boys-clothing-kids.html">T-Shirts</a></li>
-									<li class="jeans-trousers-boys-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/jeans-trousers-boys-clothing-kids.html">Jeans & Trousers</a></li>
-									<li class="ethnicwear-boys-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/ethnicwear-boys-clothing-kids.html">Ethnic Wear</a></li>									
+							<li><a href="javascript:;">Camera Accessories</a>							
+								<ul>
+									<li class="flashes"><a href="<?=base_url();?>Landingpage/Product/p/flashes.html">Camera Flashes</a></li>
+									<li class="camera-remote-controls"><a href="<?=base_url();?>Landingpage/Product/p/camera-remote-controls.html">Camera Remote Controls</a></li>
+									<li class="rechargeable-batteries"><a href="<?=base_url();?>Landingpage/Product/p/rechargeable-batteries.html">Rechargeable Batteries</a></li>
+									<li class="battery-chargers"><a href="<?=base_url();?>Landingpage/Product/p/battery-chargers.html">Battery Chargers</a></li>					
+									<li class="viewfinder-extenders"><a href="<?=base_url();?>Landingpage/Product/p/viewfinder-extenders.html">Viewfinder Extenders</a></li>					
+									<li class="camera-and-camcorder-batteries"><a href="<?=base_url();?>Landingpage/Product/p/camera-and-camcorder-batteries.html">Camera and Camcorder batteries</a></li>					
+									<li class="camera-screen-protectors"><a href="<?=base_url();?>Landingpage/Product/p/camera-screen-protectors.html">Camera Screen Protectors</a></li>				
+									<li class="tripods"><a href="<?=base_url();?>Landingpage/Product/p/tripods.html">Tripods</a></li>					
+														
 								</ul>							
 							</li>
+							<li><a href="javascript:;">Cameras, DSLRs & More</a>
+								<ul>
+									<li class="digital-slr-camera"><a href="<?=base_url();?>Landingpage/Product/p/digital-slr-camera.html">Digital SLR Cameras</a></li>
+									<li class="camcorder"><a href="<?=base_url();?>Landingpage/Product/p/camcorder.html">Camcorders</a></li>
+									<li class="digital-photo-frames"><a href="<?=base_url();?>Landingpage/Product/p/digital-photo-frames.html">Digital Photo Frames</a></li>
+									<li class="binoculars"><a href="<?=base_url();?>Landingpage/Product/p/binoculars.html">Binoculars</a></li>
+									<li class="surveillance-cameras"><a href="<?=base_url();?>Landingpage/Product/p/surveillance-cameras.html">Surveillance Cameras</a></li>									
+								</ul>
+							</li>
+							<li><a href="javascript:;">Flash & Accessories</a>
+								<ul>
+									<li class="adapter-rings"><a href="<?=base_url();?>Landingpage/Product/p/adapter-rings.html">Adapter Rings</a> </li>
+									<li class="shoe-mounts"><a href="<?=base_url();?>Landingpage/Product/p/shoe-mounts.html">Shoe Mounts</a> </li>
+									<li class="diffusers-and-modifiers"><a href="<?=base_url();?>Landingpage/Product/p/diffusers-and-modifiers.html">Diffusers & Modifiers</a> </li>
+								</ul>
+							</li>							
+							<li><a href="javascript:;">Lenses & Lens Accessories</a>
+								<ul>
+									<li class="filters"><a href="<?=base_url();?>Landingpage/Product/p/filters.html">Lens Filters</a></li>
+									<li class="lens-cleaner"><a href="<?=base_url();?>Landingpage/Product/p/lens-cleaner.html">Lens Cleaners</a></li>
+									<li class="lens-cap"><a href="<?=base_url();?>Landingpage/Product/p/lens-cap.html">Lens Caps</a></li>
+									<li class="lenses"><a href="<?=base_url();?>Landingpage/Product/p/lenses.html">Camera Lenses</a></li>
+									<li class="lens-hoods"><a href="<?=base_url();?>Landingpage/Product/p/lens-hoods.html">Lens Hoods</a></li>
+									<li class="adapters-and-converters"><a href="<?=base_url();?>Landingpage/Product/p/adapters-and-converters.html">Adapters & Converters</a></li>
+									<li class="extension-tubes"><a href="<?=base_url();?>Landingpage/Product/p/extension-tubes.html">Extension Tubes</a></li>
+								</ul>
+							</li>							
+							<li><a href="javascript:;">Tripods</a>
+								<ul>
+									<li class="tripod"><a href="<?=base_url();?>Landingpage/Product/p/tripod.html">Tripods</a></li>
+									<li class="monopods"><a href="<?=base_url();?>Landingpage/Product/p/monopods.html">Monopods</a></li>
+									<li class="tripod-ball-heads"><a href="<?=base_url();?>Landingpage/Product/p/tripod-ball-heads.html">Tripod Ball Heads</a></li>
+									<li class="camera-mounts-and-clamps"><a href="<?=base_url();?>Landingpage/Product/p/camera-mounts-and-clamps.html">Camera Mounts & Clamps</a></li>
+								</ul>
+							</li>							
 						</ul>
 					</li>
 					<li><a href="javascript:;">Home & Furniture</a>
@@ -444,205 +456,8 @@
 							</li>							
 						</ul>
 					</li>
-					<li><a href="javascript:;">Health & Fitness</a>
-						<ul id="Healthfitness" class="fiexdheght">
-							<li><a href="javascript:;">Exercise & Fitness</a>
-								<ul>
-									<li class="cross-and-elliptical-trainers"><a href="<?=base_url();?>Landingpage/Product/p/cross-and-elliptical-trainers.html">Cross & Elliptical trainers</a></li>
-									<li class="dumbbells"><a href="<?=base_url();?>Landingpage/Product/p/dumbbells.html">Dumbbells</a></li>
-									<li class="weighing-scales"><a href="<?=base_url();?>Landingpage/Product/p/weighing-scales.html">Weighing Scales</a></li>
-								</ul>
-							</li>
-							<li><a href="javascript:;">Health Care Products</a>
-								<ul>
-									<li class="bp-monitors"><a href="<?=base_url();?>Landingpage/Product/p/bp-monitors.html">BP Monitor</a><li>
-									<li class="digital-thermometers"><a href="<?=base_url();?>Landingpage/Product/p/digital-thermometers.html">Digital Thermometer</a><li>
-									<li class="nebulizers"><a href="<?=base_url();?>Landingpage/Product/p/nebulizers.html">Nebulizer</a><li>
-									<li class="massagers"><a href="<?=base_url();?>Landingpage/Product/p/massagers.html">Massager</a><li>
-									<li class="pulse-oximeters"><a href="<?=base_url();?>Landingpage/Product/p/pulse-oximeters.html">Pulse Oximeter</a><li>
-									<li class="heat-therapy"><a href="<?=base_url();?>Landingpage/Product/p/heat-therapy.html">Heating Pad</a><li>
-									<li class="blood-glucose-monitors"><a href="<?=base_url();?>Landingpage/Product/p/blood-glucose-monitors.html">Glucometer</a><li>
-									<li class="body-fat-monitors"><a href="<?=base_url();?>Landingpage/Product/p/body-fat-monitors.html">Body Fat Analyzer</a><li>
-									<li class="pedometer-step-counters"><a href="<?=base_url();?>Landingpage/Product/p/pedometer-step-counters.html">Pedometer</a><li>
-									<li class="air-coolers"><a href="<?=base_url();?>Landingpage/Product/p/air-coolers.html">Air Coolers</a><li>
-									<li class="fans"><a href="<?=base_url();?>Landingpage/Product/p/fans.html">Fans</a><li>
-									<li class="geysers"><a href="<?=base_url();?>Landingpage/Product/p/geysers.html">Geysers</a><li>
-									<li class="immersion-rods"><a href="<?=base_url();?>Landingpage/Product/p/immersion-rods.html">Immersion Rods</a><li>
-									<li class="room-heaters"><a href="<?=base_url();?>Landingpage/Product/p/room-heaters.html">Room Heaters</a><li>
-								</ul>
-							</li>
-						</ul>
-					</li>					
-					<li><a href="javascript:;">Beauty & Jewellery</a>
-						<ul id="Beautyjewellery" class="fiexdheght">
-							<li><a href="javascript:;">Eyes</a>							
-								<ul>
-									<li class="eye-liner"><a href="<?=base_url();?>Landingpage/Product/p/eye-liner.html">Eye Liner</a></li>
-									<li class="eye-shadows"><a href="<?=base_url();?>Landingpage/Product/p/eye-shadows.html">Eye Shadow</a></li>
-									<li class="kajal"><a href="<?=base_url();?>Landingpage/Product/p/kajal.html">Kajal</a></li>
-								</ul>
-							</li>							
-							<li><a href="javascript:;">Face</a>							
-								<ul>
-									<li class="bb-and-cc-cream"><a href="<?=base_url();?>Landingpage/Product/p/bb-and-cc-cream.html">BB & CC Creams</a></li>
-									<li class="blush-and-bronzer"><a href="<?=base_url();?>Landingpage/Product/p/blush-and-bronzer.html">Blush</a></li>
-									<li class="bronzer"><a href="<?=base_url();?>Landingpage/Product/p/bronzer.html">Bronzer</a></li>
-									<li class="compact"><a href="<?=base_url();?>Landingpage/Product/p/compact.html">Compact Powder</a></li>
-									<li class="eye-make-up-remover"><a href="<?=base_url();?>Landingpage/Product/p/eye-make-up-remover.html">Makeup Remover</a></li>
-									<li class="face-concealer"><a href="<?=base_url();?>Landingpage/Product/p/face-concealer.html">Concealer</a></li>
-									<li class="foundation-and-compacts"><a href="<?=base_url();?>Landingpage/Product/p/foundation-and-compacts.html">Foundation</a></li>
-									<li class="primer"><a href="<?=base_url();?>Landingpage/Product/p/primer.html">Primer</a></li>
-								</ul>							
-							</li>							
-							<li><a href="javascript:;">Fancy Jewellery</a>
-								<ul>
-									<li class="earrings-jewellery-women"><a href="<?=base_url();?>Landingpage/Product/p/earrings-jewellery-women.html">Earrings</a><li>
-									<li class="necklace-jewellery-women"><a href="<?=base_url();?>Landingpage/Product/p/necklace-jewellery-women.html">Necklace & Sets</a><li>
-								</ul>
-							</li>							
-							<li><a href="javascript:;">Fragrance</a>							
-								<ul>
-									<li class="body-mist"><a href="<?=base_url();?>Landingpage/Product/p/body-mist.html">Body Mist</a></li>
-									<li class="women-deos"><a href="<?=base_url();?>Landingpage/Product/p/women-deos.html">Women Deos</a></li>
-									<li class="women-perfumes"><a href="<?=base_url();?>Landingpage/Product/p/women-perfumes.html">Women Perfumes</a></li>
-									<li class="kajal"><a href="<?=base_url();?>Landingpage/Product/p/kajal.html">Kajal</a></li>
-								</ul>
-							</li>							
-							<li><a href="javascript:;">Lips</a>
-								<ul>
-									<li class="lip-balms"><a href="<?=base_url();?>Landingpage/Product/p/lip-balms.html">Lip Balms</a></li>
-									<li class="lip-gloss"><a href="<?=base_url();?>Landingpage/Product/p/lip-gloss.html">Lip Gloss</a></li>
-									<li class="lip-liners"><a href="<?=base_url();?>Landingpage/Product/p/lip-liners.html">Lip Liners</a></li>
-									<li class="lipstick"><a href="<?=base_url();?>Landingpage/Product/p/lipstick.html">Lipstick</a></li>
-									
-								</ul>
-							</li>							
-							<li><a href="javascript:;">Men Shaving & Grooming</a>
-								<ul>
-									<li class="after-shaves"><a href="<?=base_url();?>Landingpage/Product/p/after-shaves.html">After Shaves</a></li>
-									<li class="cartridges-and-blades"><a href="<?=base_url();?>Landingpage/Product/p/cartridges-and-blades.html">Cartridges & Blades</a></li>
-									<li class="razors"><a href="<?=base_url();?>Landingpage/Product/p/razors.html">Razors</a></li>
-									<li class="shaving-brushes"><a href="<?=base_url();?>Landingpage/Product/p/shaving-brushes.html">Shaving Brushes</a></li>
-									<li class="shaving-foam-cream-and-gel"><a href="<?=base_url();?>Landingpage/Product/p/shaving-foam-cream-and-gel.html">Shaving Foam, Cream & Gels</a></li>
-								</ul>
-							</li>							
-							<li><a href="javascript:;">Nails</a>
-								<ul>
-									<li class="nail-effects"><a href="<?=base_url();?>Landingpage/Product/p/nail-effects.html">Nail Effects</a></li>
-									<li class="nail-polish"><a href="<?=base_url();?>Landingpage/Product/p/nail-polish.html">Nail Polish</a></li>
-									<li class="nail-polish-remover"><a href="<?=base_url();?>Landingpage/Product/p/nail-polish-remover.html">Nail Polish Remover</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a href="javascript:;">Baby Care</a>
-						<ul id="Babycare" class="fiexdheght">
-							<li><a href="javascript:;">Baby & Toddler Toys</a>
-								<ul>
-									<li class="baby-gym-kids"><a href="<?=base_url();?>Landingpage/Product/p/baby-gym-kids.html">Infant Play Gyms</a></li>							
-									<li class="blocks-kids"><a href="<?=base_url();?>Landingpage/Product/p/blocks-kids.html">Blocks & Stacking Games</a> </li>							
-									<li class="dolls-baby-kids"><a href="<?=base_url();?>Landingpage/Product/p/dolls-baby-kids.html">Dolls & Dollhouses</a> </li>							
-									<li class="pull-along-toys-kids"><a href="<?=base_url();?>Landingpage/Product/p/pull-along-toys-kids.html">Pull Along Toys</a> </li>							
-									<li class="frocks-kids"><a href="<?=base_url();?>Landingpage/Product/p/frocks-kids.html">Frocks</a> </li>							
-									<li class="blankets-kids"><a href="<?=base_url();?>Landingpage/Product/p/blankets-kids.html">Blankets, Quilts & Wraps</a> </li>
-								</ul>
-							</li>
-							<li><a href="javascript:;">Bath & Skin Care</a>
-								<ul>
-									<li class="lotions-oils-and-powders"><a href="<?=base_url();?>Landingpage/Product/p/lotions-oils-and-powders.html">Lotions, Oils & Powders</a></li>				
-									<li class="soaps-shampoo-and-body-wash"><a href="<?=base_url();?>Landingpage/Product/p/soaps-shampoo-and-body-wash.html">Soaps, Shampoo & Body Wash</a> </li>
-								</ul>
-							</li>
-							<li><a href="javascript:;">Gear</a>
-								<ul>
-									<li class="rockers-kids"><a href="<?=base_url();?>Landingpage/Product/p/rockers-kids.html">Bouncers, Rockers & Swing</a></li>
-									<li class="strollers-kids"><a href="<?=base_url();?>Landingpage/Product/p/strollers-kids.html">Strollers, Prams & Car Seats</a></li>
-									<li class="high-chairs-kids"><a href="<?=base_url();?>Landingpage/Product/p/high-chairs-kids.html">High Chairs & Booster Seats</a></li>
-									<li class="ride-ons-kids"><a href="<?=base_url();?>Landingpage/Product/p/ride-ons-kids.html">Bikes & Ride Ons</a></li>					
-								</ul>							
-							</li>
-							<li><a href="javascript:;">Kids Toys</a>
-								<ul>
-									<li class="trains-kids"><a href="<?=base_url();?>Landingpage/Product/p/trains-kids.html">Trains, Cars and Models</a><li>
-									<li class="construction-blocks-kids"><a href="<?=base_url();?>Landingpage/Product/p/construction-blocks-kids.html">Construction & Blocks</a><li>
-									<li class="puzzles-kids"><a href="<?=base_url();?>Landingpage/Product/p/puzzles-kids.html">Puzzles</a><li>
-									<li class="action-games-kids"><a href="<?=base_url();?>Landingpage/Product/p/action-games-kids.html">Action games & figures</a><li>
-									<li class="board-games-kids"><a href="<?=base_url();?>Landingpage/Product/p/board-games-kids.html">Board Games</a><li>
-								</ul>
-							</li>
-							<li><a href="javascript:;">Maternity, Feeding & Nursing</a>
-								<ul>
-									<li class="formula-and-food-supplements"><a href="<?=base_url();?>Landingpage/Product/p/formula-and-food-supplements.html">Baby Food</a><li>
-								</ul>
-							</li>							
-							<li><a href="javascript:;">School & Stationery</a>
-								<ul>
-									<li class="art-craft-kids"><a href="<?=base_url();?>Landingpage/Product/p/art-craft-kids.html">Art & Craft</a></li>
-									<li class="party-supplies-kids"><a href="<?=base_url();?>Landingpage/Product/p/party-supplies-kids.html">Party Supplies</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a href="javascript:;">Accessories</a>
-						<ul id="Accessories" class="fiexdheght" style="right:0px">
-							<li><a href="javascript:;">Man</a>							
-								<ul>
-									<li class="socks-men"><a href="<?=base_url();?>Landingpage/Product/p/socks-men.html">Socks</a></li>
-									<li class="ties-cufflinks-accessories-men"><a href="<?=base_url();?>Landingpage/Product/p/ties-cufflinks-accessories-men.html">Ties & Cufflinks</a></li>
-									<li class="wallets-bags-men"><a href="<?=base_url();?>Landingpage/Product/p/wallets-bags-men.html">Wallets</a></li>
-									<li class="casual-shoes-boys-kids"><a href="<?=base_url();?>Landingpage/Product/p/casual-shoes-boys-kids.html">Casual Shoes</a></li>
-									<li class="sandals-boys-kids"><a href="<?=base_url();?>Landingpage/Product/p/sandals-boys-kids.html">Sandals</a></li>
-									<li class="belts-accessories-men"><a href="<?=base_url();?>Landingpage/Product/p/belts-accessories-men.html">Belts</a></li>
-									<li class="watches-men"><a href="<?=base_url();?>Landingpage/Product/p/watches-men.html">Watches</a></li>
-									<li class="sunglasses-accessories-men"><a href="<?=base_url();?>Landingpage/Product/p/sunglasses-accessories-men.html">Sunglasses</a></li>
-									<li class="eyeglasses-men"><a href="<?=base_url();?>Landingpage/Product/p/eyeglasses-men.html">Eyeglasses</a></li>
-									<li class="men-deos"><a href="<?=base_url();?>Landingpage/Product/p/men-deos.html">Men Deos</a></li>
-									<li class="men-perfumes"><a href="<?=base_url();?>Landingpage/Product/p/men-perfumes.html">Men Perfumes</a></li>
-									<li class="briefs-men"><a href="<?=base_url();?>Landingpage/Product/p/briefs-men.html">Briefs</a></li>
-									<li class="boxers-men"><a href="<?=base_url();?>Landingpage/Product/p/boxers-men.html">Boxers</a></li>
-									<li class="nightsuits-men"><a href="<?=base_url();?>Landingpage/Product/p/nightsuits-men.html">Night Suits</a></li>
-									<li class="chains-men"><a href="<?=base_url();?>Landingpage/Product/p/chains-men.html">Chains</a></li>
-									<li class="casual-shoes-men"><a href="<?=base_url();?>Landingpage/Product/p/casual-shoes-men.html">Casual Shoes</a></li>
-									<li class="sports-shoes-men"><a href="<?=base_url();?>Landingpage/Product/p/sports-shoes-men.html">Sports Shoes</a></li>
-									<li class="formal-shoes-men"><a href="<?=base_url();?>Landingpage/Product/p/formal-shoes-men.html">Formal Shoes</a></li>
-									<li class="sandals-shoes-men"><a href="<?=base_url();?>Landingpage/Product/p/sandals-shoes-men.html">Sandals & Floaters</a></li>
-									<li class="slippers-shoes-men"><a href="<?=base_url();?>Landingpage/Product/p/slippers-shoes-men.html">Slippers & Flip Flops</a></li>
-								
-								</ul>							
-							</li>							
-							<li><a href="javascript:;">Women</a>							
-								<ul>
-									<li class="handbag-bags-women"><a href="<?=base_url();?>Landingpage/Product/p/handbag-bags-women.html">Handbags</a></li>
-									<li class="wallets-women"><a href="<?=base_url();?>Landingpage/Product/p/wallets-women.html">Wallets</a></li>
-									<li class="sunglasses-accessories-women"><a href="<?=base_url();?>Landingpage/Product/p/sunglasses-accessories-women.html">Sunglasses</a></li>
-									<li class="sandals-casual-shoes-women"><a href="<?=base_url();?>Landingpage/Product/p/sandals-casual-shoes-women.html">Sandals</a></li>
-									<li class="heels-shoes-women"><a href="<?=base_url();?>Landingpage/Product/p/heels-shoes-women.html">Heels</a></li>
-									<li class="flats-shoes-women"><a href="<?=base_url();?>Landingpage/Product/p/flats-shoes-women.html">Flats</a></li>
-									<li class="sneakers-women"><a href="<?=base_url();?>Landingpage/Product/p/sneakers-women.html">Casual Shoes & Sneakers</a></li>
-									<li class="slippers-shoes-women"><a href="<?=base_url();?>Landingpage/Product/p/slippers-shoes-women.html">Slippers & Flip Flops</a></li>
-								
-								</ul>							
-							</li>							
-							<li><a href="javascript:;">Kids</a>							
-								<ul>
-									<li class="wallets-bags-men"><a href="<?=base_url();?>Landingpage/Product/p/wallets-bags-men.html">Wallets</a></li>
-									<li class="sunglasses-kids"><a href="<?=base_url();?>Landingpage/Product/p/sunglasses-kids.html">Sunglasses</a></li>
-									<li class="cloth-diapers"><a href="<?=base_url();?>Landingpage/Product/p/cloth-diapers.html">Cloth Diapers</a></li>
-									<li class="disposable-diapers"><a href="<?=base_url();?>Landingpage/Product/p/disposable-diapers.html">Disposable Diapers</a></li>
-									<li class="diaper-creams"><a href="<?=base_url();?>Landingpage/Product/p/diaper-creams.html">Diaper Creams</a></li>
-									<li class="wipes"><a href="<?=base_url();?>Landingpage/Product/p/wipes.html">Wipes</a></li>
-									<li class="potty-training-kids"><a href="<?=base_url();?>Landingpage/Product/p/potty-training-kids.html">Potty Training & Step Stools</a></li>
-									<li class="dresses-frocks-girls-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/dresses-frocks-girls-clothing-kids.html">Dresses & Frocks</a></li>
-									<li class="tops-tunics-girls-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/tops-tunics-girls-clothing-kids.html">Tops & T-Shirts</a></li>
-									<li class="ethnicwear-girls-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/ethnicwear-girls-clothing-kids.html">Ethnic Wear</a></li>
-									<li class="floaters-girls-kids"><a href="<?=base_url();?>Landingpage/Product/p/floaters-girls-kids.html">Floaters & Flip Flops</a></li>
-								
-								</ul>							
-							</li>						
-						</ul>
-					</li>
 					<li><a href="javascript">Sports</a>
-						<ul id="Sports" class="fiexdheght" style="right:0px">
+						<ul id="Sports" class="fiexdheght">
 							<li><a href="javascript:;">Badminton</a>
 								<ul>							
 									<li class="grips"><a href="<?=base_url();?>Landingpage/Product/p/grips.html">Grips</a></li>							
@@ -712,62 +527,246 @@
 							</li>							
 						</ul>
 					</li>
-					
-					<li><a href="javascript:;">Camera</a>
-						<ul id="Camera" class="fiexdheght"style="right:0px">
-							<li><a href="javascript:;">Camera</a>
+					<li><a href="javascript:;">Health & Fitness</a>
+						<ul id="Healthfitness" class="fiexdheght">
+							<li><a href="javascript:;">Exercise & Fitness</a>
 								<ul>
-									<li class="digital-camera"><a href="<?=base_url();?>Landingpage/Product/p/digital-camera.html">Digital Cameras</a></li>		
+									<li class="cross-and-elliptical-trainers"><a href="<?=base_url();?>Landingpage/Product/p/cross-and-elliptical-trainers.html">Cross & Elliptical trainers</a></li>
+									<li class="dumbbells"><a href="<?=base_url();?>Landingpage/Product/p/dumbbells.html">Dumbbells</a></li>
+									<li class="weighing-scales"><a href="<?=base_url();?>Landingpage/Product/p/weighing-scales.html">Weighing Scales</a></li>
 								</ul>
-							</li>							
-							<li><a href="javascript:;">Camera Accessories</a>							
+							</li>
+							<li><a href="javascript:;">Health Care Products</a>
 								<ul>
-									<li class="flashes"><a href="<?=base_url();?>Landingpage/Product/p/flashes.html">Camera Flashes</a></li>
-									<li class="camera-remote-controls"><a href="<?=base_url();?>Landingpage/Product/p/camera-remote-controls.html">Camera Remote Controls</a></li>
-									<li class="rechargeable-batteries"><a href="<?=base_url();?>Landingpage/Product/p/rechargeable-batteries.html">Rechargeable Batteries</a></li>
-									<li class="battery-chargers"><a href="<?=base_url();?>Landingpage/Product/p/battery-chargers.html">Battery Chargers</a></li>					
-									<li class="viewfinder-extenders"><a href="<?=base_url();?>Landingpage/Product/p/viewfinder-extenders.html">Viewfinder Extenders</a></li>					
-									<li class="camera-and-camcorder-batteries"><a href="<?=base_url();?>Landingpage/Product/p/camera-and-camcorder-batteries.html">Camera and Camcorder batteries</a></li>					
-									<li class="camera-screen-protectors"><a href="<?=base_url();?>Landingpage/Product/p/camera-screen-protectors.html">Camera Screen Protectors</a></li>				
-									<li class="tripods"><a href="<?=base_url();?>Landingpage/Product/p/tripods.html">Tripods</a></li>					
-														
+									<li class="bp-monitors"><a href="<?=base_url();?>Landingpage/Product/p/bp-monitors.html">BP Monitor</a><li>
+									<li class="digital-thermometers"><a href="<?=base_url();?>Landingpage/Product/p/digital-thermometers.html">Digital Thermometer</a><li>
+									<li class="nebulizers"><a href="<?=base_url();?>Landingpage/Product/p/nebulizers.html">Nebulizer</a><li>
+									<li class="massagers"><a href="<?=base_url();?>Landingpage/Product/p/massagers.html">Massager</a><li>
+									<li class="pulse-oximeters"><a href="<?=base_url();?>Landingpage/Product/p/pulse-oximeters.html">Pulse Oximeter</a><li>
+									<li class="heat-therapy"><a href="<?=base_url();?>Landingpage/Product/p/heat-therapy.html">Heating Pad</a><li>
+									<li class="blood-glucose-monitors"><a href="<?=base_url();?>Landingpage/Product/p/blood-glucose-monitors.html">Glucometer</a><li>
+									<li class="body-fat-monitors"><a href="<?=base_url();?>Landingpage/Product/p/body-fat-monitors.html">Body Fat Analyzer</a><li>
+									<li class="pedometer-step-counters"><a href="<?=base_url();?>Landingpage/Product/p/pedometer-step-counters.html">Pedometer</a><li>
+									<li class="air-coolers"><a href="<?=base_url();?>Landingpage/Product/p/air-coolers.html">Air Coolers</a><li>
+									<li class="fans"><a href="<?=base_url();?>Landingpage/Product/p/fans.html">Fans</a><li>
+									<li class="geysers"><a href="<?=base_url();?>Landingpage/Product/p/geysers.html">Geysers</a><li>
+									<li class="immersion-rods"><a href="<?=base_url();?>Landingpage/Product/p/immersion-rods.html">Immersion Rods</a><li>
+									<li class="room-heaters"><a href="<?=base_url();?>Landingpage/Product/p/room-heaters.html">Room Heaters</a><li>
+								</ul>
+							</li>
+						</ul>
+					</li>					
+					<li><a href="javascript:;">Apparels</a>
+						<ul id="Apparels" class="fiexdheght">
+							<li><a href="javascript:;">men</a>
+								<ul>									
+									<li class="casual-shirts-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/casual-shirts-clothing-men.html">Casual Shirts</a></li>
+									<li class="tshirts-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/tshirts-clothing-men.html">T-Shirts</a></li>
+									<li class="formal-shirts-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/formal-shirts-clothing-men.html">Formal Shirts</a></li>
+									<li class="jeans-bottoms-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/jeans-bottoms-clothing-men.html">Jeans</a></li>
+									<li class="trousers-bottoms-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/trousers-bottoms-clothing-men.html">Pants & Trousers</a></li>
+									<li class="shorts-3-4th-bottoms-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/shorts-3-4th-bottoms-clothing-men.html">Shorts & 3/4ths</a></li>
+									<li class="ethnic-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/ethnic-clothing-men.html">Ethnic Wear</a></li>
+									<li class="sweatshirts-winterwear-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/sweatshirts-winterwear-clothing-men.html">Sweatshirts</a></li>
+									<li class="coats-winterwear-clothing-men"><a href="<?=base_url();?>Landingpage/Product/p/coats-winterwear-clothing-men.html">Coats & Blazers</a></li>
+									
+								</ul>								
+							</li>
+							<li><a href="javascript:;">women</a>							
+								<ul>
+									<li class="tops-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/tops-clothing-women.html">Shirts,Tops & Tees</a></li>
+									<li class="dress-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/dress-clothing-women.html">Dresses</a></li>
+									<li class="jeans-bottoms-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/jeans-bottoms-clothing-women.html">Jeans</a></li>
+									<li class="trousers-bottoms-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/trousers-bottoms-clothing-women.html">Trousers</a></li>
+									<li class="leggings-women"><a href="<?=base_url();?>Landingpage/Product/p/leggings-women.html">Leggings</a></li>
+									<li class="skirts-bottoms-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/skirts-bottoms-clothing-women.html">Skirts</a></li>
+									<li class="shrugs-and-jackets-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/shrugs-and-jackets-clothing-women.html">Shrugs & Jackets</a></li>
+									<li class="maternity-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/maternity-clothing-women.html">Maternity</a></li>
+									<li class="sportswear-women"><a href="<?=base_url();?>Landingpage/Product/p/sportswear-women.html">Sportswear</a></li>									
+									<li class="kurta-ethnic-women"><a href="<?=base_url();?>Landingpage/Product/p/kurta-ethnic-women.html">Kurtas & Kurtis</a></li>						
+									<li class="sarees-ethnic-women"><a href="<?=base_url();?>Landingpage/Product/p/sarees-ethnic-women.html">Sarees</a></li>									
+									<li class="suits-ethnic-women"><a href="<?=base_url();?>Landingpage/Product/p/suits-ethnic-women.html">Suit Sets</a></li>									
+									<li class="salwars-churidars-women"><a href="<?=base_url();?>Landingpage/Product/p/salwars-churidars-women.html">Salwars & Churidars</a></li>				
+									<li class="dressmaterial-ethnic-women"><a href="<?=base_url();?>Landingpage/Product/p/dressmaterial-ethnic-women.html">Dress Materials</a></li>					
+									<li class="bras-lingerie-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/bras-lingerie-clothing-women.html">Bras</a></li>							
+									<li class="jackets-winterwear-clothing-women"><a href="<?=base_url();?>Landingpage/Product/p/jackets-winterwear-clothing-women.html">Winter Jackets</a></li>				
+								</ul>						
+							</li>							
+							<li><a href="javascript:;">kids</a>							
+								<ul>	
+									<li class="tshirts-boys-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/tshirts-boys-clothing-kids.html">T-Shirts</a></li>
+									<li class="jeans-trousers-boys-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/jeans-trousers-boys-clothing-kids.html">Jeans & Trousers</a></li>
+									<li class="ethnicwear-boys-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/ethnicwear-boys-clothing-kids.html">Ethnic Wear</a></li>									
 								</ul>							
 							</li>
-							<li><a href="javascript:;">Cameras, DSLRs & More</a>
+						</ul>
+					</li>
+					<li><a href="javascript:;">Accessories</a>
+						<ul id="Accessories" class="fiexdheght" style="right:0px">
+							<li><a href="javascript:;">Man</a>							
 								<ul>
-									<li class="digital-slr-camera"><a href="<?=base_url();?>Landingpage/Product/p/digital-slr-camera.html">Digital SLR Cameras</a></li>
-									<li class="camcorder"><a href="<?=base_url();?>Landingpage/Product/p/camcorder.html">Camcorders</a></li>
-									<li class="digital-photo-frames"><a href="<?=base_url();?>Landingpage/Product/p/digital-photo-frames.html">Digital Photo Frames</a></li>
-									<li class="binoculars"><a href="<?=base_url();?>Landingpage/Product/p/binoculars.html">Binoculars</a></li>
-									<li class="surveillance-cameras"><a href="<?=base_url();?>Landingpage/Product/p/surveillance-cameras.html">Surveillance Cameras</a></li>									
+									<li class="socks-men"><a href="<?=base_url();?>Landingpage/Product/p/socks-men.html">Socks</a></li>
+									<li class="ties-cufflinks-accessories-men"><a href="<?=base_url();?>Landingpage/Product/p/ties-cufflinks-accessories-men.html">Ties & Cufflinks</a></li>
+									<li class="wallets-bags-men"><a href="<?=base_url();?>Landingpage/Product/p/wallets-bags-men.html">Wallets</a></li>
+									<li class="casual-shoes-boys-kids"><a href="<?=base_url();?>Landingpage/Product/p/casual-shoes-boys-kids.html">Casual Shoes</a></li>
+									<li class="sandals-boys-kids"><a href="<?=base_url();?>Landingpage/Product/p/sandals-boys-kids.html">Sandals</a></li>
+									<li class="belts-accessories-men"><a href="<?=base_url();?>Landingpage/Product/p/belts-accessories-men.html">Belts</a></li>
+									<li class="watches-men"><a href="<?=base_url();?>Landingpage/Product/p/watches-men.html">Watches</a></li>
+									<li class="sunglasses-accessories-men"><a href="<?=base_url();?>Landingpage/Product/p/sunglasses-accessories-men.html">Sunglasses</a></li>
+									<li class="eyeglasses-men"><a href="<?=base_url();?>Landingpage/Product/p/eyeglasses-men.html">Eyeglasses</a></li>
+									<li class="men-deos"><a href="<?=base_url();?>Landingpage/Product/p/men-deos.html">Men Deos</a></li>
+									<li class="men-perfumes"><a href="<?=base_url();?>Landingpage/Product/p/men-perfumes.html">Men Perfumes</a></li>
+									<li class="briefs-men"><a href="<?=base_url();?>Landingpage/Product/p/briefs-men.html">Briefs</a></li>
+									<li class="boxers-men"><a href="<?=base_url();?>Landingpage/Product/p/boxers-men.html">Boxers</a></li>
+									<li class="nightsuits-men"><a href="<?=base_url();?>Landingpage/Product/p/nightsuits-men.html">Night Suits</a></li>
+									<li class="chains-men"><a href="<?=base_url();?>Landingpage/Product/p/chains-men.html">Chains</a></li>
+									<li class="casual-shoes-men"><a href="<?=base_url();?>Landingpage/Product/p/casual-shoes-men.html">Casual Shoes</a></li>
+									<li class="sports-shoes-men"><a href="<?=base_url();?>Landingpage/Product/p/sports-shoes-men.html">Sports Shoes</a></li>
+									<li class="formal-shoes-men"><a href="<?=base_url();?>Landingpage/Product/p/formal-shoes-men.html">Formal Shoes</a></li>
+									<li class="sandals-shoes-men"><a href="<?=base_url();?>Landingpage/Product/p/sandals-shoes-men.html">Sandals & Floaters</a></li>
+									<li class="slippers-shoes-men"><a href="<?=base_url();?>Landingpage/Product/p/slippers-shoes-men.html">Slippers & Flip Flops</a></li>
+								
+								</ul>							
+							</li>							
+							<li><a href="javascript:;">Women</a>							
+								<ul>
+									<li class="handbag-bags-women"><a href="<?=base_url();?>Landingpage/Product/p/handbag-bags-women.html">Handbags</a></li>
+									<li class="wallets-women"><a href="<?=base_url();?>Landingpage/Product/p/wallets-women.html">Wallets</a></li>
+									<li class="sunglasses-accessories-women"><a href="<?=base_url();?>Landingpage/Product/p/sunglasses-accessories-women.html">Sunglasses</a></li>
+									<li class="sandals-casual-shoes-women"><a href="<?=base_url();?>Landingpage/Product/p/sandals-casual-shoes-women.html">Sandals</a></li>
+									<li class="heels-shoes-women"><a href="<?=base_url();?>Landingpage/Product/p/heels-shoes-women.html">Heels</a></li>
+									<li class="flats-shoes-women"><a href="<?=base_url();?>Landingpage/Product/p/flats-shoes-women.html">Flats</a></li>
+									<li class="sneakers-women"><a href="<?=base_url();?>Landingpage/Product/p/sneakers-women.html">Casual Shoes & Sneakers</a></li>
+									<li class="slippers-shoes-women"><a href="<?=base_url();?>Landingpage/Product/p/slippers-shoes-women.html">Slippers & Flip Flops</a></li>
+								
+								</ul>							
+							</li>							
+							<li><a href="javascript:;">Kids</a>							
+								<ul>
+									<li class="wallets-bags-men"><a href="<?=base_url();?>Landingpage/Product/p/wallets-bags-men.html">Wallets</a></li>
+									<li class="sunglasses-kids"><a href="<?=base_url();?>Landingpage/Product/p/sunglasses-kids.html">Sunglasses</a></li>
+									<li class="cloth-diapers"><a href="<?=base_url();?>Landingpage/Product/p/cloth-diapers.html">Cloth Diapers</a></li>
+									<li class="disposable-diapers"><a href="<?=base_url();?>Landingpage/Product/p/disposable-diapers.html">Disposable Diapers</a></li>
+									<li class="diaper-creams"><a href="<?=base_url();?>Landingpage/Product/p/diaper-creams.html">Diaper Creams</a></li>
+									<li class="wipes"><a href="<?=base_url();?>Landingpage/Product/p/wipes.html">Wipes</a></li>
+									<li class="potty-training-kids"><a href="<?=base_url();?>Landingpage/Product/p/potty-training-kids.html">Potty Training & Step Stools</a></li>
+									<li class="dresses-frocks-girls-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/dresses-frocks-girls-clothing-kids.html">Dresses & Frocks</a></li>
+									<li class="tops-tunics-girls-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/tops-tunics-girls-clothing-kids.html">Tops & T-Shirts</a></li>
+									<li class="ethnicwear-girls-clothing-kids"><a href="<?=base_url();?>Landingpage/Product/p/ethnicwear-girls-clothing-kids.html">Ethnic Wear</a></li>
+									<li class="floaters-girls-kids"><a href="<?=base_url();?>Landingpage/Product/p/floaters-girls-kids.html">Floaters & Flip Flops</a></li>
+								
+								</ul>							
+							</li>						
+						</ul>
+					</li>										
+					<li><a href="javascript:;">Beauty & Jewellery</a>
+						<ul id="Beautyjewellery" class="fiexdheght" style="right:0px">
+							<li><a href="javascript:;">Eyes</a>							
+								<ul>
+									<li class="eye-liner"><a href="<?=base_url();?>Landingpage/Product/p/eye-liner.html">Eye Liner</a></li>
+									<li class="eye-shadows"><a href="<?=base_url();?>Landingpage/Product/p/eye-shadows.html">Eye Shadow</a></li>
+									<li class="kajal"><a href="<?=base_url();?>Landingpage/Product/p/kajal.html">Kajal</a></li>
+								</ul>
+							</li>							
+							<li><a href="javascript:;">Face</a>							
+								<ul>
+									<li class="bb-and-cc-cream"><a href="<?=base_url();?>Landingpage/Product/p/bb-and-cc-cream.html">BB & CC Creams</a></li>
+									<li class="blush-and-bronzer"><a href="<?=base_url();?>Landingpage/Product/p/blush-and-bronzer.html">Blush</a></li>
+									<li class="bronzer"><a href="<?=base_url();?>Landingpage/Product/p/bronzer.html">Bronzer</a></li>
+									<li class="compact"><a href="<?=base_url();?>Landingpage/Product/p/compact.html">Compact Powder</a></li>
+									<li class="eye-make-up-remover"><a href="<?=base_url();?>Landingpage/Product/p/eye-make-up-remover.html">Makeup Remover</a></li>
+									<li class="face-concealer"><a href="<?=base_url();?>Landingpage/Product/p/face-concealer.html">Concealer</a></li>
+									<li class="foundation-and-compacts"><a href="<?=base_url();?>Landingpage/Product/p/foundation-and-compacts.html">Foundation</a></li>
+									<li class="primer"><a href="<?=base_url();?>Landingpage/Product/p/primer.html">Primer</a></li>
+								</ul>							
+							</li>							
+							<li><a href="javascript:;">Fancy Jewellery</a>
+								<ul>
+									<li class="earrings-jewellery-women"><a href="<?=base_url();?>Landingpage/Product/p/earrings-jewellery-women.html">Earrings</a><li>
+									<li class="necklace-jewellery-women"><a href="<?=base_url();?>Landingpage/Product/p/necklace-jewellery-women.html">Necklace & Sets</a><li>
+								</ul>
+							</li>							
+							<li><a href="javascript:;">Fragrance</a>							
+								<ul>
+									<li class="body-mist"><a href="<?=base_url();?>Landingpage/Product/p/body-mist.html">Body Mist</a></li>
+									<li class="women-deos"><a href="<?=base_url();?>Landingpage/Product/p/women-deos.html">Women Deos</a></li>
+									<li class="women-perfumes"><a href="<?=base_url();?>Landingpage/Product/p/women-perfumes.html">Women Perfumes</a></li>
+									<li class="kajal"><a href="<?=base_url();?>Landingpage/Product/p/kajal.html">Kajal</a></li>
+								</ul>
+							</li>							
+							<li><a href="javascript:;">Lips</a>
+								<ul>
+									<li class="lip-balms"><a href="<?=base_url();?>Landingpage/Product/p/lip-balms.html">Lip Balms</a></li>
+									<li class="lip-gloss"><a href="<?=base_url();?>Landingpage/Product/p/lip-gloss.html">Lip Gloss</a></li>
+									<li class="lip-liners"><a href="<?=base_url();?>Landingpage/Product/p/lip-liners.html">Lip Liners</a></li>
+									<li class="lipstick"><a href="<?=base_url();?>Landingpage/Product/p/lipstick.html">Lipstick</a></li>
+									
+								</ul>
+							</li>							
+							<li><a href="javascript:;">Men Shaving & Grooming</a>
+								<ul>
+									<li class="after-shaves"><a href="<?=base_url();?>Landingpage/Product/p/after-shaves.html">After Shaves</a></li>
+									<li class="cartridges-and-blades"><a href="<?=base_url();?>Landingpage/Product/p/cartridges-and-blades.html">Cartridges & Blades</a></li>
+									<li class="razors"><a href="<?=base_url();?>Landingpage/Product/p/razors.html">Razors</a></li>
+									<li class="shaving-brushes"><a href="<?=base_url();?>Landingpage/Product/p/shaving-brushes.html">Shaving Brushes</a></li>
+									<li class="shaving-foam-cream-and-gel"><a href="<?=base_url();?>Landingpage/Product/p/shaving-foam-cream-and-gel.html">Shaving Foam, Cream & Gels</a></li>
+								</ul>
+							</li>							
+							<li><a href="javascript:;">Nails</a>
+								<ul>
+									<li class="nail-effects"><a href="<?=base_url();?>Landingpage/Product/p/nail-effects.html">Nail Effects</a></li>
+									<li class="nail-polish"><a href="<?=base_url();?>Landingpage/Product/p/nail-polish.html">Nail Polish</a></li>
+									<li class="nail-polish-remover"><a href="<?=base_url();?>Landingpage/Product/p/nail-polish-remover.html">Nail Polish Remover</a></li>
 								</ul>
 							</li>
-							<li><a href="javascript:;">Flash & Accessories</a>
+						</ul>
+					</li>
+					<li><a href="javascript:;">Baby Care</a>
+						<ul id="Babycare" class="fiexdheght" style="right:0px">
+							<li><a href="javascript:;">Baby & Toddler Toys</a>
 								<ul>
-									<li class="adapter-rings"><a href="<?=base_url();?>Landingpage/Product/p/adapter-rings.html">Adapter Rings</a> </li>
-									<li class="shoe-mounts"><a href="<?=base_url();?>Landingpage/Product/p/shoe-mounts.html">Shoe Mounts</a> </li>
-									<li class="diffusers-and-modifiers"><a href="<?=base_url();?>Landingpage/Product/p/diffusers-and-modifiers.html">Diffusers & Modifiers</a> </li>
+									<li class="baby-gym-kids"><a href="<?=base_url();?>Landingpage/Product/p/baby-gym-kids.html">Infant Play Gyms</a></li>							
+									<li class="blocks-kids"><a href="<?=base_url();?>Landingpage/Product/p/blocks-kids.html">Blocks & Stacking Games</a> </li>							
+									<li class="dolls-baby-kids"><a href="<?=base_url();?>Landingpage/Product/p/dolls-baby-kids.html">Dolls & Dollhouses</a> </li>							
+									<li class="pull-along-toys-kids"><a href="<?=base_url();?>Landingpage/Product/p/pull-along-toys-kids.html">Pull Along Toys</a> </li>							
+									<li class="frocks-kids"><a href="<?=base_url();?>Landingpage/Product/p/frocks-kids.html">Frocks</a> </li>							
+									<li class="blankets-kids"><a href="<?=base_url();?>Landingpage/Product/p/blankets-kids.html">Blankets, Quilts & Wraps</a> </li>
+								</ul>
+							</li>
+							<li><a href="javascript:;">Bath & Skin Care</a>
+								<ul>
+									<li class="lotions-oils-and-powders"><a href="<?=base_url();?>Landingpage/Product/p/lotions-oils-and-powders.html">Lotions, Oils & Powders</a></li>				
+									<li class="soaps-shampoo-and-body-wash"><a href="<?=base_url();?>Landingpage/Product/p/soaps-shampoo-and-body-wash.html">Soaps, Shampoo & Body Wash</a> </li>
+								</ul>
+							</li>
+							<li><a href="javascript:;">Gear</a>
+								<ul>
+									<li class="rockers-kids"><a href="<?=base_url();?>Landingpage/Product/p/rockers-kids.html">Bouncers, Rockers & Swing</a></li>
+									<li class="strollers-kids"><a href="<?=base_url();?>Landingpage/Product/p/strollers-kids.html">Strollers, Prams & Car Seats</a></li>
+									<li class="high-chairs-kids"><a href="<?=base_url();?>Landingpage/Product/p/high-chairs-kids.html">High Chairs & Booster Seats</a></li>
+									<li class="ride-ons-kids"><a href="<?=base_url();?>Landingpage/Product/p/ride-ons-kids.html">Bikes & Ride Ons</a></li>					
+								</ul>							
+							</li>
+							<li><a href="javascript:;">Kids Toys</a>
+								<ul>
+									<li class="trains-kids"><a href="<?=base_url();?>Landingpage/Product/p/trains-kids.html">Trains, Cars and Models</a><li>
+									<li class="construction-blocks-kids"><a href="<?=base_url();?>Landingpage/Product/p/construction-blocks-kids.html">Construction & Blocks</a><li>
+									<li class="puzzles-kids"><a href="<?=base_url();?>Landingpage/Product/p/puzzles-kids.html">Puzzles</a><li>
+									<li class="action-games-kids"><a href="<?=base_url();?>Landingpage/Product/p/action-games-kids.html">Action games & figures</a><li>
+									<li class="board-games-kids"><a href="<?=base_url();?>Landingpage/Product/p/board-games-kids.html">Board Games</a><li>
+								</ul>
+							</li>
+							<li><a href="javascript:;">Maternity, Feeding & Nursing</a>
+								<ul>
+									<li class="formula-and-food-supplements"><a href="<?=base_url();?>Landingpage/Product/p/formula-and-food-supplements.html">Baby Food</a><li>
 								</ul>
 							</li>							
-							<li><a href="javascript:;">Lenses & Lens Accessories</a>
+							<li><a href="javascript:;">School & Stationery</a>
 								<ul>
-									<li class="filters"><a href="<?=base_url();?>Landingpage/Product/p/filters.html">Lens Filters</a></li>
-									<li class="lens-cleaner"><a href="<?=base_url();?>Landingpage/Product/p/lens-cleaner.html">Lens Cleaners</a></li>
-									<li class="lens-cap"><a href="<?=base_url();?>Landingpage/Product/p/lens-cap.html">Lens Caps</a></li>
-									<li class="lenses"><a href="<?=base_url();?>Landingpage/Product/p/lenses.html">Camera Lenses</a></li>
-									<li class="lens-hoods"><a href="<?=base_url();?>Landingpage/Product/p/lens-hoods.html">Lens Hoods</a></li>
-									<li class="adapters-and-converters"><a href="<?=base_url();?>Landingpage/Product/p/adapters-and-converters.html">Adapters & Converters</a></li>
-									<li class="extension-tubes"><a href="<?=base_url();?>Landingpage/Product/p/extension-tubes.html">Extension Tubes</a></li>
+									<li class="art-craft-kids"><a href="<?=base_url();?>Landingpage/Product/p/art-craft-kids.html">Art & Craft</a></li>
+									<li class="party-supplies-kids"><a href="<?=base_url();?>Landingpage/Product/p/party-supplies-kids.html">Party Supplies</a></li>
 								</ul>
-							</li>							
-							<li><a href="javascript:;">Tripods</a>
-								<ul>
-									<li class="tripod"><a href="<?=base_url();?>Landingpage/Product/p/tripod.html">Tripods</a></li>
-									<li class="monopods"><a href="<?=base_url();?>Landingpage/Product/p/monopods.html">Monopods</a></li>
-									<li class="tripod-ball-heads"><a href="<?=base_url();?>Landingpage/Product/p/tripod-ball-heads.html">Tripod Ball Heads</a></li>
-									<li class="camera-mounts-and-clamps"><a href="<?=base_url();?>Landingpage/Product/p/camera-mounts-and-clamps.html">Camera Mounts & Clamps</a></li>
-								</ul>
-							</li>							
+							</li>
 						</ul>
 					</li>
 					<!--<?php foreach($categories as $category){?> 				

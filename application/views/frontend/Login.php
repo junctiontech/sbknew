@@ -22,21 +22,21 @@
 									<input type="password" class="form-log" id="inputSuccess3" placeholder="Enter Password" name="password">
 								</div>
 							</div>
-							<div class="form-group">	
+							 	
 								<div class="row">	
-									<div class="col-md-3 col-sm-3 col-xs-3">	
+									<div class="col-md-3 col-sm-3 col-xs-6">	
 																
 										<button type="submit" name="submit" value="submit" id="submit" class="btn btn-success">LOGIN</button>					
 									</div>								
 												
-									<div class="col-md-4 col-sm-4 col-xs-4">						
+									<div class="col-md-4 col-sm-4 col-xs-6">						
 										<a href="<?=base_url();?>Login/signup.html" class="btn btn-success" role="button">SIGN UP</a>								
 									</div>							
-									<div class="col-md-5 col-sm-5 col-xs-5">								
+									<div class="col-md-5 col-sm-5 col-xs-12">								
 										<a href="javascript:;" class="btn btn-success" onclick="jQuery('#modal-2').modal('show');">Forgot Password?</a>		
 									</div>							
 								</div>
-							</div>
+							 
 						</div>
 					</form>
 					<div class="col-md-1 col-sm-1 col-xs-12 center">									

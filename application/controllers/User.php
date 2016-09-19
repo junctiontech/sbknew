@@ -9,7 +9,7 @@ class User extends CI_Controller {
 		$timezone = "Asia/Calcutta";
 		if(function_exists('date_default_timezone_set')) date_default_timezone_set($timezone);
 		if($this->input->get('app')!=true){
-		if (!$this->session->userdata('searchb4kharch')){ $this->session->set_flashdata('category_error_login', " Your Session Is Expired!! Please Login Again. "); redirect("Login");}}
+		if (!$this->session->userdata('searchb4kharch')){ $this->session->set_flashdata('category_error_login', " Your Session Is Expired!! Please Login Again. "); redirect("Landingpage");}}
 		$this->userinfos=$this->data['userinfos']=$this->session->userdata('searchb4kharch');
 		$this->load->model('frontend/Login_model');
 		$this->load->model('frontend/User_model');

@@ -54,6 +54,25 @@ class Landingpage_model extends CI_Model {
 		return $result;
 	}
 	
+	public function get_category($table=false,$filter=false)
+	{
+			$this->db->select('categoryName,categoryKey,level');
+			$this->db->from($table);
+			$query=$this->db->get();
+			$result=$query->result();
+			return $result;
+	}
+	
+	public function get_sub_category($table=false,$filter=false)
+	{
+			$this->db->select('categoryName,subCategoryKey as categoryKey,level');
+			$this->db->from($table);
+			$this->db->where($filter);
+			$query=$this->db->get();
+			$result=$query->result();
+			return $result;
+	}
+	
 	public function get_inventory_data($where=false){
 		
 		$this->db->select('t11.categoriesUrlKey,t4.productsUrlKey,t4.sb4kProductID,t4.productsID,t4.productName,t4.productDescription,t6.productAttributeLable,t6.productAttributeValue,t8.imageName,t8.productImageTitle,t8.productImageAltTag,t10.productPrice,t10.productShopUrl,shop_image');

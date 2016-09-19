@@ -1025,4 +1025,20 @@ class Landingpage extends CI_Controller {
 		 
 		 }
 	}
+
+	public function get_category($categoryKey=false){
+		$categoryData=array();
+		$app=$this->input->get('app');
+		if(!empty($categoryKey)){
+			$categoryData=$this->Landingpage_model->get_sub_category('s4k_sub_category',array('categoryKey'=>$categoryKey));
+		}else{
+			$categoryData=$this->Landingpage_model->get_category('s4k_category');
+		}
+		if($app==true){
+			echo json_encode(array('data'=>$categoryData));
+		}else{
+			print_r($categoryData);
+		}
+	}
+	
 }

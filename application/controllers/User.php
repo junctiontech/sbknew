@@ -53,8 +53,7 @@ class User extends CI_Controller {
 	}
 	
 	public function AddToWishList($productID=false)
-	{			//	print_r(json_encode($_POST['user_id'])); echo "<br>";
-	 			//	print_r(json_encode($_GET)); die;
+	{			 
 		$app=$this->input->get('app');
 		$user_id=$this->input->post('user_id');
 		if(!empty($user_id)){
@@ -280,15 +279,13 @@ class User extends CI_Controller {
 		$this->session->set_flashdata('message_type', 'error');
 		$this->session->set_flashdata('message_type', 'success');
 		$this->session->set_flashdata('message', $this->config->item("index") . "Logout Successfully!! Thank You..");
-		redirect("Login");
+		redirect("Landingpage");
 
 	}	
 	public function Notify()
 	{
-		$userID=$this->userinfos['userID'];
-		//print_r($userID);die;
-		$notify=$this->data['usernotify']=$this->User_model->get_notify($userID);
-		//	print_r($notify);die;
+		$userID=$this->userinfos['userID'];	
+		$notify=$this->data['usernotify']=$this->User_model->get_notify($userID);	
 		$this->parser->parse('frontend/Header',$this->data);		
 		$this->parser->parse('frontend/Leftheader',$this->data);
 		$this->parser->parse('frontend/Notify', $this->data);

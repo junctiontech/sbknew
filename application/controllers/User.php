@@ -95,6 +95,9 @@ class User extends CI_Controller {
 			$userID=$this->userinfos['userID'];	
 		}		
 			$productsdata=$this->User_model->getuserwishlist($userID);
+			if($this->input->get('app')==true){
+				echo json_encode(array('data'=>$productsdata));exit;
+			}
 			if(!empty($productsdata)){
 				foreach($productsdata as $productdata){
 					$apiproductdetails='';

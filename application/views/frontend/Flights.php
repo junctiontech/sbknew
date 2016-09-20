@@ -66,7 +66,7 @@
 								<div class="col-md-6 col-sm-6 col-xs-12">					
 									<div class="form-group">
 										<div class="input-group">
-											<input type="text" name="departure" class="form-control datepicker" data-format="yyyy-mm-dd" placeholder="Departure Date" data-validate="required" class="form-control" data-message-required=" " value="<?=isset($departure)?$departure:''?>">
+											<input type="text" name="departure" autocomplete="off" class="form-control datepicker" data-format="yyyy-mm-dd" placeholder="Departure Date" data-validate="required" class="form-control" data-message-required=" " value="<?=isset($departure)?$departure:''?>">
 											<div class="input-group-addon">											
 												<a href="#"><i class="linecons-calendar"></i></a>
 											</div>
@@ -77,7 +77,7 @@
 								<div class="col-md-6 col-sm-6 col-xs-12">
 									<div class="form-group">
 										<div class="input-group">
-											<input type="text" name="return" disabled id="return1" class="form-control datepicker" data-message-required=" " data-validate="required"  data-format="yyyy-mm-dd" placeholder="Return Date" value="<?=isset($return)?$return:''?>">
+											<input type="text" name="return" autocomplete="off" disabled id="return1" class="form-control datepicker" data-message-required=" " data-validate="required"  data-format="yyyy-mm-dd" placeholder="Return Date" value="<?=isset($return)?$return:''?>">
 											<div class="input-group-addon">												
 												<a href="#"><i class="linecons-calendar"></i></a>
 											</div>
@@ -166,7 +166,7 @@
 								<div class="col-md-6 col-sm-6 col-xs-12">					
 									<div class="form-group">
 										<div class="input-group">
-											<input type="text" name="departure" class="form-control datepicker" data-format="yyyy-mm-dd" placeholder="Departure Date" data-validate="required" class="form-control" data-message-required=" " value="<?=isset($departure)?$departure:''?>">
+											<input type="text" name="departure" autocomplete="off" class="form-control datepicker" data-format="yyyy-mm-dd" placeholder="Departure Date" data-validate="required" class="form-control" data-message-required=" " value="<?=isset($departure)?$departure:''?>">
 											<div class="input-group-addon">											
 												<a href="#"><i class="linecons-calendar"></i></a>
 											</div>
@@ -177,7 +177,7 @@
 								<div class="col-md-6 col-sm-6 col-xs-12">
 									<div class="form-group">
 										<div class="input-group">
-											<input type="text" name="return" disabled id="return" class="form-control datepicker" data-message-required=" " data-validate="required" data-format="yyyy-mm-dd" placeholder="Return Date" value="<?=isset($return)?$return:''?>">
+											<input type="text" name="return" autocomplete="off" disabled id="return" class="form-control datepicker" data-message-required=" " data-validate="required" data-format="yyyy-mm-dd" placeholder="Return Date" value="<?=isset($return)?$return:''?>">
 											<div class="input-group-addon">												
 												<a href="#"><i class="linecons-calendar"></i></a>
 											</div>
@@ -314,7 +314,7 @@
 							<div class="col-md-6 col-sm-6 col-xs-12">
 								<div class="form-group">
 									<div class="input-group">
-										<input type="text" name="departure" class="form-control datepicker" data-format="yyyy-mm-dd" placeholder="Departure Date" data-validate="required" data-message-required=" " value="<?=isset($departure)?$departure:''?>">
+										<input type="text" name="departure" autocomplete="off" class="form-control datepicker" data-format="yyyy-mm-dd" placeholder="Departure Date" data-validate="required" data-message-required=" " value="<?=isset($departure)?$departure:''?>">
 										<div class="input-group-addon">											
 											<a href="#"><i class="linecons-calendar"></i></a>											
 										</div>
@@ -324,7 +324,7 @@
 							<div class="col-md-6 col-sm-6 col-xs-12">
 								<div class="form-group">		
 									<div class="input-group">
-										<input type="text" name="return" class="form-control datepicker" data-format="yyyy-mm-dd" placeholder="Return Date" value="<?=isset($return)?$return:''?>">
+										<input type="text" name="return" autocomplete="off" class="form-control datepicker" data-format="yyyy-mm-dd" placeholder="Return Date" value="<?=isset($return)?$return:''?>">
 										<div class="input-group-addon">
 											<a href="#"><i class="linecons-calendar"></i></a>
 										</div>										

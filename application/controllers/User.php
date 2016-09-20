@@ -9,7 +9,7 @@ class User extends CI_Controller {
 		$timezone = "Asia/Calcutta";
 		if(function_exists('date_default_timezone_set')) date_default_timezone_set($timezone);
 		if($this->input->get('app')!=true){
-		if (!$this->session->userdata('searchb4kharch')){ $this->session->set_flashdata('category_error_login', " Your Session Is Expired!! Please Login Again. "); redirect("Login");}}
+		if (!$this->session->userdata('searchb4kharch')){ $this->session->set_flashdata('category_error_login', " Your Session Is Expired!! Please Login Again. "); redirect("Landingpage");}}
 		$this->userinfos=$this->data['userinfos']=$this->session->userdata('searchb4kharch');
 		$this->load->model('frontend/Login_model');
 		$this->load->model('frontend/User_model');
@@ -53,8 +53,7 @@ class User extends CI_Controller {
 	}
 	
 	public function AddToWishList($productID=false)
-	{			//	print_r(json_encode($_POST['user_id'])); echo "<br>";
-	 			//	print_r(json_encode($_GET)); die;
+	{			 
 		$app=$this->input->get('app');
 		$user_id=$this->input->post('user_id');
 		if(!empty($user_id)){
@@ -280,15 +279,13 @@ class User extends CI_Controller {
 		$this->session->set_flashdata('message_type', 'error');
 		$this->session->set_flashdata('message_type', 'success');
 		$this->session->set_flashdata('message', $this->config->item("index") . "Logout Successfully!! Thank You..");
-		redirect("Login");
+		redirect("Landingpage");
 
 	}	
 	public function Notify()
 	{
-		$userID=$this->userinfos['userID'];
-		//print_r($userID);die;
-		$notify=$this->data['usernotify']=$this->User_model->get_notify($userID);
-		//	print_r($notify);die;
+		$userID=$this->userinfos['userID'];	
+		$notify=$this->data['usernotify']=$this->User_model->get_notify($userID);	
 		$this->parser->parse('frontend/Header',$this->data);		
 		$this->parser->parse('frontend/Leftheader',$this->data);
 		$this->parser->parse('frontend/Notify', $this->data);

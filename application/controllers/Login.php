@@ -192,24 +192,24 @@ class Login extends CI_Controller {
 			}else{
 			$this->session->set_flashdata('message_type', 'error');
 			$this->session->set_flashdata('message', $this->config->item("index") . " Technical error. please try again!! ");
-			redirect('Login');
+			redirect('Landingpage');
 		}
 		}else{
 			$this->session->set_flashdata('message_type', 'error');
 			$this->session->set_flashdata('message', $this->config->item("index") . " Technical error. please try again!! ");
-			redirect('Login');
+			redirect('Landingpage');
 		}
 			
 		}else{
 			$this->session->set_flashdata('message_type', 'error');
 			$this->session->set_flashdata('message', $this->config->item("index") . " Technical error. please try again!! ");
-			redirect('Login');
+			redirect('Landingpage');
 		}
 			 
         }else{
 			$this->session->set_flashdata('message_type', 'error');
 			$this->session->set_flashdata('message', $this->config->item("index") . " User Deny Login.. ");
-			redirect('Login');
+			redirect('Landingpage');
 		}
 			
 		}
@@ -278,18 +278,18 @@ class Login extends CI_Controller {
 			}else{
 			$this->session->set_flashdata('message_type', 'error');
 			$this->session->set_flashdata('message', $this->config->item("index") . " Technical error. please try again!! ");
-			redirect('Login');
+			redirect('Landingpage');
 		}
 		}else{
 			$this->session->set_flashdata('message_type', 'error');
 			$this->session->set_flashdata('message', $this->config->item("index") . " Technical error. please try again!! ");
-			redirect('Login');
+			redirect('Landingpage');
 		}
 			
 		}else{
 			$this->session->set_flashdata('message_type', 'error');
 			$this->session->set_flashdata('message', $this->config->item("index") . " Technical error. please try again!! ");
-			redirect('Login');
+			redirect('Landingpage');
 		}	
         
 		}

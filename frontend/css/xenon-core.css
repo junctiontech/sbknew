@@ -1863,7 +1863,7 @@ left: -4px;
     display: none;
   }
   .navbar.horizontal-menu .navbar-inner > .nav > li {
-    line-height: 65px;
+    line-height: 40px;
   }
   .navbar.horizontal-menu .navbar-inner > .nav.nav-userinfo {
     float: none;

@@ -1,5 +1,5 @@
 <div class="clear"></div>
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" style="top:17%" aria-hidden="true">	 
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" style="top:20%" aria-hidden="true">	 
 	<div class="modal-dialog modal-lg">                
 		<div class="modal-content ">  
 		</div>             

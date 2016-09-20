@@ -319,6 +319,12 @@ class Landingpage extends CI_Controller {
 			echo json_encode($data);
 			exit;
 		}		 
+		}else{
+			if($app=='true'){
+			$jsonarray['dealsgategorys']=$dealsgategorys;
+			echo json_encode($jsonarray);
+			exit;
+			}
 		}
 		$this->parser->parse('frontend/Header',$this->data);
 		$this->parser->parse('frontend/Deals',$this->data);

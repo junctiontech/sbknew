@@ -30,8 +30,8 @@
 					<h2  style="font-size:18px;color:red"><?=isset($products['productDetails'][0]['product_name'])?$products['productDetails'][0]['product_name']:''?></h2> 
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12">
-					<div  class="col-md-4 grid images_3_of_2 pro_img">	
-						<img itemprop="image" src="<?=isset($products['productDetails'][0]['product_images_single'][0]['product_image_single'])?$products['productDetails'][0]['product_images_single'][0]['product_image_single']:$products['productDetails'][0]['product_image_full']?>" alt="<?=isset($products['productDetails'][0]['product_name'])?$products['productDetails'][0]['product_name']:''?>"  />				
+					<div  class="col-md-4 grid images_3_of_2 pro_img">
+						<img itemprop="image" src="<?=isset($products['productDetails'][0]['product_images_single'][0]['product_image_single'])?$products['productDetails'][0]['product_images_single'][0]['product_image_single']:$products['productDetails'][0]['product_images_full'][0]['product_image_full']?>" alt="<?=isset($products['productDetails'][0]['product_name'])?$products['productDetails'][0]['product_name']:''?>"  />				
 					</div>
 					<div class="desc span_3_of_2">	
 						<div class="col-md-12 col-sm-12 col-xs-12">

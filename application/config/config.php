@@ -24,6 +24,7 @@ $config['base_url']	= "http://localhost/sbknew/";
 }elseif($_SERVER['HTTP_HOST']=="www.searchb4kharch.com"){
 $config['base_url']	= 'http://www.searchb4kharch.com/';	
 }elseif($_SERVER['HTTP_HOST']=="searchb4kharch.com"){
+	redirect('http://www.searchb4kharch.com');
 $config['base_url']	= 'http://www.searchb4kharch.com/';	
 }elseif($_SERVER['HTTP_HOST']=="192.168.1.151"){
 	$config['base_url']	= 'http://192.168.1.151/sbknew/';

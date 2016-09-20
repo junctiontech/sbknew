@@ -253,22 +253,22 @@
 					<img src="<?=base_url();?>frontend/images/Paytm.png"/>
 				</a>
 			</div>
-			<div class="aboutuslogo">
+			<!-- <div class="aboutuslogo">
 				<a target="_blank" href="http://www.infibeam.com/Mobiles?trackId=searc">				
 					<img src="<?=base_url();?>frontend/images/infibeam.png"/>
 				</a>
-			</div>
+			</div> -->
 			<div class="aboutuslogo">
 				<a target="_blank" href="https://linksredirect.com/?pub_id=13404CL12128&url=http%3A//www.limeroad.com">
 				
 					<img src="<?=base_url();?>frontend/images/limeroad.resized.png"/>
 				</a>
 			</div>
-			<div class="aboutuslogo">
+			<!--<div class="aboutuslogo">
 				<a target="_blank" href="https://linksredirect.com/?pub_id=13404CL12128&url=http%3A//www.homeshop18.com/">
 					<img src="<?=base_url();?>frontend/images/home-shop-18.png"/>
 				</a>
-			</div>
+			</div>-->
 			<div class="aboutuslogo">
 				<a target="_blank" href="https://linksredirect.com/?pub_id=13404CL12128&url=http%3A//www.jabong.com/">
 					<img src="<?=base_url();?>frontend/images/jabong1.png"/>

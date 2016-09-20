@@ -319,7 +319,7 @@ class Landingpage_model extends CI_Model {
 	public function get_deals_counttotal($category){
 		$this->db->select('count(t1.dealID) as total');
 		$this->db->from('s4k_deals t1');
-		$this->db->where(array('t1.Status'=>'Active','category'=>$category));
+		$this->db->where(array('t1.Status'=>'Active','category'=>$category,'coupon_expiry >='=>date("Y-m-d")));
 		$query=$this->db->get();
 		return $query->result();
 	}
